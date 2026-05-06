@@ -17,7 +17,10 @@
 	# • dimension_id: The ID of the dimension (e.g. "minecraft:the_nether")
 	# • temperature: The temperature offset to apply to the dimension
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
-	"Dimension Temperature Offsets" = [["minecraft:the_nether", 32, "f"], ["minecraft:the_end", -5, "f"]]
+	"Dimension Temperature Offsets" = [
+	    ["minecraft:the_nether", 32, "f"],
+	    ["minecraft:the_end", -5, "f"]
+	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the temperature of a dimension, overriding biome and elevation temperature
 	# ├── Format: [["dimension_id", temperature, *units], [...], etc]
@@ -47,7 +50,36 @@
 	# • highTemp: The temperature of the biome at noon
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# • *waterTemp: The temperature of water in the biome
-	"Biome Temperatures" = [["minecraft:desert", 75, 105, "F"], ["minecraft:corrupted_desert", 75, 105, "F"], ["minecraft:soul_sand_valley", 53, 53, "F"], ["minecraft:old_growth_birch_forest", 58, 72, "F"], ["minecraft:river", 59, 82, "F"], ["minecraft:swamp", 72, 84, "F"], ["minecraft:savanna", 70, 95, "F"], ["minecraft:savanna_plateau", 76, 98, "F"], ["minecraft:windswept_savanna", 67, 90, "F"], ["minecraft:taiga", 44, 62, "F"], ["minecraft:snowy_taiga", 19, 48, "F"], ["minecraft:old_growth_pine_taiga", 48, 62, "F"], ["minecraft:old_growth_spruce_taiga", 48, 62, "F"], ["minecraft:stony_shore", 50, 64, "F"], ["minecraft:snowy_beach", 38, 52, "F"], ["minecraft:snowy_slopes", 24, 38, "F"], ["minecraft:windswept_forest", 48, 66, "F"], ["minecraft:frozen_peaks", 15, 33, "F"], ["minecraft:warm_ocean", 67, 76, "F"], ["minecraft:deep_frozen_ocean", 56, 65, "F"], ["minecraft:jungle", 76, 87, "F"], ["minecraft:bamboo_jungle", 76, 87, "F"], ["minecraft:badlands", 84, 120, "F"], ["minecraft:wooded_badlands", 80, 108, "F"], ["minecraft:eroded_badlands", 88, 120, "F"], ["minecraft:deep_dark", 63, 63, "F"], ["minecraft:dripstone_caves", "disable"], ["minecraft:plains", 59, 82, "F"]]
+	"Biome Temperatures" = [
+	    ["minecraft:desert", 75, 105, "F"],
+	    ["minecraft:corrupted_desert", 75, 105, "F"],
+	    ["minecraft:soul_sand_valley", 53, 53, "F"],
+	    ["minecraft:old_growth_birch_forest", 58, 72, "F"],
+	    ["minecraft:river", 59, 82, "F"],
+	    ["minecraft:swamp", 72, 84, "F"],
+	    ["minecraft:savanna", 70, 95, "F"],
+	    ["minecraft:savanna_plateau", 76, 98, "F"],
+	    ["minecraft:windswept_savanna", 67, 90, "F"],
+	    ["minecraft:taiga", 44, 62, "F"],
+	    ["minecraft:snowy_taiga", 19, 48, "F"],
+	    ["minecraft:old_growth_pine_taiga", 48, 62, "F"],
+	    ["minecraft:old_growth_spruce_taiga", 48, 62, "F"],
+	    ["minecraft:stony_shore", 50, 64, "F"],
+	    ["minecraft:snowy_beach", 38, 52, "F"],
+	    ["minecraft:snowy_slopes", 24, 38, "F"],
+	    ["minecraft:windswept_forest", 48, 66, "F"],
+	    ["minecraft:frozen_peaks", 15, 33, "F"],
+	    ["minecraft:warm_ocean", 67, 76, "F"],
+	    ["minecraft:deep_frozen_ocean", 56, 65, "F"],
+	    ["minecraft:jungle", 76, 87, "F"],
+	    ["minecraft:bamboo_jungle", 76, 87, "F"],
+	    ["minecraft:badlands", 84, 120, "F"],
+	    ["minecraft:wooded_badlands", 80, 108, "F"],
+	    ["minecraft:eroded_badlands", 88, 120, "F"],
+	    ["minecraft:deep_dark", 63, 63, "F"],
+	    ["minecraft:dripstone_caves", "disable"],
+	    ["minecraft:plains", 59, 82, "F"]
+	]
 
 [Blocks]
 	#─────────────────────────────────────────────────────────────────────────//v
@@ -64,7 +96,20 @@
 	# • *nbt: The NBT data that the block must have for the temperature to be applied.
 	# • *tempLimit: The maximum world temperature at which this block temp will have any effect.
 	#   (Represents the minimum temp if the block temp is negative)
-	"Block Temperatures" = [["cold_sweat:boiler", 0.27, 7, "mc", 0.88, "lit=true", "", 4], ["cold_sweat:icebox", -0.27, 7, "mc", 0.88, "frosted=true", "", 0], ["minecraft:lava", 0.3, 7, "mc", 6, "", "", 21.5, true], ["minecraft:fire", 0.476, 7, "mc", 0.9, "", "", 8], ["#minecraft:campfires,!#forge:soul_campfires", 0.476, 7, "mc", 0.9, "lit=true", " ", 8], ["minecraft:magma_block", 0.25, 3, "mc", 1.0], ["minecraft:lava_cauldron", 0.5, 7, "mc", 1.5], ["minecraft:ice", -0.15, 4, "mc", 0.3, "", "", 0.05], ["minecraft:packed_ice", -0.25, 4, "mc", 1.0, "", "", -0.3], ["minecraft:blue_ice", -0.35, 4, "mc", 1.4, "", "", -0.7], ["#minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7], ["create:blaze_burner", 5, 3, "f", 30, "blaze=smouldering", "", 400]]
+	"Block Temperatures" = [
+	    ["cold_sweat:boiler", 0.27, 7, "mc", 0.88, "lit=true", "", 4],
+	    ["cold_sweat:icebox", -0.27, 7, "mc", 0.88, "frosted=true", "", 0],
+	    ["minecraft:lava", 0.3, 7, "mc", 6, "", "", 21.5, true],
+	    ["minecraft:fire", 0.476, 7, "mc", 0.9, "", "", 8],
+	    ["#minecraft:campfires,!#forge:soul_campfires", 0.476, 7, "mc", 0.9, "lit=true", " ", 8],
+	    ["minecraft:magma_block", 0.25, 3, "mc", 1.0],
+	    ["minecraft:lava_cauldron", 0.5, 7, "mc", 1.5],
+	    ["minecraft:ice", -0.15, 4, "mc", 0.3, "", "", 0.05],
+	    ["minecraft:packed_ice", -0.25, 4, "mc", 1.0, "", "", -0.3],
+	    ["minecraft:blue_ice", -0.35, 4, "mc", 1.4, "", "", -0.7],
+	    ["#minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7],
+	    ["create:blaze_burner", 5, 3, "f", 30, "blaze=smouldering", "", 400]
+	]
 	#─────────────────────────────────────────────────────────────────────────
 	# The maximum range of blocks' area of effect
 	# - Note: This will not change anything unless blocks are configured to utilize the expanded range

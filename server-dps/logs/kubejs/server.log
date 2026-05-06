@@ -1,191 +1,192 @@
-[14:09:41] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[14:09:41] [INIT] Loaded plugins:
-[14:09:41] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[14:09:41] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
-[14:09:41] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[14:09:41] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[14:09:41] [INIT] - pie.ilikepiefoo.AdditionsPlugin
-[14:09:41] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
-[14:09:41] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[14:09:41] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[14:09:41] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
-[14:09:41] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
-[14:09:41] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[14:09:41] [INIT] - com.momosoftworks.coldsweat.compat.kubejs.KubePlugin
-[14:09:43] [INFO] Loaded script server_scripts:replacements/general_replacements.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:replacements/latex.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:replacements/machine_frame_replacement.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:simplyjetpacks.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:create/rocks.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:create/crafting.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:create/ore_processing.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:create/thermal_mixing_compat.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:create/crushing.js in 0.0 s
-[14:09:43] [INFO] sunlight_detection.js#2: Loaded Java class 'net.minecraft.nbt.CompoundTag'
-[14:09:43] [INFO] sunlight_detection.js#3: Loaded Java class 'com.momosoftworks.coldsweat.api.util.Temperature'
-[14:09:43] [INFO] sunlight_detection.js#4: Loaded Java class 'com.momosoftworks.coldsweat.api.util.placement.Placement'
-[14:09:43] [INFO] sunlight_detection.js#5: Loaded Java class 'com.momosoftworks.coldsweat.api.util.placement.Matcher'
-[14:09:43] [INFO] sunlight_detection.js#6: Loaded Java class 'com.momosoftworks.coldsweat.api.util.placement.Order'
-[14:09:43] [INFO] sunlight_detection.js#7: Loaded Java class 'com.momosoftworks.coldsweat.api.registry.TempModifierRegistry'
-[14:09:43] [INFO] sunlight_detection.js#8: Loaded Java class 'net.minecraft.resources.ResourceLocation'
-[14:09:43] [INFO] Loaded script server_scripts:sunlight_detection.js in 0.013 s
-[14:09:43] [INFO] Loaded script server_scripts:leaf_drops.js in 0.002 s
-[14:09:43] [INFO] Loaded script server_scripts:extruding_recipes.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:functional_storage_warning.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:force_purity_nbt.js in 0.002 s
-[14:09:43] [INFO] Loaded script server_scripts:enchantments.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:refurbished_furniture_removal.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:crafting/shapeless/dirty_water_from_dirt.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:crafting/shaped/pneumaticcraft.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:crafting/shaped/megatorch.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:crafting/shaped/custom_armor.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:crafting/shaped/dust_pile.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:sieve_tables/sieve_drop_tables.js in 0.004 s
-[14:09:43] [INFO] Loaded script server_scripts:mob_grinding_utils.js in 0.002 s
-[14:09:43] [INFO] Loaded script server_scripts:barrel_compost.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:thermal/thermal_crate_disable.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:thermal/create_pressing_compat.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:thermal/fuel/diesel_compression.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:thermal/centrifuge.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/furniture.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/tinkering.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/venus_sandstone_fix.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/staple_foods.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/plastic_scraps.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/mineables.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/wood_chippings.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/sync_block_ingredients.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/bookshelf_books.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/misc.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/conductive.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:tags/porcelain_bucket.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:compressed_hammer_recipes.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:replace_vanilla_tool_recipes.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:thermal_tweaks.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:industrialforegoing/machines.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:plasteel.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:recycling/hammer.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:recycling/melting.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:recycling/sawing.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:camel_pack_crafting.js in 0.004 s
-[14:09:43] [INFO] Loaded script server_scripts:nutrient_brick.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:ship_chair_recipe.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:rubber/rubber.js in 0.0 s
-[14:09:43] [INFO] Loaded script server_scripts:pneumaticcraft.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:paste.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:lava_crucible/ore_crucible_smelting.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:lava_crucible/water_crucible_melting.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:enderio/enderio_rework_recipes.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:farmers_delight_removal.js in 0.008 s
-[14:09:43] [INFO] Loaded script server_scripts:world/darkness.js in 0.002 s
-[14:09:43] [INFO] Loaded script server_scripts:event_cancels.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:ae2.js in 0.002 s
-[14:09:43] [INFO] Loaded script server_scripts:ad_astra/ad_astra_removal.js in 0.002 s
-[14:09:43] [INFO] Loaded script server_scripts:mekanism_rework.js in 0.0 s
-[14:09:43] [INFO] test_item.js#1: Loaded Java class 'dev.ghen.thirst.foundation.common.capability.ModCapabilities'
-[14:09:43] [INFO] Loaded script server_scripts:test_item.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:crumbling_bricks.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:stillsuit_crafting.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:removed_recipes.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:insulation_items.js in 0.001 s
-[14:09:43] [INFO] Loaded script server_scripts:spawn_eggs.js in 0.002 s
-[14:09:43] [INFO] Loaded 69/69 KubeJS server scripts in 0.107 s with 0 errors and 0 warnings
-[14:09:43] [INFO] Scripts loaded
-[14:09:43] [INFO] Initializing recipe event...
-[14:09:47] [INFO] [minecraft:block] Found 1306 tags, added 180 objects, removed 0 objects
-[14:09:47] [INFO] [minecraft:item] Found 2263 tags, added 515 objects, removed 0 objects
-[14:09:55] [INFO] Processing recipes...
-[14:09:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_cherry[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:cherry_log\"}
-[14:09:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_jungle[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:jungle_log\",\"Properties\":{\"axis\":\"y\"}}
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_sofa[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_cup[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/gold/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_desk[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/lategame/polonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/lategame/plutonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_inflatable_castle[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/blocks_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_curtain[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_digital_clock[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/dusts_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/steam[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:oak_log\"}
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_lamp[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_wall_cabinet[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/water_vapor[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_chair[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_oxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/ethene_oxygen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/ethene[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_kitchen_counter[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_kitchen_drawer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_hydrogen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_stairs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/brine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_dark_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:dark_oak_log\",\"Properties\":{\"axis\":\"y\"}}
-[14:09:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_spruce[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:spruce_log\",\"Properties\":{\"axis\":\"y\"}}
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_kitchen_sink[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_hexafluoride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:separator/brine[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:evaporating/brine[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_ethene[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/tin/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_bed[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/hydrofluoric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/sulfuric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen_chloride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_trioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_bedside_cabinet[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_slabs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_birch[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:birch_log\",\"Properties\":{\"axis\":\"y\"}}
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_bar_stool[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_table[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_coffee_table[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_cabinet[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/chlorine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_dioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/oxygen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:separator/water[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:evaporating/lithium[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/lithium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_modern_desk_cabinet[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/planks[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'nfm:beige_television_stand[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/rods_wooden[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/dusts_wood[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_rubberwood[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"thermal:rubberwood_log\",\"Properties\":{\"axis\":\"y\"}}
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:processing/iron/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:rotary/sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/logs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
-[14:09:56] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_acacia[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:acacia_log\",\"Properties\":{\"axis\":\"y\"}}
-[14:09:56] [INFO] Found 30294 recipes in 594.3 ms
-[14:09:57] [INFO] camel_pack_crafting.js#157: Loaded Java class 'net.minecraftforge.fluids.FluidUtil'
-[14:09:57] [INFO] camel_pack_crafting.js#158: Loaded Java class 'net.minecraftforge.registries.ForgeRegistries'
-[14:09:59] [INFO] Posted recipe events in 3.400 s
-[14:09:59] [WARN] Error parsing recipe sophisticatedstorage:cherry_chest_from_quark_cherry_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:cherry_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"cherry\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:warped_chest_from_quark_warped_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:warped_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"warped\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe thermal:compat/tconstruct/bottler_tconstruct_lavawood[thermal:bottler]: {"type":"thermal:bottler","ingredients":[{"tag":"minecraft:planks"},{"fluid":"minecraft:lava","amount":100}],"result":[{"item":"tconstruct:lavawood"}],"conditions":[{"type":"thermal:flag","flag":"mod_tconstruct"}]}: Invalid Thermal Series recipe: thermal:compat/tconstruct/bottler_tconstruct_lavawood
+[00:52:01] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[00:52:01] [INIT] Loaded plugins:
+[00:52:01] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:52:01] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[00:52:01] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[00:52:01] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[00:52:01] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[00:52:01] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[00:52:01] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[00:52:01] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[00:52:01] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
+[00:52:01] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
+[00:52:01] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[00:52:01] [INIT] - com.momosoftworks.coldsweat.compat.kubejs.KubePlugin
+[00:52:02] [INFO] Loaded script server_scripts:refurbished_furniture_removal.js in 0.002 s
+[00:52:02] [INFO] Loaded script server_scripts:paste.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:plasteel.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:camel_pack_crafting.js in 0.002 s
+[00:52:02] [INFO] Loaded script server_scripts:replace_vanilla_tool_recipes.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:enderio/enderio_rework_recipes.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:force_purity_nbt.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:functional_storage_warning.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:removed_recipes.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:leaf_drops.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:lava_crucible/ore_crucible_smelting.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:lava_crucible/water_crucible_melting.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:mekanism_rework.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:enchantments.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:stillsuit_crafting.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:insulation_items.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:create/thermal_mixing_compat.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:create/ore_processing.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:create/crushing.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:create/rocks.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:create/crafting.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:ae2.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:nutrient_brick.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/porcelain_bucket.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/venus_sandstone_fix.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/misc.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/mineables.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/plastic_scraps.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/wood_chippings.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/bookshelf_books.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/sync_block_ingredients.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/staple_foods.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/furniture.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/tinkering.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:tags/conductive.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:world/darkness.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:ad_astra/ad_astra_removal.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:simplyjetpacks.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:barrel_compost.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:pneumaticcraft.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:farmers_delight_removal.js in 0.003 s
+[00:52:02] [INFO] Loaded script server_scripts:sieve_tables/sieve_drop_tables.js in 0.002 s
+[00:52:02] [INFO] Loaded script server_scripts:mob_grinding_utils.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:compressed_hammer_recipes.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:spawn_eggs.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:crafting/shaped/megatorch.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:crafting/shaped/pneumaticcraft.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:crafting/shaped/custom_armor.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:crafting/shaped/dust_pile.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:crafting/shapeless/dirty_water_from_dirt.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:crumbling_bricks.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:rubber/rubber.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:recycling/sawing.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:recycling/melting.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:recycling/hammer.js in 0.001 s
+[00:52:02] [INFO] Loaded script server_scripts:thermal_tweaks.js in 0.0 s
+[00:52:02] [INFO] test_item.js#1: Loaded Java class 'dev.ghen.thirst.foundation.common.capability.ModCapabilities'
+[00:52:02] [INFO] Loaded script server_scripts:test_item.js in 0.0 s
+[00:52:02] [INFO] sunlight_detection.js#2: Loaded Java class 'net.minecraft.nbt.CompoundTag'
+[00:52:02] [INFO] sunlight_detection.js#3: Loaded Java class 'com.momosoftworks.coldsweat.api.util.Temperature'
+[00:52:02] [INFO] sunlight_detection.js#4: Loaded Java class 'com.momosoftworks.coldsweat.api.util.placement.Placement'
+[00:52:02] [INFO] sunlight_detection.js#5: Loaded Java class 'com.momosoftworks.coldsweat.api.util.placement.Matcher'
+[00:52:02] [INFO] sunlight_detection.js#6: Loaded Java class 'com.momosoftworks.coldsweat.api.util.placement.Order'
+[00:52:02] [INFO] sunlight_detection.js#7: Loaded Java class 'com.momosoftworks.coldsweat.api.registry.TempModifierRegistry'
+[00:52:02] [INFO] sunlight_detection.js#8: Loaded Java class 'net.minecraft.resources.ResourceLocation'
+[00:52:02] [INFO] Loaded script server_scripts:sunlight_detection.js in 0.006 s
+[00:52:02] [INFO] Loaded script server_scripts:replacements/machine_frame_replacement.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:replacements/latex.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:replacements/general_replacements.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:thermal/create_pressing_compat.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:thermal/centrifuge.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:thermal/thermal_crate_disable.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:thermal/fuel/diesel_compression.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:ship_chair_recipe.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:extruding_recipes.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:event_cancels.js in 0.0 s
+[00:52:02] [INFO] Loaded script server_scripts:industrialforegoing/machines.js in 0.0 s
+[00:52:02] [INFO] Loaded 69/69 KubeJS server scripts in 0.037 s with 0 errors and 0 warnings
+[00:52:02] [INFO] Scripts loaded
+[00:52:03] [INFO] Initializing recipe event...
+[00:52:05] [INFO] [minecraft:block] Found 1306 tags, added 180 objects, removed 0 objects
+[00:52:06] [INFO] [minecraft:item] Found 2263 tags, added 515 objects, removed 0 objects
+[00:52:08] [INFO] Processing recipes...
+[00:52:08] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_cherry[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:cherry_log\"}
+[00:52:08] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_jungle[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:jungle_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_modern_sofa[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:rotary/superheated_sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_cup[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:processing/gold/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_modern_desk[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:processing/lategame/polonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:processing/lategame/plutonium_pellet/from_reaction[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_inflatable_castle[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/blocks_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_curtain[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_digital_clock[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/dusts_coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:processing/osmium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:rotary/steam[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:oak_log\"}
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:reaction/coal_gasification/coals[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_lamp[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_wall_cabinet[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:rotary/water_vapor[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_modern_chair[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_oxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:processing/lead/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/ethene_oxygen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:rotary/ethene[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_modern_kitchen_counter[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_modern_kitchen_drawer[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_hydrogen[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_stairs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'mekanism:rotary/brine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:08] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_dark_oak[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:dark_oak_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:52:08] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_spruce[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:spruce_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:52:08] [WARN] Failed to parse recipe 'nfm:beige_modern_kitchen_sink[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:processing/uranium/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/uranium_hexafluoride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:separator/brine[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:evaporating/brine[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:reaction/substrate/water_ethene[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:processing/tin/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'nfm:beige_modern_bed[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/hydrofluoric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/sulfuric_acid[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/hydrogen_chloride[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:processing/copper/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_trioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'nfm:beige_modern_bedside_cabinet[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/wooden_slabs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_birch[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:birch_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:52:09] [WARN] Failed to parse recipe 'nfm:beige_bar_stool[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'nfm:beige_modern_table[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'nfm:beige_modern_coffee_table[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'nfm:beige_modern_cabinet[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/chlorine[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/sulfur_dioxide[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/oxygen[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:separator/water[mekanism:separating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:evaporating/lithium[mekanism:evaporating]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/lithium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'nfm:beige_modern_desk_cabinet[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/planks[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'nfm:beige_television_stand[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/rods_wooden[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/dusts_wood[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_rubberwood[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"thermal:rubberwood_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:processing/iron/slurry/clean[mekanism:washing]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:rotary/sodium[mekanism:rotary]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'mekanism:reaction/wood_gasification/logs[mekanism:reaction]'! Falling back to vanilla: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[00:52:09] [WARN] Failed to parse recipe 'thermal:devices/tree_extractor/tree_extractor_acacia[thermal:tree_extractor]'! Falling back to vanilla: Non [a-z0-9_.-] character in namespace of location: {\"Name\":\"minecraft:acacia_log\",\"Properties\":{\"axis\":\"y\"}}
+[00:52:10] [INFO] Found 30294 recipes in 1.474 s
+[00:52:10] [INFO] camel_pack_crafting.js#157: Loaded Java class 'net.minecraftforge.fluids.FluidUtil'
+[00:52:10] [INFO] camel_pack_crafting.js#158: Loaded Java class 'net.minecraftforge.registries.ForgeRegistries'
+[00:52:12] [INFO] Posted recipe events in 2.559 s
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:bamboo_chest_from_quark_bamboo_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:bamboo_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"bamboo\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:warped_chest_from_quark_warped_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:warped_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"warped\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:spruce_chest_from_quark_spruce_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:spruce_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"spruce\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:cherry_chest_from_quark_cherry_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:cherry_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"cherry\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:acacia_chest_from_quark_acacia_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:acacia_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"acacia\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:jungle_chest_from_quark_jungle_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:jungle_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"jungle\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:mangrove_chest_from_quark_mangrove_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:mangrove_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"mangrove\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:dark_oak_chest_from_quark_dark_oak_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:dark_oak_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"dark_oak\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:oak_chest_from_quark_oak_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:oak_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"oak\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe thermal:compat/tconstruct/bottler_tconstruct_lavawood[thermal:bottler]: {"type":"thermal:bottler","ingredients":[{"tag":"minecraft:planks"},{"fluid":"minecraft:lava","amount":100}],"result":[{"item":"tconstruct:lavawood"}],"conditions":[{"type":"thermal:flag","flag":"mod_tconstruct"}]}: Invalid Thermal Series recipe: thermal:compat/tconstruct/bottler_tconstruct_lavawood
 Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:dark_oak_chest_from_quark_dark_oak_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:dark_oak_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"dark_oak\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:birch_chest_from_quark_birch_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:birch_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"birch\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:spruce_chest_from_quark_spruce_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:spruce_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"spruce\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:mangrove_chest_from_quark_mangrove_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:mangrove_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"mangrove\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:oak_chest_from_quark_oak_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:oak_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"oak\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:acacia_chest_from_quark_acacia_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:acacia_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"acacia\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:bamboo_chest_from_quark_bamboo_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:bamboo_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"bamboo\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:crimson_chest_from_quark_crimson_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:crimson_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"crimson\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe sophisticatedstorage:jungle_chest_from_quark_jungle_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:jungle_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"jungle\"}"}}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_2[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_3[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_4[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_5[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_6[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
-[14:10:00] [INFO] Added 3368 recipes, removed 2838 recipes, modified 140 recipes, with 18 failed recipes in 247.8 ms
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:crimson_chest_from_quark_crimson_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:crimson_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"crimson\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe sophisticatedstorage:birch_chest_from_quark_birch_chest[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","conditions":[{"type":"forge:item_exists","item":"quark:birch_chest"},{"type":"sophisticatedcore:item_enabled","itemRegistryName":"sophisticatedstorage:chest"}],"ingredients":[[],{"item":"minecraft:lever"}],"result":{"item":"sophisticatedstorage:chest","nbt":"{woodType:\"birch\"}"}}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_2[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_3[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_4[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_5[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [WARN] Error parsing recipe tconstruct:kjs/1hly4yxx33a9167qvp6zg4wxc_6[tconstruct:melting]: {"type":"tconstruct:melting","ingredient":[],"result":{"fluid":"tconstruct:molten_iron","amount":90},"temperature":800,"time":30}: Item array cannot be empty, at least one item must be defined
+[00:52:12] [INFO] Added 3368 recipes, removed 2838 recipes, modified 140 recipes, with 18 failed recipes in 102.4 ms
+[00:52:17] [INFO] Server resource reload complete!

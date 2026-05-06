@@ -1,52 +1,52 @@
-[14:09:18] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[14:09:18] [INIT] Loaded plugins:
-[14:09:18] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[14:09:18] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
-[14:09:18] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[14:09:18] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
-[14:09:18] [INIT] - pie.ilikepiefoo.AdditionsPlugin
-[14:09:18] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
-[14:09:18] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[14:09:18] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[14:09:18] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
-[14:09:18] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
-[14:09:18] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[14:09:18] [INIT] - com.momosoftworks.coldsweat.compat.kubejs.KubePlugin
-[14:09:22] [INFO] Loaded script startup_scripts:furnitures/ship_chair.js in 0.279 s
-[14:09:22] [INFO] Loaded script startup_scripts:client/camel_pack_render_startup.js in 0.034 s
-[14:09:22] [INFO] Loaded script startup_scripts:client/stillsuit_render_startup.js in 0.013 s
-[14:09:22] [INFO] Loaded script startup_scripts:mod_name.js in 0.012 s
-[14:09:22] [INFO] Loaded script startup_scripts:food/halved_food.js in 0.009 s
-[14:09:22] [INFO] Loaded script startup_scripts:tools/durability_1.js in 0.003 s
-[14:09:22] [INFO] Loaded script startup_scripts:water_bottle/water_bottle.js in 0.002 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_armor.js in 0.007 s
-[14:09:22] [INFO] Loaded script startup_scripts:crash_blocks/crash_blocks.js in 0.003 s
-[14:09:22] [INFO] Loaded script startup_scripts:crash_blocks/ship_blocks.js in 0.023 s
-[14:09:22] [INFO] Loaded script startup_scripts:crash_blocks/custom_blocks.js in 0.002 s
-[14:09:22] [INFO] load_class.js#2: Loaded Java class 'com.ordana.immersive_weathering.blocks.LayerBlock'
-[14:09:22] [INFO] load_class.js#3: Loaded Java class 'net.minecraft.world.level.block.BarrelBlock'
-[14:09:22] [INFO] load_class.js#4: Loaded Java class 'com.mrcrayfish.furniture.refurbished.block.ChairBlock'
-[14:09:22] [INFO] load_class.js#5: Loaded Java class 'net.minecraft.world.level.block.state.BlockBehaviour$Properties'
-[14:09:22] [INFO] load_class.js#6: Loaded Java class 'net.minecraft.world.item.BlockItem'
-[14:09:22] [INFO] load_class.js#7: Loaded Java class 'net.minecraft.world.item.Item$Properties'
-[14:09:22] [INFO] load_class.js#8: Loaded Java class 'net.minecraft.world.level.block.SoundType'
-[14:09:22] [INFO] load_class.js#9: Loaded Java class 'net.minecraft.world.level.block.state.properties.WoodType'
-[14:09:22] [INFO] load_class.js#10: Loaded Java class 'net.minecraft.world.item.DyeColor'
-[14:09:22] [INFO] load_class.js#11: Loaded Java class 'com.mrcrayfish.furniture.refurbished.block.SofaBlock'
-[14:09:22] [INFO] Loaded script startup_scripts:load_class.js in 0.044 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/monster_foods.js in 0.003 s
-[14:09:22] [INFO] custom_items/camel_pack.js#1: Loaded Java class 'dev.ghen.thirst.foundation.common.capability.ModCapabilities'
-[14:09:22] [INFO] custom_items/camel_pack.js#2: Loaded Java class 'com.prunoideae.powerfuljs.capabilities.forge.mods.curios.CapabilitiesCurios'
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/camel_pack.js in 0.019 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/staple_foods.js in 0.002 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/paste.js in 0.001 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/pcb_segment.js in 0.001 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/plastic_scrap.js in 0.0 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/test_item.js in 0.001 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/insulation_items.js in 0.0 s
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/stillsuit.js in 0.003 s
-[14:09:22] [INFO] custom_items/custom_tinker_tools.js#2: Loaded Java class 'slimeknights.tconstruct.library.tools.item.ModifiableItem'
-[14:09:22] [INFO] custom_items/custom_tinker_tools.js#3: Loaded Java class 'slimeknights.tconstruct.library.tools.definition.ToolDefinition'
-[14:09:22] [INFO] custom_items/custom_tinker_tools.js#4: Loaded Java class 'net.minecraft.resources.ResourceLocation'
-[14:09:22] [INFO] Loaded script startup_scripts:custom_items/custom_tinker_tools.js in 0.037 s
-[14:09:22] [INFO] Loaded 22/22 KubeJS startup scripts in 3.723 s with 0 errors and 0 warnings
+[00:51:41] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[00:51:41] [INIT] Loaded plugins:
+[00:51:41] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[00:51:41] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[00:51:41] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[00:51:41] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[00:51:41] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[00:51:41] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[00:51:41] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[00:51:41] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[00:51:41] [INIT] - com.alessandro.astages.integration.kubejs.AStageKubeJSPlugin
+[00:51:41] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
+[00:51:41] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[00:51:41] [INIT] - com.momosoftworks.coldsweat.compat.kubejs.KubePlugin
+[00:51:43] [INFO] Loaded script startup_scripts:food/halved_food.js in 0.123 s
+[00:51:43] [INFO] Loaded script startup_scripts:mod_name.js in 0.002 s
+[00:51:43] [INFO] Loaded script startup_scripts:tools/durability_1.js in 0.001 s
+[00:51:43] [INFO] Loaded script startup_scripts:water_bottle/water_bottle.js in 0.001 s
+[00:51:43] [INFO] load_class.js#2: Loaded Java class 'com.ordana.immersive_weathering.blocks.LayerBlock'
+[00:51:43] [INFO] load_class.js#3: Loaded Java class 'net.minecraft.world.level.block.BarrelBlock'
+[00:51:43] [INFO] load_class.js#4: Loaded Java class 'com.mrcrayfish.furniture.refurbished.block.ChairBlock'
+[00:51:43] [INFO] load_class.js#5: Loaded Java class 'net.minecraft.world.level.block.state.BlockBehaviour$Properties'
+[00:51:43] [INFO] load_class.js#6: Loaded Java class 'net.minecraft.world.item.BlockItem'
+[00:51:43] [INFO] load_class.js#7: Loaded Java class 'net.minecraft.world.item.Item$Properties'
+[00:51:43] [INFO] load_class.js#8: Loaded Java class 'net.minecraft.world.level.block.SoundType'
+[00:51:43] [INFO] load_class.js#9: Loaded Java class 'net.minecraft.world.level.block.state.properties.WoodType'
+[00:51:43] [INFO] load_class.js#10: Loaded Java class 'net.minecraft.world.item.DyeColor'
+[00:51:43] [INFO] load_class.js#11: Loaded Java class 'com.mrcrayfish.furniture.refurbished.block.SofaBlock'
+[00:51:43] [INFO] Loaded script startup_scripts:load_class.js in 0.021 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_armor.js in 0.002 s
+[00:51:43] [INFO] Loaded script startup_scripts:furnitures/ship_chair.js in 0.002 s
+[00:51:43] [INFO] Loaded script startup_scripts:client/camel_pack_render_startup.js in 0.008 s
+[00:51:43] [INFO] Loaded script startup_scripts:client/stillsuit_render_startup.js in 0.0 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/paste.js in 0.0 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/monster_foods.js in 0.001 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/plastic_scrap.js in 0.0 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/insulation_items.js in 0.001 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/pcb_segment.js in 0.0 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/stillsuit.js in 0.001 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/staple_foods.js in 0.0 s
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/test_item.js in 0.0 s
+[00:51:43] [INFO] custom_items/camel_pack.js#1: Loaded Java class 'dev.ghen.thirst.foundation.common.capability.ModCapabilities'
+[00:51:43] [INFO] custom_items/camel_pack.js#2: Loaded Java class 'com.prunoideae.powerfuljs.capabilities.forge.mods.curios.CapabilitiesCurios'
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/camel_pack.js in 0.012 s
+[00:51:43] [INFO] custom_items/custom_tinker_tools.js#2: Loaded Java class 'slimeknights.tconstruct.library.tools.item.ModifiableItem'
+[00:51:43] [INFO] custom_items/custom_tinker_tools.js#3: Loaded Java class 'slimeknights.tconstruct.library.tools.definition.ToolDefinition'
+[00:51:43] [INFO] custom_items/custom_tinker_tools.js#4: Loaded Java class 'net.minecraft.resources.ResourceLocation'
+[00:51:43] [INFO] Loaded script startup_scripts:custom_items/custom_tinker_tools.js in 0.05 s
+[00:51:43] [INFO] Loaded script startup_scripts:crash_blocks/ship_blocks.js in 0.001 s
+[00:51:43] [INFO] Loaded script startup_scripts:crash_blocks/custom_blocks.js in 0.001 s
+[00:51:43] [INFO] Loaded script startup_scripts:crash_blocks/crash_blocks.js in 0.007 s
+[00:51:43] [INFO] Loaded 22/22 KubeJS startup scripts in 1.566 s with 0 errors and 0 warnings
