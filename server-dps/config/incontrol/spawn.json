@@ -1,0 +1,32 @@
+[
+  {
+    "mob": [
+      "minecraft:witch",
+      "thermal:blitz"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:warden",
+    "mincount": 5,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:slime",
+    "slime": true,
+    "maxlight": 7,
+    "result": "default"
+  },
+  {
+    "mob": "minecraft:slime",
+    "slime": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:zombified_piglin", "specialmobs:zombifiedpiglin", "specialmobs:hungryzombifiedpiglin"],
+    "result": "default",
+    "nbt": {
+      "AngerTime": 2147483647
+	}
+  }
+]

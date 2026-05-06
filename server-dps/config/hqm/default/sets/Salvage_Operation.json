@@ -1,0 +1,1147 @@
+{
+  "name": "Salvage Operation",
+  "quests": [
+    {
+      "uuid": "9c45c37d-c906-46f1-b3c0-eec774f4ccbe",
+      "name": {
+        "text": "Getting Your Wires Crossed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Those broken parts won\u0027t be enough to start storing matter as energy. You\u0027ll need to make some more advanced processing circuits first.",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 66,
+      "icon": {
+        "id": "ae2:calculation_processor",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Ingredients",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "To make processing chips, you\u0027ll need to inscribe silicon and some other materials. Make an inscriber, get some silicon, and break a PCB down into segments you can use to stitch it all together.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:inscriber",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "ae2:silicon",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "kubejs:pcb_segment",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Inscribing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Use the inscriber to make the three main circuit types; logic, calculation, and engineering. You\u0027ll also need some printed silicon to use as the base plate.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:printed_logic_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:printed_calculation_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:printed_engineering_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:printed_silicon",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Putting it together",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "When you have all the components, inscribe your circuits by putting the printed circuits on the top of the inscriber, the printed silicon on the bottom, and a pcb segment in the middle.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:logic_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:calculation_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:engineering_processor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9964c1f7-b9fa-4423-8266-c8f98b046455"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ae2:engineering_processor",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ae2:logic_processor",
+          "Count": 3
+        },
+        {
+          "id": "ae2:calculation_processor",
+          "Count": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c477a1a1-782a-4fe8-9566-97dc4f9cff31",
+      "name": {
+        "text": "Turning Up The Heat",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The foundry is an alternate version of the smeltery, it will roughly triple the number of ingots you get from ores. Ores melted in the foundry will produce an additional byproduct, providing even more resources per ore. You can even use it to get more seared stone as a byproduct of melting cobblestone. It also allows more much more liquid to be stored per block, but it can\u0027t make alloys, so you\u0027ll have to use an alloyer or the smeltery for that.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 138,
+      "icon": {
+        "id": "tconstruct:foundry_controller",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find foundry components in the foundry city structure.\nThe foundry multiblock is built in a similar way to the smeltery, but made out of foundry blocks. Unlike the smeltery, you must fill the edges of a foundry with acceptable blocks, not just the inner faces. Consult the \"Fantastical Foundry\" guide for more information.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:foundry_controller",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:scorched_duct",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:scorched_drain",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:magma_cream",
+          "Count": 64
+        },
+        {
+          "id": "minecraft:music_disc_pigstep",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9964c1f7-b9fa-4423-8266-c8f98b046455",
+      "name": {
+        "text": "Computer Crash",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suited to converting matter into energy, and vice versa.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 48,
+      "icon": {
+        "id": "kubejs:crashed_applied_controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find a Matter-Energy Research Lab or meteorites by exploring the desert. A meteorite compass can help locate meteorites if you can\u0027t find the presses elsewhere.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crashed_applied_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:smooth_sky_stone_block",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:logic_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:calculation_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:engineering_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:silicon_press",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ae2:guide",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:quartz",
+          "Count": 16
+        },
+        {
+          "id": "ae2:certus_quartz_crystal",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
+      "name": {
+        "text": "Running on Fumes",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Need even more power? There is a solution to that. If you pipe water into a reactor it will output steam. That steam then can be used to turn a turbine, generating massive amounts of power. Of course, this isn\u0027t easy to set up. Even after you\u0027ve hunted down all the components, you will need a staggering amount of water to keep things running smoothly. Generating that water will take a significant amount of time and effort to set up, but it just might be worth it if you need power in vast amounts.",
+        "isTranslationKey": false
+      },
+      "x": 254,
+      "y": 84,
+      "icon": {
+        "id": "biggerreactors:turbine_casing",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Much like the reactor terminal, the turbine terminal must be made by repairing parts found in the ruins.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "biggerreactors:turbine_terminal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_casing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_power_tap",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_fluid_port",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_rotor_bearing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_rotor_shaft",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:turbine_rotor_blade",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "26c1c152-15c4-476c-a27b-6f6caff2eff0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "biggerreactors:cyanite_ingot",
+          "Count": 8
+        },
+        {
+          "id": "thermal:electrum_block",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
+      "name": {
+        "text": "Meltdown",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suitable for nuclear power generation.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 48,
+      "icon": {
+        "id": "kubejs:crashed_reactor_frame",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find the nuclear plant building by exploring the desert.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_controller",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_frame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "biggerreactors:graphite_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "11e51c76-360f-4739-a90b-1fbdbc83e598",
+      "name": {
+        "text": "Hellforged",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Once you have found cobalt and ancient debris in a Foundry city, you can start creating advanced Tinkers\u0027 Materials. These are the two main ingredients behind the best tool materials in the game.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 174,
+      "icon": {
+        "id": "tconstruct:manyullyn_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Manyullyn and Hepatizon are the two best tier IV materials for weapons and tools, respectively. They have a very strong array of stats, and are made from rarer nether-based materials. You will need to use blazing blood as your smeltery\u0027s fuel to create these alloys, but the investment will pay off.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:manyullyn_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:hepatizon_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4cc6ede3-b15f-4cae-ad96-9903227e5ae8",
+        "48aa589e-ca93-4ee0-a841-57cb95c49dfb",
+        "c477a1a1-782a-4fe8-9566-97dc4f9cff31"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:soul_sand",
+          "Count": 32
+        },
+        {
+          "id": "exdeorum:crushed_netherrack",
+          "Count": 32
+        },
+        {
+          "id": "exdeorum:crushed_blackstone",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:netherite_scrap",
+          "Count": 4
+        },
+        {
+          "id": "exdeorum:cobalt_ore_chunk",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "26c1c152-15c4-476c-a27b-6f6caff2eff0",
+      "name": {
+        "text": "Going Nuclear",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "As you build your technological infrastructure you will probably find that you need more power than you can easily generate. However, now that you\u0027ve gotten ahold of some nuclear reactor parts, you can get to fixing that.",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 66,
+      "icon": {
+        "id": "biggerreactors:reactor_casing",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can craft the reactor terminal by repairing the parts you find in the ruins.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "biggerreactors:reactor_terminal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_casing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_power_tap",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_access_port",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_control_rod",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_glass",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_fuel_rod",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2b994684-1263-4b2b-8567-57b696c8680a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:ingot_uranium",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "65efa12d-f687-4c3a-9077-b89b3d28fc95",
+      "name": {
+        "text": "Tool Forging",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The tinker\u0027s anvil is an upgrade to the tinker station that can be used to make more advanced tools, including tools that mine in an area of effect and the cleaver, great for beheading mobs.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 120,
+      "icon": {
+        "id": "tconstruct:tinkers_anvil",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The tinker\u0027s anvil is made from seared stone and alloyed metal blocks around a tinker station.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:tinkers_anvil",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:seared_brick",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3739c921-2340-4675-9d47-c41dbb66aec3",
+      "name": {
+        "text": "Searing Heat",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of these ruins have bricks that seem strong enough to withstand the searing heat of a smeltery.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 66,
+      "icon": {
+        "id": "tconstruct:seared_bricks",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find smeltery buildings in cities. Break the crumbling seared bricks with a hammer or put them in some kind of crushing machine to get bricks.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:seared_brick",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:mighty_smelting",
+          "Count": 1,
+          "tag": "{mantle:{book:{current_page:\"intro.anvil_craft\"}}}"
+        },
+        {
+          "id": "minecraft:music_disc_relic",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48aa589e-ca93-4ee0-a841-57cb95c49dfb",
+      "name": {
+        "text": "Bronze Age",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "With a smeltery set up, you can start making tools out of alloys instead of just basic metals or other materials.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 156,
+      "icon": {
+        "id": "thermal:bronze_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Bronze and Constantan are the two best tier III materials for weapons and tools, respectively. They have a balanced, but strong array of stats, and aren\u0027t too difficult to make with resources you likely have an abundance of. Untill you find a way to make and sift nether blocks, these will generally be the best tool heads available.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:bronze_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:constantan_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "059da201-0f0d-47ee-9bf0-416b63d26600",
+        "eddaaad6-761a-458a-8e0f-ff4297889adc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:jeweled_apple",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "quark:music_disc_fire",
+          "Count": 1
+        },
+        {
+          "id": "quark:music_disc_crickets",
+          "Count": 1
+        },
+        {
+          "id": "quark:music_disc_rain",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "059da201-0f0d-47ee-9bf0-416b63d26600",
+      "name": {
+        "text": "Forging Ahead",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You are going to need lots of metal to thrive on this planet. A smeltery will help you get a good start by almost doubling how much metal you get out of each piece of ore. You can also make more advanced equipment with cast metal and alloying,",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 102,
+      "icon": {
+        "id": "tconstruct:smeltery_controller",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "To construct the smeltery, make a floor out of seared bricks (3x3 is the standard), and fill every face with smeltery blocks, typically a mix of seared stone, seared drains, seared glass, and a seared tank. Place the smeltery controller in the front, and you should be able to interact with the structure. Consult the \"Mighty Smelting\" guide for more information.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:smeltery_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_drain",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_bricks",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_fuel_tank",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3739c921-2340-4675-9d47-c41dbb66aec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:fantastic_foundry",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:polished_basalt",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:magma_cream",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4cc6ede3-b15f-4cae-ad96-9903227e5ae8",
+      "name": {
+        "text": "Blaze of Glory",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The toughest of metals require the hottest of fuels. Blazing blood is among the hottest, and is an essential ingredient for making advanced alloys.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 156,
+      "icon": {
+        "id": "tconstruct:blazing_blood_bucket",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can make blazing blood by melting blazes in a smeltery. Blazes can be found in the Foundry structure. Small amounts of blazing blood can also be gained by melting blaze rods or blaze powder.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:blazing_blood_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:dragon_scale",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cdac0984-204e-4fbc-b2cd-cea990ae0367",
+      "name": {
+        "text": "Into The Unknown",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You may have noticed that you can\u0027t craft everything you need to survive. However, there seem to be some ruined cities scattered around. Maybe those contain resources you could use. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 30,
+      "icon": {
+        "id": "hangglider:hang_glider",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Make sure to bring enough food and water and if you haven\u0027t set up sync shells yet, now is the time to do so. If you took the hard route, you can still craft them.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:wrench",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "kubejs:crushing_hammer",
+                "Count": 1,
+                "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:iron\",\"tconstruct:wood\",\"tconstruct:wood\"],tic_modifiers:[{level:1,name:\"tconstruct:magnetic\"},{level:2,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:smite\"}],tic_multipliers:{\"tconstruct:durability\":1.25f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.0f,\"tconstruct:attack_speed\":0.8f,\"tconstruct:durability\":312.5f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:mining_speed\":6.0f},tic_volatile_data:{abilities:1,upgrades:3}}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "hangglider:hang_glider",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "sophisticatedbackpacks:backpack",
+                "Count": 1,
+                "tag": "{contentsUuid:[I;921025965,1498695982,-1244308803,1251248921],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{Count:1,Materials:[{ID:\"silentgear:iron\"}]}}]},upgradeSlots:1}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": "{Potion:\"minecraft:water\",Purity:3}"
+              },
+              "required": 8,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "099d1358-0b11-49f0-aa78-43531cd739b7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:potion",
+          "Count": 16,
+          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+        },
+        {
+          "id": "legumedelight:peanut_butter_and_jam_sandwich",
+          "Count": 8,
+          "tag": "{display:{Lore:[\u0027{\"text\":\"Replicated\",\"color\":\"yellow\",\"italic\":true}\u0027]}}"
+        },
+        {
+          "id": "cgm:shell",
+          "Count": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e09bcc3e-e944-4e33-9e02-cdb9df6d7773",
+      "name": {
+        "text": "Castaway",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "When you set up a smeltery, you\u0027ll need a good place to store all your casts.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 119,
+      "icon": {
+        "id": "tconstruct:cast_chest",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A Cast Chest can be made from seared stone, a chest, and a cast. It stores up to 4 of each cast type, so you can usually fit all the casts you will ever need inside.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:cast_chest",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:writable_book",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6411096c-3d98-4e84-8599-9718d7ee18f6",
+      "name": {
+        "text": "A Matter of Record",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "A Matter/Energy storage system needs a few key components to work. Gather these components, construct your storage system, give it power, and you\u0027ll be able to store massive amounts of items in a tiny space.",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 84,
+      "icon": {
+        "id": "ae2:controller",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "ME Controller",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "A ME Controller is the core of a ME network. Each face of the block can accept power and provide channels to the network. There can only be one controller per network, but two controller blocks placed next to one another count as a single controller and can provide more channels than you would get from a single block. Read more in the Applied Energistics Guide.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:controller",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "ME Drive",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "A ME Drive houses storage cells. It can store up to 10 storage cells per drive. Color indicators on the block indicate the status of each drive. Read more in the Applied Energistics Guide.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:drive",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "ME Terminal",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "ME Terminals are how you access your network. The basic terminal lets you view your network\u0027s storage and add/remove items. You will likely want to upgrade to a crafting terminal very soon, and eventually a wireless terminal to access your network from anywhere. Read more in the Applied Energistics Guide.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:terminal",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "ME Storage Cell",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "ME Storage Cells are where items (or fluids) are stored in your network. Each item storage cell can store up to 63 types of items, with the total number of items determined by the cell\u0027s size. Generally, you should make some large storage cells to contain the items you have large amounts of, and then small storage cells to contain items you only have small amounts of. Read more in the Applied Energistics Guide.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:item_storage_cell_1k",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9c45c37d-c906-46f1-b3c0-eec774f4ccbe"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "ae2:item_storage_cell_16k",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "ae2:fluid_storage_cell_16k",
+          "Count": 1,
+          "tag": "{}"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "Guide to scavenging resources from the ruins on the planet.",
+    "isTranslationKey": false
+  }
+}
