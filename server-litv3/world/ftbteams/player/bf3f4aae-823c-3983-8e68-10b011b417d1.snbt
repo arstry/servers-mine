@@ -1,0 +1,15 @@
+{
+	id: "bf3f4aae-823c-3983-8e68-10b011b417d1"
+	type: "player"
+	player_name: "Arrmand0"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Arrmand0"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF6859"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

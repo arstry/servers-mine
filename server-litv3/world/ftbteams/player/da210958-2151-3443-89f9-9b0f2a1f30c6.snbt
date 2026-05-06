@@ -1,0 +1,15 @@
+{
+	id: "da210958-2151-3443-89f9-9b0f2a1f30c6"
+	type: "player"
+	player_name: "fachinelli"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "fachinelli"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF5986"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

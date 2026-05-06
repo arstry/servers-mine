@@ -1,0 +1,15 @@
+{
+	id: "51d23d76-37fe-3f1a-bf3c-6852470d3fdd"
+	type: "player"
+	player_name: "EliasDMS"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "EliasDMS"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59AE"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

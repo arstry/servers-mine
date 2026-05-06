@@ -1,0 +1,15 @@
+{
+	id: "4c40027a-2338-32aa-b135-77abca93a967"
+	type: "player"
+	player_name: "arthurzinterror"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "arthurzinterror"
+		"ftbteams:description": ""
+		"ftbteams:color": "#B059FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

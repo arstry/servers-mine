@@ -1,0 +1,42 @@
+{
+	id: "6c36ff52-f86c-4c1e-95f2-71fe431d5f24"
+	type: "party"
+	owner: "4c40027a-2338-32aa-b135-77abca93a967"
+	ranks: {
+		4c40027a-2338-32aa-b135-77abca93a967: "owner"
+		bf3f4aae-823c-3983-8e68-10b011b417d1: "member"
+		3f7eac15-d98e-37af-aa28-846f3ce87f11: "member"
+		da210958-2151-3443-89f9-9b0f2a1f30c6: "member"
+		2c780afd-cf52-3e18-9f16-037aed255370: "ally"
+		ac1ab011-9ff3-3894-a418-b2276260e7f5: "member"
+		5fc9bda4-6e7b-3940-9d3b-f52a224ffa74: "officer"
+		51d23d76-37fe-3f1a-bf3c-6852470d3fdd: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "Campo Grande"
+		"ftbteams:description": ""
+		"ftbteams:color": "#8BFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1775255140914L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"arthurzinterror\"}]}" }
+		{ from: "4c40027a-2338-32aa-b135-77abca93a967", date: 1775255140929L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"rafolho\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1775255146719L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"rafolho\"}]}" }
+		{ from: "4c40027a-2338-32aa-b135-77abca93a967", date: 1775271710459L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"GustavoSB\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1775271777082L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"GustavoSB\"}]}" }
+		{ from: "4c40027a-2338-32aa-b135-77abca93a967", date: 1775333353897L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.add_ally\",\"with\":[{\"color\":\"yellow\",\"text\":\"Arrmand0\"}]}" }
+		{ from: "4c40027a-2338-32aa-b135-77abca93a967", date: 1775333410236L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"rafolho\"}]}" }
+		{ from: "5fc9bda4-6e7b-3940-9d3b-f52a224ffa74", date: 1775333425391L, text: "{\"color\":\"gold\",\"translate\":\"ftbteams.message.remove_ally\",\"with\":[{\"color\":\"yellow\",\"text\":\"Arrmand0\"}]}" }
+		{ from: "5fc9bda4-6e7b-3940-9d3b-f52a224ffa74", date: 1775333434814L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Arrmand0\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1775333444930L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Arrmand0\"}]}" }
+		{ from: "5fc9bda4-6e7b-3940-9d3b-f52a224ffa74", date: 1775346065311L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"EliasDMS\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1775346072853L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"EliasDMS\"}]}" }
+		{ from: "4c40027a-2338-32aa-b135-77abca93a967", date: 1775517155899L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.add_ally\",\"with\":[{\"color\":\"yellow\",\"text\":\"rafafa\"}]}" }
+		{ from: "5fc9bda4-6e7b-3940-9d3b-f52a224ffa74", date: 1775614439741L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Fachinelli\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1775614447840L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Fachinelli\"}]}" }
+		{ from: "4c40027a-2338-32aa-b135-77abca93a967", date: 1775617522493L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"fachinelli\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1775617525388L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"fachinelli\"}]}" }
+	]
+	extra: { }
+}

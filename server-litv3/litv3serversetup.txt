@@ -1,0 +1,20 @@
+1. Minecraft 1.19.2 server requires JAVA 17. If you don't have it you can download it here:
+https://www.oracle.com/java/technologies/downloads/#java17
+
+2. Instal it in default location: "C:\Program Files\Java\jdk-17.0.*.*\bin\java.exe"
+
+3. Open eula.txt file, read EULA and change "false" to "true" if you accept it.
+
+4. Configure server.properties if you need.
+
+5. Set custom JAVA arguments if needed in user_jvm_args.txt
+
+6. Run run.bat or .sh
+
+7. Enjoy
+
+To turn off the server: type stop in the console window and hit enter
+
+You may also need to do a port forwarding: https://www.youtube.com/watch?v=X75GbRaGzu8
+
+Don't want to bother with all setup and manual pack updates? Rent an already configured server with automatic serverpack instal, update and easy-to-use control panel where you can configure many things. https://bisecthosting.com/xdreamz Get 25% off on your order with code xdreamz

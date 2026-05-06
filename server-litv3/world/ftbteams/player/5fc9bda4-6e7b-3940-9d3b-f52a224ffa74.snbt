@@ -1,0 +1,15 @@
+{
+	id: "5fc9bda4-6e7b-3940-9d3b-f52a224ffa74"
+	type: "player"
+	player_name: "rafolho"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "rafolho"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFA959"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
