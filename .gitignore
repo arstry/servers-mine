@@ -1,2 +1,4 @@
-/{server-litv3,server-dps}/world
-/{server-litv3,server-dps}/world_backup
+/server-litv3/world
+/server-litv3/world_backup
+/server-dps/world
+/server-dps/world_backup

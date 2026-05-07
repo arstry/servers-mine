@@ -2,7 +2,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SERVICEScripts="${SCRIPT_DIR}/scripts"
+SCRIPTS_DIR="${SCRIPT_DIR}/src/scripts"
 WORK_DIR="${SCRIPT_DIR}"
 SERVICE_SRC="${SCRIPT_DIR}/src/service/server_mine.service"
 SERVICE_DEST="/etc/systemd/system/server_mine.service"
@@ -13,7 +13,8 @@ if [[ ! -f "${SERVICE_SRC}" ]]; then
 fi
 
 echo "=== Setting up modpack and Java ==="
-"${SERVICEScripts}/setup-mise-java.sh"
+JAVA_VER=$("${SCRIPTS_DIR}/detect-java-version.sh")
+"${SCRIPTS_DIR}/setup-mise-java.sh"
 
 echo "=== Installing server_mine.service ==="
 

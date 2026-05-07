@@ -1,91 +1,128 @@
 # Server-Mine Agent Guidelines
 
-## Server Environment
-- **Type**: Forge Minecraft Server (1.19.2/1.20.1)
-- **Working Directory**: `/home/arst/temp-use/server-mine/`
-- **Main Worlds**: None (worlds removed in recent refactor)
-- **Disk Status**: 92% disk usage (405GB used / 468G total) - monitor closely
-- **Service User**: Configurable at setup (defaults to `arstry`)
+## Project Overview
 
-## Git History
-Latest commits:
-```
-3e8adcc refactor: remove modcpak server files
-5615289 chore: remove useless backups
-7e75de8 refactor: ai refactor to descrease size
-b55da89 feat: update AGENTS.md
-6fe4f90 feat: add server maintenance documentation and agent config
-```
-
-## Disk Space Management (High Priority)
-**Action**: Continue managing disk space - world directories (`server-dps/`, `server-litv3/`) have been removed.
-
-Current actions taken:
-1. Removed modpack world directories
-2. Cleaned up backup archives (~5000+ .zip files)
-3. Removed unused config files
-
-**Remaining Actions**:
-1. Delete old crash reports: `rm -f crash-reports/*.txt`
-2. Implement log rotation for `logs/` directory
-3. Consider offboarding older snapshots
-
-## Active Services
-No server instances currently active.
+**Type**: Forge Minecraft server management infrastructure (shell scripts + systemd)
+**Purpose**: Automate deployment, Java setup, and service management for Forge modded Minecraft servers
+**Java**: Forge 1.19.2/1.20.1 servers require **Java 17**
+**State**: Server data stripped — this repo now contains only the provisioning/infrastructure layer
 
 ## File Structure
-- `server_mine.service` - Systemd service for autoexec (templates in `src/service/`)
-- `mise.toml` - mise/rust toolchain configuration
-- `.gitignore` - Git ignore rules
-- `src/` - Application source code
-- `setup.sh` - Installation script (prompts for service user)
-- `README.md` - Project documentation
 
-## Maintenance Commands
-```bash
-# View current directory structure
-ls -la /home/arst/temp-use/server-mine/
-du -sh * --max-depth=1
-
-# Review git changes
-git log --oneline
-git status
-git diff HEAD~5
-
-# Check disk usage
-df -h /home/arst/temp-use/server-mine
-
-# Clean up crash reports
-rm -f crash-reports/*.txt
-
-# Implement log rotation
-logrotate -f /etc/logrotate.conf logs/latest.log
+```
+├── src/
+│   ├── scripts/
+│   │   ├── detect-java-version.sh     # Detect required Java version from modpack run.sh
+│   │   └── setup-mise-java.sh         # Install Java via mise (prompts interactively)
+│   └── service/
+│       └── server_mine.service        # systemd service template (see setup.sh for how User/Group is templated)
+├── .ai-jail                           # AI sandbox config — restricts agent to `crush` command only
+├── .gitignore                         # Ignores server world directories (server-litv3, server-dps)
+├── AGENTS.md                          # This file
+├── README.md                          # Project documentation
+└── setup.sh                           # Main installer: wires setup-mise-java + installs systemd service
 ```
 
-## Server Logs
-- **Log location**: `logs/latest.log` (via Tail command in `server_mine.service`)
-- **Crash reports**: `crash-reports/` directory (if crash-4.10.26 reports exist)
+## Architecture & Flow
 
-## Data Management
-- **MineColonies Backups**: ~5000+ `.zip` files removed
-- **Player Data**: World data removed
-- **Next Steps**: Consider recreating worlds if server restart required
+### Deployment Lifecycle
 
-## Action Priorities
-1. **Immediate**: Address disk space (<95GB free)
-2. Clean accumulated logs and crash reports
-3. Implement rotation policy for:
-   - Server logs (`logs/latest.log`)
-   - Crash reports (`crash-reports/`)
-4. Monitor disk usage trends
+1. **`setup.sh`** is the entry point. It:
+   - Calls `src/scripts/setup-mise-java.sh` to detect and install the correct Java version
+   - Prompts for the service user (defaults to `arstry`)
+   - Reads `src/service/server_mine.service` and substitutes `User=` / `Group=` with the prompted user
+   - Installs the rendered service to `/etc/systemd/system/server_mine.service`
+   - Runs `systemctl daemon-reload`, `enable`, `restart`
 
-## Known Issues
-- No active issue reports from recent crashes
-- Disk space is the current critical bottleneck
-- World data removed - servers not operational
+2. **systemd service** (`server_mine.service`) runs as a **forking** type:
+   - `ExecStart` creates a **tmux session** named `mine-server` running `mise exec -- ./run.sh`
+   - `ExecStop` sends `stop` to the tmux console, then sleeps 20s for graceful shutdown
+   - Depends on `tailscaled.service` (requires Tailscale for network access)
+   - Working directory at runtime: `/opt/server-mine/src/modpack`
 
-## Next Session Context
-- Latest state: 3e8adcc - Major cleanup committed
-- Server instances removed from repository
-- Disk space reduction in progress
-- Systemd services exist but no active worlds
+3. **Java setup scripts** (`detect-java-version.sh`, `setup-mise-java.sh`):
+   - Use **mise** (not SDKMAN or manual install) for Java version management
+   - Detection priority: modpack's `run.sh` → `mise.toml` → installed mise versions → fallback to 17
+   - `setup-mise-java.sh` is interactive — prompts before installing; agents should bypass prompts or pre-set JAVA_VER
+
+### Runtime Paths
+
+| Context | Path |
+|---------|------|
+| Repo sources | `./src/` |
+| Deployment target | `/opt/server-mine/` |
+| Modpack at runtime | `/opt/server-mine/src/modpack/` with `run.sh` |
+| systemd service | `/etc/systemd/system/server_mine.service` |
+| Java versions (mise) | `~/.local/share/mise/installs/` |
+
+## Essential Commands
+
+### Server Management (on deployment host)
+
+```bash
+sudo systemctl status server_mine           # check service status
+sudo systemctl restart server_mine          # restart server
+sudo journalctl -u server_mine -f           # follow server logs
+tmux attach -t mine-server                  # attach to Minecraft console
+```
+
+### Service (re)Installation
+
+```bash
+sudo ./setup.sh                             # install/update service (prompts for user)
+```
+
+**Gotcha**: `README.md` says `./install-service.sh` but the actual script is **`setup.sh`**.
+
+### Development / Maintenance
+
+```bash
+git log --oneline                           # review change history
+df -h /opt/server-mine                      # check disk space on deployment host
+```
+
+## Git History Context
+
+```
+488c1cb Merge: refactor/infra → master
+2138a90 feat: update docs
+13beefe feat: create scripts to handle server setup
+dc9131a refactor: mv .service to src/service
+3e8adcc refactor: remove server-dps and server-litv3 modpack files (huge cleanup: ~12000+ files)
+5615289 chore: remove useless backups
+7e75de8 refactor: ai refactor to decrease size
+b55da89 feat: update AGENTS.md
+6fe4f90 feat: add server maintenance documentation and agent config
+f30bf96 feat: create service to handle server autoexec
+b3a4be4 feat: add modpack Life In The Village 3
+5bbbcd9 feat: add modpack Desolate Planet Survival
+4c82641 Initial commit
+```
+
+The repo originally contained full modpack server directories (`server-dps/`, `server-litv3/`) with world data, configs, mods, etc. These were removed in commit `3e8adcc` (~12400+ files) and `5615289` (~5000 backup zips). What remains is the infrastructure layer only.
+
+## Gotchas & Non-Obvious Patterns
+
+1. **README has wrong script name**: Doc references `./install-service.sh`, the real installer is `setup.sh`.
+
+2. **`/opt/server-mine/src/modpack` does not exist in this repo**: It's the **deployment target** on the server. The modpack directory must be placed there separately. This repo only has the scripts and service template.
+
+3. **systemd + tmux pattern is essential**: The service uses `type=forking` with tmux. To interact with the Minecraft console you must `tmux attach -t mine-server`. The `ExecStop` sends `stop` via `tmux send-keys` — this is the only way to cleanly shut down a Minecraft server managed this way.
+
+4. **mise is the Java toolchain**: Not SDKMAN, not apt. `mise exec -- ./run.sh` in the service file means Java is available only within mise's context. Agents modifying Java versions need to update mise config, not system-level Java.
+
+5. **Setup is interactive**: `setup.sh` and `setup-mise-java.sh` both prompt for input (service user, Java install confirmation). Agents running these scripts need to handle or bypass prompts or pre-initialize variables.
+
+6. **No tests, no build system**: Pure shell scripts. No Makefile, no CI config, no test framework. Validate changes by running the scripts or checking their output.
+
+7. **`.ai-jail` restricts agent**: The `.ai-jail` file locks the AI agent to only the `crush` command (no network, no arbitrary file access). Modifications to `.ai-jail` require `ai-jail --clean --init` to regenerate.
+
+8. **`server_mine.service` User/Group is templated**: The file has `User=arstry` / `Group=arstry` as defaults, but `setup.sh` uses `sed` to replace them during installation. Never edit this directly for deployment — use setup.sh.
+
+9. **Depends on tailscaled**: The service `Requires=tailscaled.service`, meaning the server expects Tailscale networking. The Minecraft server won't start if Tailscale isn't running.
+
+## Conventions
+
+- **Shell scripts**: `set -e` at top (fail-fast). `$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)` for script-relative paths.
+- **Git commits**: Conventional commits (feat:, refactor:, chore:). PR merges use "Merge pull request #N from user/branch" style.
+- **No code comments in source**: Follow existing pattern — minimal comments, focus on "why" not "what".

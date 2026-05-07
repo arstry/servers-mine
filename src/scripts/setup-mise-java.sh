@@ -14,14 +14,8 @@ echo "Setting up Java with mise..."
 JAVA_VER=$(${SCRIPT_DIR}/detect-java-version.sh)
 echo "Java version detected: ${JAVA_VER}"
 
-# Extract major version if needed
-JAVA_MAJOR=$(echo "${JAVA_VER}" | cut -d. -f1)
-if [[ "${JAVA_MAJOR}" == "${JAVA_VER}" ]]; then
-    # Already major version
-    JRE_VERSION="${JAVA_MAJOR}"
-else
-    JRE_VERSION="${JAVA_MAJOR}"
-fi
+# Extract major version
+JRE_VERSION=$(echo "${JAVA_VER}" | cut -d. -f1)
 
 # Ask if user wants to install via "pacman-like" package
 read -p "Install Java ${JAVA_VER} as a local package (like pacman)? [y/N] " -n 1 -r
@@ -43,7 +37,7 @@ echo "Created .java-version file with Java ${JAVA_VER}"
 # Update mise.toml to use local Java
 if [[ -f "${MISE_TOML}" ]]; then
     if grep -qi "java" "${MISE_TOML}"; then
-        sed -i "s/java:[0-9.]\+/java:${JRE_VERSION}/" "${MISE_TOML}"
+        sed -i 's/^java\s*=.*/java = "'"${JRE_VERSION}"'"/' "${MISE_TOML}"
     else
         echo "" >> "${MISE_TOML}"
         echo "[tools]" >> "${MISE_TOML}"

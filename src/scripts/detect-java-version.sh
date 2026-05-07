@@ -30,5 +30,5 @@ if [[ -z "${JAVA_VER}" ]]; then
     fi
 fi
 
-echo "Detected Java version: ${JAVA_VER}"
+echo "Detected Java version: ${JAVA_VER}" >&2
 echo "${JAVA_VER}"

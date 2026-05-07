@@ -7,7 +7,7 @@ Forge Minecraft server management with mise/rust.
 ### 1. Install Service
 
 ```bash
-./install-service.sh
+sudo ./setup.sh
 ```
 
 This will:
@@ -24,7 +24,7 @@ The server runs from `/opt/server-mine/src/modpack` with `run.sh` located there.
 
 - **modpacks**: Stored in `src/modpack/`
 - **service**: Service configuration in `src/service/`
-- **scripts**: Automated scripts in `scripts/`
+- **scripts**: Automated scripts in `src/scripts/`
 
 ## Service Management
 
