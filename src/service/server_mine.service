@@ -7,7 +7,7 @@ After=network.target tailscaled.service
 Type=forking
 User=arstry
 Group=arstry
-WorkingDirectory=/opt/server-mine/server-dps
+WorkingDirectory=/opt/server-mine/src/modpack
 
 ExecStart=/usr/bin/tmux new-session -d -s mine-server '/usr/local/bin/mise exec -- ./run.sh'
 
