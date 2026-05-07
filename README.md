@@ -1,6 +1,6 @@
 # Server Mine
 
-Forge Minecraft server management with mise/rust.
+Forge Minecraft server management with shell scripts + systemd + tmux.
 
 ## Quick Start
 
@@ -16,15 +16,28 @@ This will:
 - Install the systemd service to `/etc/systemd/system/server_mine.service`
 - Enable and restart the server
 
+The installed service's `WorkingDirectory` is derived from `setup.sh`'s own
+location (e.g. `/opt/server-mine/src/modpack`). To use a different base path:
+
+```bash
+sudo ./setup.sh /opt/server-mine
+sudo BASE_DIR=/home/user/myserver ./setup.sh
+```
+
 ### 2. Server Access
 
-The server runs from `/opt/server-mine/src/modpack` with `run.sh` located there.
+The server runs in a **tmux** session named `mine-server`:
+
+```bash
+tmux attach -t mine-server
+```
 
 ## Architecture
 
-- **modpacks**: Stored in `src/modpack/`
-- **service**: Service configuration in `src/service/`
-- **scripts**: Automated scripts in `src/scripts/`
+- **scripts**: Server setup and Java detection in `src/scripts/`
+- **service**: systemd unit template in `src/service/`
+- **setup.sh**: Main installer — wires Java setup + installs systemd service
+- **modpacks**: Deployed separately to `$BASE_DIR/src/modpack/`
 
 ## Service Management
 
