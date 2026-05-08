@@ -2,15 +2,15 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-WORK_DIR="${SCRIPT_DIR}/../../.."
+WORK_DIR="${SCRIPT_DIR}/../.."
 MODPACK_DIR="${WORK_DIR}/src/modpack"
 MISE_INSTALLS="${HOME}/.local/share/mise/installs"
 
-echo "Detecting Java version for modpack..."
+echo "Detecting Java version for modpack..." >&2
 
 # Try to find Java version from common sources
 if [[ -f "${MODPACK_DIR}/run.sh" ]]; then
-    JAVA_VER=$(grep -i "java" "${MODPACK_DIR}/run.sh" | grep -oiE "[0-9]+\.[0-9]+(\.[0-9]+)?" | head -1)
+    JAVA_VER=$(grep -oiE "(JAVA_VERSION|java_version|JAVA_HOME)=\"?'?([0-9]+)" "${MODPACK_DIR}/run.sh" | grep -oiE "[0-9]+" | head -1)
 fi
 
 # Fallback: check mise.toml in project root
@@ -25,7 +25,7 @@ if [[ -z "${JAVA_VER}" ]]; then
     elif [[ -d "${MISE_INSTALLS}/25" ]]; then
         JAVA_VER="25"
     else
-        echo "Warning: Could not detect Java version, defaulting to 17"
+        echo "Warning: Could not detect Java version, defaulting to 17" >&2
         JAVA_VER="17"
     fi
 fi

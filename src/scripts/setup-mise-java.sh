@@ -2,7 +2,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-WORK_DIR="${SCRIPT_DIR}/../../.."
+WORK_DIR="${SCRIPT_DIR}/../.."
 MODPACK_DIR="${WORK_DIR}/src/modpack"
 MISE_DIR="${HOME}/.local/share/mise"
 JAVA_VERSION_FILE="${WORK_DIR}/.java-version"
@@ -18,8 +18,12 @@ echo "Java version detected: ${JAVA_VER}"
 JRE_VERSION=$(echo "${JAVA_VER}" | cut -d. -f1)
 
 # Ask if user wants to install via "pacman-like" package
-read -p "Install Java ${JAVA_VER} as a local package (like pacman)? [y/N] " -n 1 -r
-echo
+if [[ -t 0 ]]; then
+    read -p "Install Java ${JAVA_VER} as a local package (like pacman)? [y/N] " -n 1 -r
+    echo
+else
+    REPLY="n"
+fi
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
     echo "Skipping package installation. You can install later with: mise install java:${JAVA_VER}"
     echo "Continuing with existing Java setup. Exiting."

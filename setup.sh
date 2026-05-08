@@ -21,8 +21,10 @@ JAVA_VER=$("${SCRIPTS_DIR}/detect-java-version.sh")
 
 echo "=== Installing server_mine.service ==="
 
-# Prompt for service user
-read -p "Enter username to run the service under (default: arstry): " SERVICE_USER
+# Prompt for service user (skip if non-interactive)
+if [[ -t 0 ]]; then
+    read -p "Enter username to run the service under (default: arstry): " SERVICE_USER
+fi
 SERVICE_USER="${SERVICE_USER:-arstry}"
 
 # Generate service file with prompted user and base directory
