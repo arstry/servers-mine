@@ -6,7 +6,7 @@ WORK_DIR="${SCRIPT_DIR}/../.."
 MODPACK_DIR="${WORK_DIR}/src/modpack"
 MISE_INSTALLS="${HOME}/.local/share/mise/installs"
 
-echo "Detecting Java version for modpack..." >&2
+echo "Detecting Java... " >&2
 
 # Try to find Java version from common sources
 if [[ -f "${MODPACK_DIR}/run.sh" ]]; then
@@ -30,5 +30,5 @@ if [[ -z "${JAVA_VER}" ]]; then
     fi
 fi
 
-echo "Detected Java version: ${JAVA_VER}" >&2
+echo "Java ${JAVA_VER}" >&2
 echo "${JAVA_VER}"

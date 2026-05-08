@@ -15,11 +15,11 @@ if [[ ! -f "${SERVICE_SRC}" ]]; then
     exit 1
 fi
 
-echo "=== Setting up modpack and Java ==="
+echo "==> Setting up modpack and Java"
 JAVA_VER=$("${SCRIPTS_DIR}/detect-java-version.sh")
 "${SCRIPTS_DIR}/setup-mise-java.sh"
 
-echo "=== Installing server_mine.service ==="
+echo "==> Installing systemd service"
 
 # Prompt for service user (skip if non-interactive)
 if [[ -t 0 ]]; then
@@ -39,7 +39,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable server_mine.service
 sudo systemctl restart server_mine.service
 
-echo "=== Service installed and restarted successfully ==="
+echo "==> Service installed and restarted"
 echo "Service running as: ${SERVICE_USER}"
 echo "Java version: ${JAVA_VER}"
 echo "Working directory: ${WORKING_DIR}"
