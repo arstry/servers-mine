@@ -22,12 +22,12 @@ else
     REPLY="n"
 fi
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-    echo "Skip — Java already set up. Run: mise install java:${JAVA_VER}"
+    echo "Skip — Java already set up. Run: mise install java@${JAVA_VER}"
     exit 0
 fi
 
 echo "Installing via mise..."
-mise install java:${JAVA_VER}
+mise install java@${JAVA_VER}
 echo "Installed."
 
 # Create/update .java-version file
