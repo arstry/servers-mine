@@ -1,0 +1,1201 @@
+{
+  "name": "Under Pressure",
+  "quests": [
+    {
+      "uuid": "0426c2a9-95cc-49a7-a6c6-742dad08b167",
+      "name": {
+        "text": "Tools of the Trade",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "There are many useful gadgets you can make using compressed air. You can consult the documentation for the full list, but these are some of the most useful tools.",
+        "isTranslationKey": false
+      },
+      "x": 254,
+      "y": 120,
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_wrench",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Charging Station",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Many Pneumaticcraft gadgets will need to be charged with compressed air before they can be used. Be careful though, the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the network it will actually discharge.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:charging_station",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Pneumatic Wrench",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The pneumatic wrench allows rotation of PneumaticCraft blocks and opening/closing pressure tubes by right clicking, and instant dismantling by shift+right clicking. It must be charged in a charging station.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pneumatic_wrench",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "GPS Tool",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Some of the PneumaticCraft gadgets require selecting specific coordinates to use them. For that, you will need a GPS tool. Right click on a block to set the tool to those coordinates. Right click in the air to modify the coodinates. Does not need charging.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:gps_tool",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Air Cannon",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The Air Cannon will shoot an item to a specific location. Use a GPS Tool with the coordinates selected to lock the cannon on target (the GPS Tool can then be removed). By default, a redstone signal will cause the cannon to fire. It could be useful for long range item transport or, with the right upgrade, as a weapon.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:air_cannon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3f8636bd-b018-4fb3-a0d9-19800abb507f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:dispenser_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:item_life_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
+      "name": {
+        "text": "Raising the Bar",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You may have noticed some machines require more pressure than an air compressor can provide. To get around that, you\u0027ll have to upgrade.",
+        "isTranslationKey": false
+      },
+      "x": 286,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:advanced_air_compressor",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Advanced Pressure Tubes",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Advanced pressure tubes have a capacity of 20 bar, up from the 5 bar capacity of normal pressure tubes. They can also be upgraded for further functionality.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_pressure_tube",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Advanced Air Compressor",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The advanced air compressor can generate pressure at a faster rate and up to a larger capacity than the standard air compressor.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_air_compressor",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7ddff832-1aee-4299-bb6e-570e437fc74a",
+        "0426c2a9-95cc-49a7-a6c6-742dad08b167"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:energy_cell_frame",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9b956bee-4f0e-4a17-8e06-d895c78c171c",
+      "name": {
+        "text": "Better, Faster, Stronger",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Many pneumatic machines can have upgrades installed. The most broadly useful one is the speed upgrade, which can increase processing speed in most machines.",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 129,
+      "icon": {
+        "id": "pneumaticcraft:speed_upgrade",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Speed upgrades need lubricant, which is made from diesel and redstone. You\u0027ll likely want a lot of it.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:speed_upgrade",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c86b6b2b-d725-4e92-8635-06b915d4f234"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:speed_upgrade",
+          "Count": 4
+        },
+        {
+          "id": "pneumaticcraft:glycerol",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:range_upgrade",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:volume_upgrade",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:dispenser_upgrade",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "06e0f31e-c084-4157-9890-0989c2908b66",
+      "name": {
+        "text": "One Word... Plastics",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Once you have production of refined oil, you can begin to make plastic, a vital ingredient for more advanced manufacturing.",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 75,
+      "icon": {
+        "id": "pneumaticcraft:thermopneumatic_processing_plant",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Thermopneumatic Plant",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Plastic is made in a Thermopneumatic Processing Plant, by combining LPG and coal using pressure and heat.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:thermopneumatic_processing_plant",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Plastic Processing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The processing plant produces liquid plastic, which can be flash cooled into plastic sheets by dumping the bucket on the ground. For simple automation of this process, you can use a casting table or a blast chiller.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1",
+      "name": {
+        "text": "Refining Oil",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Now that you can pump oil out of the depths, you can work on refining it to get plastic, an important resource for making circuits and machinery.",
+        "isTranslationKey": false
+      },
+      "x": 110,
+      "y": 75,
+      "icon": {
+        "id": "pneumaticcraft:refinery",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Refinery Equipment",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Put the 4 refinery outputs in a vertical stack above the refinery controler. Use a resistive heater or vortex tube next to the controller to keep it hot enough to run.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:refinery",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:refinery_output",
+                "Count": 1
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Oil Production",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "When your refinery is running, it will slowly produce refined oils based on how hot the controller is kept.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:diesel_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:kerosene_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:gasoline_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:lpg_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d870404e-3382-4dc8-91ea-4db728f38060"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:thermal_lagging",
+          "Count": 24
+        },
+        {
+          "id": "pneumaticcraft:heat_sink",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0d52820c-7a62-4947-b742-2253063f2b13",
+      "name": {
+        "text": "Etch-A-Sketch",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "After exposing the empty PCB, you will have to etch the circuit boards with etching acid.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:unassembled_pcb",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Etching Tank",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "An etching tank is used to etch the PCB with etching acid. The etching acid is made by combining various caustic materials in a pressure chamber.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:etching_tank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:etching_acid_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Etching",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Place exposed PCBs in an etching tank to etch them. If a PCB is not completely exposed, it has a chance of failure, but failed PCBs can be smelted and exposed again.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:unassembled_pcb",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f240d7c3-3352-4648-9fd2-d545cb85aef8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:empty_pcb",
+          "Count": 1,
+          "tag": "{\"pneumaticcraft:uv_exposure\":100}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3f8636bd-b018-4fb3-a0d9-19800abb507f",
+      "name": {
+        "text": "Plug and Play",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The final step of creating a PCB is assembling it.",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:printed_circuit_board",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Simply craft together your unassembled PCB with 2 capacitors and 2 transistors to finish the process.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:printed_circuit_board",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0d52820c-7a62-4947-b742-2253063f2b13"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:unassembled_pcb",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:capacitor",
+          "Count": 8
+        },
+        {
+          "id": "pneumaticcraft:transistor",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ddff832-1aee-4299-bb6e-570e437fc74a",
+      "name": {
+        "text": "Assembly Line",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Assembling a PCB by hand is extremely time consuming. Luckily, the process can be simplified when you have the technology. With an assembly line set up, you can automatically handle the etching and exposing to skip right from an empty PCB to an unassembled one.",
+        "isTranslationKey": false
+      },
+      "x": 254,
+      "y": 84,
+      "icon": {
+        "id": "pneumaticcraft:assembly_controller",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "1. Place the machines in a square with the two IO units at the top right and top left.\n2. Place the laser on the bottom left and the platform to its right.\n3. Put a chest above either io unit and the assembly controller on any side of the square.\n4. Set the output of one of the IO units using a pneumatic wrench.\n5. Provide pressurized air for the controller and insert the Assembly Program: Laser.\n\nWhen the setup is complete, you can place empty PCBs in the chest to process. The input unit will move it to the platform, the laser will etch the PCB pattern onto it, and the output unit will return it to the chest. You can increase the processing speed with speed upgrades.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_io_unit_export",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_io_unit_export",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_laser",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_platform",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3f8636bd-b018-4fb3-a0d9-19800abb507f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:assembly_program_laser",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3e4732d9-29f9-493b-83fb-96af85b5390d",
+      "name": {
+        "text": "Pressure Cooker",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Now that you can generate pressurized air, you can start putting it to use. Construct a pressure chamber to start crafting with compressed air.",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_wall",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can build a 3x3x3 pressure chamber with 1 pressure chamber valve and 25 pressure chamber blocks (either walls or windows). Build a 3x3x3 cube with the center block missing. One of the blocks adjacent to the center will be the pressure chamber valve.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_valve",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_wall",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_glass",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "794f0a0c-359a-442f-87a2-217b2aeae130"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f240d7c3-3352-4648-9fd2-d545cb85aef8",
+      "name": {
+        "text": "Blinded By The Light",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Once you have an empty PCB, the next step is to expose it to ultraviolet light.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:empty_pcb",
+        "Count": 1,
+        "tag": "{\"pneumaticcraft:uv_exposure\":100}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Light Box",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The UV light box is encoded with the blueprint for a PCB. When an empty PCB is placed inside and it is powered by compressed air, the PCB will be exposed to ultraviolet light.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:uv_light_box",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Exposing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The exposure process will take a long time. You can technically remove the empty PCB from the light box before it is completed, but then it will have chance of failure during the final step. You can install speed upgrades to reduce the wait time or make more machines to speed up bulk processing.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:empty_pcb",
+                "Count": 1,
+                "tag": "{\"pneumaticcraft:uv_exposure\":100}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "48b64a83-4801-48b2-a4f3-c61106fc344b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:empty_pcb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48b64a83-4801-48b2-a4f3-c61106fc344b",
+      "name": {
+        "text": "Hot Off the Presses",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Now that you have a pressure chamber, you can make all kinds of advanced materials. The most important of these advanced recipes is the Printed Circuit Board, which is an essential component for high-tech crafting. To get started, you\u0027ll need some plastic, either refined from oil or melted from scrap found in the ruins.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:empty_pcb",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Plastic",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "To start making PCBs, you\u0027ll need some plastic. There are a few methods of acquiring it, but it typically involves refining oil or scavenging for plastic scrap in cities. Once you found or made some plastic, you can start making your first PCB.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Circuit Basics",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Once you have the resources, you can start making your first PCB. Use the pressure chamber to combine a peice of plastic with 2 redstone torches and 3 conductive nuggets to get the empty PCB. You will also need 2 capacitors and 2 transistors, which are made from plastic, 3 conductive nuggets, and either an adhesive to make capacitors or redstone dust to make transistors.\n\nTo craft using the pressure chamber, break one of the middle blocks, drop your ingredients in, and place the block back down. Once you reach the required pressure level again, your items will be crafted and you can break the block again to remove them from the chamber. You will lose some whenever the pressure chamber is opened, but you can improve upon the process with a pressure chamber interface, which can do the opening/closing for you.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:empty_pcb",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:capacitor",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:transistor",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e4732d9-29f9-493b-83fb-96af85b5390d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:pcb_blueprint",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:glowstone",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "794f0a0c-359a-442f-87a2-217b2aeae130",
+      "name": {
+        "text": "Heating Up",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "With compressed iron, you can start working with compressed air.",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:pressure_tube",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Pressure Tube",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The pressure tube is the most basic component for using compressed air. You must use these tubes to transfer the air around. The longer the tubes extend, the more pressure will be lost. Try to keep things close to one another to avoid depressurizing. Make sure your pressure tubes don\u0027t have any open ends or you will leak a lot of pressure.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_tube",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Air Compression",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The air compressor will generate compressed air when provided with solid fuel. Charcoal is a good starting fuel. Be careful not to generate too much pressure though. Anything over 5 bars of pressure risks an explosion. You can enable and disable the compressor with a redstone signal if you\u0027d like, which can later be automated to automatically turn it off when close to overloading.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:air_compressor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d7f59dff-62b2-426b-a5eb-a27f6bd4a4cb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:pressure_tube",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7f59dff-62b2-426b-a5eb-a27f6bd4a4cb",
+      "name": {
+        "text": "Playing With Fire",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "When you have your basic survival taken care of, you can start developing more advanced technology. The first step of that process will be creating a new kind of metal.",
+        "isTranslationKey": false
+      },
+      "x": 30,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Step 1",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Start by gathering some iron ingots.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Step 2",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Now, you\u0027ll need some TNT. You should have the gunpowder by now (either from sifting or from creepers if you\u0027re brave). To get sand, break cobblestone with a hammer to make gravel, then break that to make sand.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:tnt",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Step 3",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "For the final step, you should move far away from your base. Drop some iron on the ground, place the TNT next to it, ignite the TNT, and then stand far away. When the dust settles, you should have some compressed iron.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:ingot_iron_compressed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e8919b5b-fd58-4907-bcde-3d9e39bba7b7",
+      "name": {
+        "text": "Measure Twice, Cut Once",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "A pressure gauge can measure the amount of pressure in a pneumatic system. With some clever wiring, you can automatically turn off your air compressors when the system has too much pressure.",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 129,
+      "icon": {
+        "id": "pneumaticcraft:pressure_gauge_module",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "When placed on a pressure tube, the pressure gauge emits a redstone signal equal to double the detected pressure. You can use that to disable compressors when the system gets close to overloading.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_gauge_module",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "794f0a0c-359a-442f-87a2-217b2aeae130"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:repeater",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d870404e-3382-4dc8-91ea-4db728f38060",
+      "name": {
+        "text": "Black Gold",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Subsurface scanning has detected an abundance of oil deep under the surface of the planet. With a bit of pressure, you should be able to pump oil from the depths.",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 75,
+      "icon": {
+        "id": "pneumaticcraft:gas_lift",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Gas Lift",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "You\u0027ll start with a gas lift and some drill pipes. Provide the gas lift with some pressure and insert the drill pipes, and it will start digging down, automatically placing the pipes as it mines. The deeper it drills, the more drill pipes and pressure it will need. You can reduce this cost by placing your pumps deeper underground.  ",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:gas_lift",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:drill_pipe",
+                "Count": 1
+              },
+              "required": 16,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Crude Oil",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "When your pump reaches the oil at the bottom of the world (roughly 120 meters down), it will start extracting.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:oil_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "794f0a0c-359a-442f-87a2-217b2aeae130"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:drill_pipe",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c86b6b2b-d725-4e92-8635-06b915d4f234",
+      "name": {
+        "text": "Blowing Off Steam",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Breaking a block whenever you need to use the pressure chamber will waste a lot of air. The pressure chamber interface acts as an airlock, inserting or extracting items into the chamber.",
+        "isTranslationKey": false
+      },
+      "x": 110,
+      "y": 129,
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_interface",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You will need at least two interfaces; one set to input and one set to output. Make sure both are exposed to the air inside the chamber. Once set up, you can use item conduits to move items in and out of the chamber.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_interface",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e4732d9-29f9-493b-83fb-96af85b5390d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:hopper",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "Guide to pneumatic technologies for manipulating and utilizing compressed air.",
+    "isTranslationKey": false
+  }
+}
