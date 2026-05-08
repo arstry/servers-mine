@@ -17,22 +17,52 @@ echo "    Full version   : ${JAVA_VER}"
 JRE_VERSION=$(echo "${JAVA_VER}" | cut -d. -f1)
 echo "    Major version  : ${JRE_VERSION}"
 
-# Ask if user wants to install via "pacman-like" package
+# Ask if user wants to install the detected version
 if [[ -t 0 ]]; then
     read -p "    Install Java ${JAVA_VER} now? [y/N] " -n 1 -r
     echo
 else
     REPLY="n"
 fi
-if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-    echo "    Skipped installation."
-    echo "    To install manually, run: mise install java@${JAVA_VER}"
-    exit 0
-fi
 
-echo "    Running: mise install java@${JAVA_VER}"
-mise install java@${JAVA_VER}
-echo "    Java ${JAVA_VER} installed successfully"
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+    # Option A: Install the detected version
+    echo "    Running: mise install java@${JAVA_VER}"
+    mise install java@${JAVA_VER}
+    echo "    Java ${JAVA_VER} installed successfully"
+else
+    # Option B: User skipped — show installed versions, offer to pick one
+    echo "    Skipped installation."
+    echo ""
+    echo "    Installed Java versions via mise:"
+    mise ls java 2>/dev/null | while IFS= read -r line; do
+        echo "      ${line}"
+    done
+    echo ""
+
+    if [[ -t 0 ]]; then
+        read -p "    Use an installed version instead? [y/N] " -n 1 -r
+        echo
+    else
+        REPLY="n"
+    fi
+
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        echo "    To install manually, run: mise install java@${JAVA_VER}"
+        exit 0
+    fi
+
+    echo ""
+    if [[ -t 0 ]]; then
+        read -p "    Enter the installed Java version to use (e.g. 17.0.9): " CHOICE_JAVA_VER
+    else
+        echo "    Non-interactive: cannot select version, exiting"
+        exit 0
+    fi
+    JAVA_VER="${CHOICE_JAVA_VER}"
+    JRE_VERSION=$(echo "${JAVA_VER}" | cut -d. -f1)
+    echo "    Using Java ${JAVA_VER} (major ${JRE_VERSION})"
+fi
 
 # Create/update .java-version file
 echo "java:${JAVA_VER}" > "${JAVA_VERSION_FILE}"
