@@ -8,84 +8,90 @@ MISE_DIR="${HOME}/.local/share/mise"
 JAVA_VERSION_FILE="${WORK_DIR}/.java-version"
 MISE_TOML="${WORK_DIR}/mise.toml"
 
-echo "==> Setting up Java via mise"
+# Colors — only when stdout is a terminal
+if [[ -t 1 ]]; then
+    G=$'\033[0;32m' Y=$'\033[1;33m' C=$'\033[0;36m' B=$'\033[1m' D=$'\033[2m' R=$'\033[0m'
+else
+    G='' Y='' C='' B='' D='' R=''
+fi
+
+echo "${B}==> Setting up Java via mise${R}"
 
 JAVA_VER=$(${SCRIPT_DIR}/detect-java-version.sh)
-echo "    Full version   : ${JAVA_VER}"
+echo "  ${C}·${R} Full version  : ${B}${JAVA_VER}${R}"
 
-# Extract major version
 JRE_VERSION=$(echo "${JAVA_VER}" | cut -d. -f1)
-echo "    Major version  : ${JRE_VERSION}"
+echo "  ${C}·${R} Major version : ${B}${JRE_VERSION}${R}"
+echo ""
 
-# Ask if user wants to install the detected version
 if [[ -t 0 ]]; then
-    read -p "    Install Java ${JAVA_VER} now? [y/N] " -n 1 -r
+    printf "  Install ${B}Java ${JAVA_VER}${R} now? ${D}[y/N]${R} "
+    read -n 1 -r
     echo
 else
     REPLY="n"
 fi
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-    # Option A: Install the detected version
-    echo "    Running: mise install java@${JAVA_VER}"
+    echo "  ${C}·${R} Running: ${D}mise install java@${JAVA_VER}${R}"
     mise install java@${JAVA_VER}
-    echo "    Java ${JAVA_VER} installed successfully"
+    echo "  ${G}✓${R} Java ${B}${JAVA_VER}${R} installed"
 else
-    # Option B: User skipped — show installed versions, offer to pick one
-    echo "    Skipped installation."
+    echo "  ${Y}·${R} Skipped installation."
     echo ""
-    echo "    Installed Java versions via mise:"
+    echo "  ${C}Installed Java versions via mise:${R}"
     mise ls java 2>/dev/null | while IFS= read -r line; do
-        echo "      ${line}"
+        echo "    ${D}${line}${R}"
     done
     echo ""
 
     if [[ -t 0 ]]; then
-        read -p "    Use an installed version instead? [y/N] " -n 1 -r
+        printf "  Use an installed version instead? ${D}[y/N]${R} "
+        read -n 1 -r
         echo
     else
         REPLY="n"
     fi
 
     if [[ ! $REPLY =~ ^[Yy]$ ]]; then
-        echo "    To install manually, run: mise install java@${JAVA_VER}"
+        echo "  ${Y}·${R} To install manually: ${D}mise install java@${JAVA_VER}${R}"
         exit 0
     fi
 
     echo ""
     if [[ -t 0 ]]; then
-        read -p "    Enter the installed Java version to use (e.g. 17.0.9): " CHOICE_JAVA_VER
+        printf "  Enter the installed Java version to use ${D}(e.g. 17.0.9)${R}: "
+        read CHOICE_JAVA_VER
     else
-        echo "    Non-interactive: cannot select version, exiting"
+        echo "  ${Y}⚠${R} Non-interactive: cannot select version, exiting"
         exit 0
     fi
     JAVA_VER="${CHOICE_JAVA_VER}"
     JRE_VERSION=$(echo "${JAVA_VER}" | cut -d. -f1)
-    echo "    Using Java ${JAVA_VER} (major ${JRE_VERSION})"
+    echo "  ${C}·${R} Using Java ${B}${JAVA_VER}${R} (major ${JRE_VERSION})"
 fi
 
-# Create/update .java-version file
+echo ""
 echo "java:${JAVA_VER}" > "${JAVA_VERSION_FILE}"
-echo "    Wrote ${JAVA_VERSION_FILE}"
+echo "  ${G}✓${R} Wrote ${D}${JAVA_VERSION_FILE}${R}"
 
-# Update mise.toml to use local Java
 if [[ -f "${MISE_TOML}" ]]; then
     if grep -qi "java" "${MISE_TOML}"; then
         sed -i 's/^java\s*=.*/java = "'"${JRE_VERSION}"'"/' "${MISE_TOML}"
-        echo "    Updated java entry in ${MISE_TOML}"
+        echo "  ${G}✓${R} Updated java entry in ${D}${MISE_TOML}${R}"
     else
         echo "" >> "${MISE_TOML}"
         echo "[tools]" >> "${MISE_TOML}"
         echo "java = \"${JRE_VERSION}\"" >> "${MISE_TOML}"
-        echo "    Added java entry to ${MISE_TOML}"
+        echo "  ${G}✓${R} Added java entry to ${D}${MISE_TOML}${R}"
     fi
-    echo "    Updated ${MISE_TOML}"
 else
     cat > "${MISE_TOML}" <<EOF
 [tools]
 java = "${JRE_VERSION}"
 EOF
-    echo "    Created ${MISE_TOML} with java = \"${JRE_VERSION}\""
+    echo "  ${G}✓${R} Created ${D}${MISE_TOML}${R}"
 fi
 
-echo "==> Java setup complete (version ${JAVA_VER})"
+echo ""
+echo "${G}==> Java setup complete${R} (version ${B}${JAVA_VER}${R})"

@@ -6,73 +6,84 @@ SCRIPTS_DIR="${SCRIPT_DIR}/src/scripts"
 SERVICE_SRC="${SCRIPT_DIR}/src/service/server_mine.service"
 SERVICE_DEST="/etc/systemd/system/server_mine.service"
 
-# Determine base installation directory — defaults to where setup.sh lives,
-# can be overridden via env var or first argument
 BASE_DIR="${1:-${BASE_DIR:-${SCRIPT_DIR}}}"
 
-echo "========================================"
-echo "  Server-Mine Setup"
-echo "========================================"
+# Colors — only when stdout is a terminal
+if [[ -t 1 ]]; then
+    G=$'\033[0;32m' Y=$'\033[1;33m' C=$'\033[0;36m' B=$'\033[1m' D=$'\033[2m' R=$'\033[0m'
+else
+    G='' Y='' C='' B='' D='' R=''
+fi
+
 echo ""
-echo "    Script dir  : ${SCRIPT_DIR}"
-echo "    Base dir    : ${BASE_DIR}"
-echo "    Service src : ${SERVICE_SRC}"
+echo "${B}╔══════════════════════════════════════╗${R}"
+echo "${B}║          Server-Mine Setup           ║${R}"
+echo "${B}╚══════════════════════════════════════╝${R}"
+echo ""
+echo "  ${C}·${R} Script dir  : ${D}${SCRIPT_DIR}${R}"
+echo "  ${C}·${R} Base dir    : ${D}${BASE_DIR}${R}"
+echo "  ${C}·${R} Service src : ${D}${SERVICE_SRC}${R}"
 echo ""
 
 if [[ ! -f "${SERVICE_SRC}" ]]; then
-    echo "Error: Service file not found at ${SERVICE_SRC}"
+    echo "  ${Y}✗${R} Service file not found at ${SERVICE_SRC}" >&2
     exit 1
 fi
 
-# ── Step 1: Java setup ──
-echo "── 1. Java Setup ──"
+# ── Step 1: Java setup ──────────────────────────────────────────────────────
+echo "${B}── 1. Java Setup ──────────────────────────────────────────────────────${R}"
+echo ""
 JAVA_VER=$("${SCRIPTS_DIR}/detect-java-version.sh")
 "${SCRIPTS_DIR}/setup-mise-java.sh"
 echo ""
 
-# ── Step 2: Service user ──
-echo "── 2. Service User ──"
+# ── Step 2: Service user ────────────────────────────────────────────────────
+echo "${B}── 2. Service User ─────────────────────────────────────────────────────${R}"
+echo ""
 if [[ -t 0 ]]; then
-    read -p "    Enter username to run the service under (default: arstry): " SERVICE_USER
+    printf "  Enter username to run the service under ${D}(default: arstry)${R}: "
+    read SERVICE_USER
 fi
 SERVICE_USER="${SERVICE_USER:-arstry}"
-echo "    Service user : ${SERVICE_USER}"
+echo "  ${G}✓${R} Service user : ${B}${SERVICE_USER}${R}"
 echo ""
 
-# ── Step 3: Install systemd service ──
-echo "── 3. Systemd Service ──"
+# ── Step 3: Systemd service ─────────────────────────────────────────────────
+echo "${B}── 3. Systemd Service ──────────────────────────────────────────────────${R}"
+echo ""
 WORKING_DIR="${BASE_DIR}/src/modpack"
-echo "    Working directory : ${WORKING_DIR}"
-echo "    Destination       : ${SERVICE_DEST}"
+echo "  ${C}·${R} Working directory : ${D}${WORKING_DIR}${R}"
+echo "  ${C}·${R} Destination       : ${D}${SERVICE_DEST}${R}"
+echo ""
 
 cat "${SERVICE_SRC}" \
     | sed "s|^User=.*|User=${SERVICE_USER}|" \
     | sed "s|^Group=.*|Group=${SERVICE_USER}|" \
     | sed "s|^WorkingDirectory=.*|WorkingDirectory=${WORKING_DIR}|" \
     | sudo tee "${SERVICE_DEST}" > /dev/null
-echo "    Rendered service file installed"
+echo "  ${G}✓${R} Service file installed"
 
 sudo systemctl daemon-reload
-echo "    systemd daemon reloaded"
+echo "  ${G}✓${R} systemd daemon reloaded"
 
 sudo systemctl enable server_mine.service
-echo "    server_mine.service enabled"
+echo "  ${G}✓${R} server_mine.service enabled"
 
 sudo systemctl restart server_mine.service
-echo "    server_mine.service restarted"
+echo "  ${G}✓${R} server_mine.service restarted"
 echo ""
 
-# ── Summary ──
-echo "========================================"
-echo "  Setup Complete"
-echo "========================================"
+# ── Summary ─────────────────────────────────────────────────────────────────
+echo "${G}╔══════════════════════════════════════╗${R}"
+echo "${G}║           Setup Complete             ║${R}"
+echo "${G}╚══════════════════════════════════════╝${R}"
 echo ""
-echo "    Java             : ${JAVA_VER}"
-echo "    Service user     : ${SERVICE_USER}"
-echo "    Working directory: ${WORKING_DIR}"
+echo "  ${C}·${R} Java              : ${B}${JAVA_VER}${R}"
+echo "  ${C}·${R} Service user      : ${B}${SERVICE_USER}${R}"
+echo "  ${C}·${R} Working directory : ${B}${WORKING_DIR}${R}"
 echo ""
-echo "  Useful commands:"
-echo "    systemctl status server_mine"
-echo "    tmux attach -t mine-server"
-echo "    journalctl -u server_mine -f"
+echo "  ${D}Useful commands:${R}"
+echo "    ${D}systemctl status server_mine${R}"
+echo "    ${D}tmux attach -t mine-server${R}"
+echo "    ${D}journalctl -u server_mine -f${R}"
 echo ""
