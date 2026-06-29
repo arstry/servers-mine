@@ -1,0 +1,16 @@
+{
+    
+    "name": "rebel.gun.t70th.name",
+   
+    "display": "rebel:t70th_display",
+
+    "data": "rebel:t70th_data",
+
+    "tooltip": "rebel.gun.t70th.desc",
+   
+    "type": "rpg",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

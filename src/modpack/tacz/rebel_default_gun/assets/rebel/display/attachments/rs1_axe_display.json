@@ -1,0 +1,10 @@
+{
+  "slot": "rebel:attachment/slot/rs1_axe",
+  "model": "rebel:attachment/rs1_axe",
+  "texture": "rebel:attachment/uv/rs1_axe",
+  "show_muzzle": true,
+  "sounds": {
+    "install": "tacz:attachments/bayonet_install",
+    "uninstall": "tacz:attachments/bayonet_uninstall"
+  }
+}

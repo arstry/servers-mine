@@ -1,0 +1,22 @@
+
+#General settings
+[general]
+	#The red component of the hilight color one
+	#Range: 0 ~ 255
+	hilightR1 = 255
+	#The green component of the hilight color one
+	#Range: 0 ~ 255
+	hilightG1 = 255
+	#The blue component of the hilight color one
+	#Range: 0 ~ 255
+	hilightB1 = 255
+	#The red component of the hilight color two
+	#Range: 0 ~ 255
+	hilightR2 = 128
+	#The green component of the hilight color two
+	#Range: 0 ~ 255
+	hilightG2 = 128
+	#The blue component of the hilight color two
+	#Range: 0 ~ 255
+	hilightB2 = 128
+

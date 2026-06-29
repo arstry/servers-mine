@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "minecraft:planks"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rubber"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:sniper_assembly_parts"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:springfield1873"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

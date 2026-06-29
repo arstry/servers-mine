@@ -1,0 +1,51 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 954,
+				"texture_height": 318,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-0.5, 2.5, -19.75],
+							"size": [1, 12.75, 38],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [954, 318]},
+								"west": {"uv": [954, 0], "uv_size": [-954, 318]}
+							}
+						}
+					]
+				},
+				{
+					"name": "positioning",
+					"pivot": [3, 4, 0]
+				},
+				{
+					"name": "thirdperson_hand",
+					"parent": "positioning",
+					"pivot": [0, 7, 1]
+				},
+				{
+					"name": "ground",
+					"parent": "positioning",
+					"pivot": [0, 2, -1]
+				},
+				{
+					"name": "fixed",
+					"parent": "positioning",
+					"pivot": [0, 8, -1],
+					"rotation": [0, 90, 0]
+				}
+			]
+		}
+	]
+}

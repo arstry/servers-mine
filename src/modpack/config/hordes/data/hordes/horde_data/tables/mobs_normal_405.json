@@ -1,0 +1,42 @@
+[
+	{
+		"entity": "zombie_extreme:infected_military",
+		"weight": 25
+	},
+	{
+		"entity": "undead_revamp2:bigsucker",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "zombie_extreme:inflated",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "undead_revamp2:clogger",
+		"weight": 3,
+		"min_spawns": 1,
+		"max_spawns": 2
+	},
+	{
+		"entity": "zombie_extreme:zero_patient",
+		"weight": 3,
+		"min_spawns": 1,
+		"max_spawns": 2
+	},
+	{
+		"entity": "zombie_extreme:rat_king",
+		"weight": 3,
+		"min_spawns": 1,
+		"max_spawns": 2
+	},
+	{
+		"entity": "undead_revamp2:theheavy",
+		"weight": 3,
+		"min_spawns": 1,
+		"max_spawns": 2
+	}
+]

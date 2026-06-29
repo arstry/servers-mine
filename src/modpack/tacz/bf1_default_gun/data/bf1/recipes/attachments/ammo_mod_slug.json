@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "deceasedcraft:attachment_assembly_parts"
+      },
+      "count": 6
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "bf1:ammo_mod_slug"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,765 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.cut_block_type]
+
+		[types.cut_block_type.bbb]
+			polished_stone = true
+			stone_tile = true
+			oak_beam = true
+			spruce_beam = true
+			birch_beam = true
+			jungle_beam = true
+			acacia_beam = true
+			dark_oak_beam = true
+			crimson_beam = true
+			warped_beam = true
+			mangrove_beam = true
+			bamboo_beam = true
+			cherry_beam = true
+
+		[types.cut_block_type.biomesoplenty]
+			white_sandstone = true
+			smooth_white_sandstone = true
+			cut_white_sandstone = true
+			orange_sandstone = true
+			smooth_orange_sandstone = true
+			cut_orange_sandstone = true
+			black_sandstone = true
+			smooth_black_sandstone = true
+			cut_black_sandstone = true
+			brimstone_brick = true
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.cut_block_type.immersiveengineering]
+			sheetmetal_copper = true
+			sheetmetal_aluminum = true
+			storage_aluminum = true
+			sheetmetal_lead = true
+			storage_lead = true
+			sheetmetal_silver = true
+			storage_silver = true
+			sheetmetal_nickel = true
+			storage_nickel = true
+			sheetmetal_uranium = true
+			storage_uranium = true
+			sheetmetal_constantan = true
+			storage_constantan = true
+			sheetmetal_electrum = true
+			storage_electrum = true
+			sheetmetal_steel = true
+			storage_steel = true
+			sheetmetal_iron = true
+			sheetmetal_gold = true
+			treated_wood_horizontal = true
+			treated_wood_vertical = true
+			treated_wood_packaged = true
+			sheetmetal_colored_white = true
+			sheetmetal_colored_orange = true
+			sheetmetal_colored_magenta = true
+			sheetmetal_colored_light_blue = true
+			sheetmetal_colored_yellow = true
+			sheetmetal_colored_lime = true
+			sheetmetal_colored_pink = true
+			sheetmetal_colored_gray = true
+			sheetmetal_colored_light_gray = true
+			sheetmetal_colored_cyan = true
+			sheetmetal_colored_purple = true
+			sheetmetal_colored_blue = true
+			sheetmetal_colored_brown = true
+			sheetmetal_colored_green = true
+			sheetmetal_colored_red = true
+			sheetmetal_colored_black = true
+			steel_scaffolding_standard = true
+			alu_scaffolding_standard = true
+			steel_scaffolding_grate_top = true
+			alu_scaffolding_grate_top = true
+			steel_scaffolding_wooden_top = true
+			alu_scaffolding_wooden_top = true
+			cokebrick = true
+			blastbrick = true
+			blastbrick_reinforced = true
+			slag_brick = true
+			clinker_brick = true
+			coke = true
+			hempcrete = true
+			hempcrete_brick = true
+			concrete = true
+			concrete_brick = true
+			concrete_tile = true
+			concrete_leaded = true
+			insulating_glass = true
+			alloybrick = true
+
+		[types.cut_block_type.naturalist]
+			shellstone = true
+			shellstone_brick = true
+			cut_shellstone = true
+			smooth_shellstone = true
+
+		[types.cut_block_type.redeco]
+			polished_oak = true
+			polished_spruce = true
+			polished_birch = true
+			polished_jungle = true
+			polished_dark_oak = true
+			polished_acacia = true
+			polished_crimson = true
+			polished_warped = true
+			polished_mangrove = true
+			polished_cherry = true
+			polished_bamboo = true
+
+		[types.cut_block_type.vinery]
+			dark_cherry = true
+			loam = true
+			coarse_dirt = true
+			dirt = true
+			grass = true
+			dirt_path = true
+
+		[types.cut_block_type.embellishcraft]
+			basalt = true
+			slate = true
+			marble = true
+			gneiss = true
+			jade = true
+			larvikite = true
+			basalt_cobblestone = true
+			slate_cobblestone = true
+			marble_cobblestone = true
+			gneiss_cobblestone = true
+			jade_cobblestone = true
+			larvikite_cobblestone = true
+			basalt_cobblestone_bricks = true
+			slate_cobblestone_bricks = true
+			marble_cobblestone_bricks = true
+			gneiss_cobblestone_bricks = true
+			jade_cobblestone_bricks = true
+			larvikite_cobblestone_bricks = true
+			smooth_basalt = true
+			smooth_slate = true
+			smooth_marble = true
+			smooth_gneiss = true
+			smooth_jade = true
+			smooth_larvikite = true
+			polished_basalt = true
+			polished_slate = true
+			polished_marble = true
+			polished_gneiss = true
+			polished_jade = true
+			polished_larvikite = true
+			basalt_paving = true
+			slate_paving = true
+			marble_paving = true
+			gneiss_paving = true
+			jade_paving = true
+			larvikite_paving = true
+			basalt_tiles = true
+			slate_tiles = true
+			marble_tiles = true
+			gneiss_tiles = true
+			jade_tiles = true
+			larvikite_tiles = true
+			basalt_bricks = true
+			slate_bricks = true
+			marble_bricks = true
+			gneiss_bricks = true
+			jade_bricks = true
+			larvikite_bricks = true
+			basalt_large_bricks = true
+			slate_large_bricks = true
+			marble_large_bricks = true
+			gneiss_large_bricks = true
+			jade_large_bricks = true
+			larvikite_large_bricks = true
+			basalt_paving_stones = true
+			slate_paving_stones = true
+			marble_paving_stones = true
+			gneiss_paving_stones = true
+			jade_paving_stones = true
+			larvikite_paving_stones = true
+			basalt_rooftiles = true
+			slate_rooftiles = true
+			marble_rooftiles = true
+			gneiss_rooftiles = true
+			jade_rooftiles = true
+			larvikite_rooftiles = true
+			paving_stones = true
+			smooth_andesite = true
+			andesite_paving = true
+			andesite_tiles = true
+			andesite_bricks = true
+			andesite_large_bricks = true
+			andesite_paving_stones = true
+			andesite_rooftiles = true
+			smooth_diorite = true
+			diorite_paving = true
+			diorite_tiles = true
+			diorite_bricks = true
+			diorite_large_bricks = true
+			diorite_paving_stones = true
+			diorite_rooftiles = true
+			smooth_granite = true
+			granite_paving = true
+			granite_tiles = true
+			granite_bricks = true
+			granite_large_bricks = true
+			granite_paving_stones = true
+			granite_rooftiles = true
+			polished_sandstone = true
+			sandstone_paving = true
+			sandstone_tiles = true
+			sandstone_bricks = true
+			sandstone_large_bricks = true
+			sandstone_paving_stones = true
+			sandstone_rooftiles = true
+			polished_red_sandstone = true
+			red_sandstone_paving = true
+			red_sandstone_tiles = true
+			red_sandstone_bricks = true
+			red_sandstone_large_bricks = true
+			red_sandstone_paving_stones = true
+			red_sandstone_rooftiles = true
+			terracotta = true
+			polished_terracotta = true
+			terracotta_paving = true
+			terracotta_tiles = true
+			terracotta_bricks = true
+			terracotta_large_bricks = true
+			terracotta_paving_stones = true
+			terracotta_rooftiles = true
+			white_corrugated_metal_plate = true
+			orange_corrugated_metal_plate = true
+			magenta_corrugated_metal_plate = true
+			light_blue_corrugated_metal_plate = true
+			yellow_corrugated_metal_plate = true
+			lime_corrugated_metal_plate = true
+			pink_corrugated_metal_plate = true
+			gray_corrugated_metal_plate = true
+			light_gray_corrugated_metal_plate = true
+			cyan_corrugated_metal_plate = true
+			purple_corrugated_metal_plate = true
+			blue_corrugated_metal_plate = true
+			brown_corrugated_metal_plate = true
+			green_corrugated_metal_plate = true
+			red_corrugated_metal_plate = true
+			black_corrugated_metal_plate = true
+			dark_metal_floor = true
+			light_metal_floor = true
+			rusty_plate = true
+			dark_bricks = true
+			dark_large_bricks = true
+			old_bricks = true
+			old_large_bricks = true
+			weared_bricks = true
+			weared_large_bricks = true
+			concrete_paving = true
+			damaged_paving = true
+			dark_concrete_paving = true
+			moist_paving = true
+			polished_paving = true
+			white_concrete_paving = true
+			concrete_tiles = true
+			skyblue_tiles = true
+			orange_tiles = true
+			blue_tiles = true
+			light_blue_tiles = true
+			red_tiles = true
+			white_tiles = true
+			yellow_tiles = true
+			yellow_grey_tiles = true
+			white_blue_wallpaper = true
+			beige_flower_wallpaper = true
+			beige_wallpaper = true
+			pink_wallpaper = true
+			white_green_wallpaper = true
+
+		[types.cut_block_type.car]
+			asphalt = true
+
+		[types.cut_block_type.quark]
+			ancient_planks = true
+			azalea_planks = true
+			blossom_planks = true
+			duskbound_block = true
+			iron_plate = true
+			rusty_iron_plate = true
+			midori_block = true
+			blue_nether_bricks = true
+			sandstone_bricks = true
+			red_sandstone_bricks = true
+			soul_sandstone_bricks = true
+			cobblestone_bricks = true
+			mossy_cobblestone_bricks = true
+			blackstone_bricks = true
+			dirt_bricks = true
+			netherrack_bricks = true
+			limestone = true
+			polished_limestone = true
+			jasper = true
+			polished_jasper = true
+			shale = true
+			polished_shale = true
+			myalite = true
+			polished_myalite = true
+			permafrost = true
+			permafrost_bricks = true
+			raw_iron_bricks = true
+			raw_gold_bricks = true
+			raw_copper_bricks = true
+			shingles = true
+			white_shingles = true
+			orange_shingles = true
+			magenta_shingles = true
+			light_blue_shingles = true
+			yellow_shingles = true
+			lime_shingles = true
+			pink_shingles = true
+			gray_shingles = true
+			light_gray_shingles = true
+			cyan_shingles = true
+			purple_shingles = true
+			blue_shingles = true
+			brown_shingles = true
+			green_shingles = true
+			red_shingles = true
+			black_shingles = true
+			soul_sandstone = true
+			cut_soul_sandstone = true
+			smooth_soul_sandstone = true
+			thatch = true
+			calcite = true
+			polished_calcite = true
+			dripstone_block = true
+			polished_dripstone = true
+			tuff = true
+			polished_tuff = true
+			granite_bricks = true
+			diorite_bricks = true
+			andesite_bricks = true
+			calcite_bricks = true
+			dripstone_bricks = true
+			tuff_bricks = true
+			limestone_bricks = true
+			jasper_bricks = true
+			shale_bricks = true
+			myalite_bricks = true
+
+		[types.cut_block_type.create]
+			copper_shingle = true
+			exposed_copper_shingle = true
+			weathered_copper_shingle = true
+			oxidized_copper_shingle = true
+			waxed_copper_shingle = true
+			waxed_exposed_copper_shingle = true
+			waxed_weathered_copper_shingle = true
+			waxed_oxidized_copper_shingle = true
+			copper_tile = true
+			exposed_copper_tile = true
+			weathered_copper_tile = true
+			oxidized_copper_tile = true
+			waxed_copper_tile = true
+			waxed_exposed_copper_tile = true
+			waxed_weathered_copper_tile = true
+			waxed_oxidized_copper_tile = true
+			cut_granite = true
+			polished_cut_granite = true
+			cut_granite_brick = true
+			small_granite_brick = true
+			cut_diorite = true
+			polished_cut_diorite = true
+			cut_diorite_brick = true
+			small_diorite_brick = true
+			cut_andesite = true
+			polished_cut_andesite = true
+			cut_andesite_brick = true
+			small_andesite_brick = true
+			cut_calcite = true
+			polished_cut_calcite = true
+			cut_calcite_brick = true
+			small_calcite_brick = true
+			cut_dripstone = true
+			polished_cut_dripstone = true
+			cut_dripstone_brick = true
+			small_dripstone_brick = true
+			cut_deepslate = true
+			polished_cut_deepslate = true
+			cut_deepslate_brick = true
+			small_deepslate_brick = true
+			cut_tuff = true
+			polished_cut_tuff = true
+			cut_tuff_brick = true
+			small_tuff_brick = true
+			cut_asurine = true
+			polished_cut_asurine = true
+			cut_asurine_brick = true
+			small_asurine_brick = true
+			cut_crimsite = true
+			polished_cut_crimsite = true
+			cut_crimsite_brick = true
+			small_crimsite_brick = true
+			cut_limestone = true
+			polished_cut_limestone = true
+			cut_limestone_brick = true
+			small_limestone_brick = true
+			cut_ochrum = true
+			polished_cut_ochrum = true
+			cut_ochrum_brick = true
+			small_ochrum_brick = true
+			cut_scoria = true
+			polished_cut_scoria = true
+			cut_scoria_brick = true
+			small_scoria_brick = true
+			cut_scorchia = true
+			polished_cut_scorchia = true
+			cut_scorchia_brick = true
+			small_scorchia_brick = true
+			cut_veridium = true
+			polished_cut_veridium = true
+			cut_veridium_brick = true
+			small_veridium_brick = true
+
+		[types.cut_block_type.createdeco]
+			verdant_brick = true
+			short_verdant_brick = true
+			tiled_verdant_brick = true
+			long_verdant_brick = true
+			corner_verdant_brick = true
+			cracked_verdant_brick = true
+			mossy_verdant_brick = true
+			short_red_brick = true
+			tiled_red_brick = true
+			long_red_brick = true
+			corner_red_brick = true
+			cracked_red_brick = true
+			mossy_red_brick = true
+			scarlet_brick = true
+			short_scarlet_brick = true
+			tiled_scarlet_brick = true
+			long_scarlet_brick = true
+			corner_scarlet_brick = true
+			cracked_scarlet_brick = true
+			mossy_scarlet_brick = true
+			blue_brick = true
+			short_blue_brick = true
+			tiled_blue_brick = true
+			long_blue_brick = true
+			corner_blue_brick = true
+			cracked_blue_brick = true
+			mossy_blue_brick = true
+			dean_brick = true
+			short_dean_brick = true
+			tiled_dean_brick = true
+			long_dean_brick = true
+			corner_dean_brick = true
+			cracked_dean_brick = true
+			mossy_dean_brick = true
+			dusk_brick = true
+			short_dusk_brick = true
+			tiled_dusk_brick = true
+			long_dusk_brick = true
+			corner_dusk_brick = true
+			cracked_dusk_brick = true
+			mossy_dusk_brick = true
+			pearl_brick = true
+			short_pearl_brick = true
+			tiled_pearl_brick = true
+			long_pearl_brick = true
+			corner_pearl_brick = true
+			cracked_pearl_brick = true
+			mossy_pearl_brick = true
+			umber_brick = true
+			short_umber_brick = true
+			tiled_umber_brick = true
+			long_umber_brick = true
+			corner_umber_brick = true
+			cracked_umber_brick = true
+			mossy_umber_brick = true
+
+		[types.cut_block_type.spore]
+			rotten = true
+			mycelium = true
+
+	[types.wood_type]
+
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.biomesoplenty]
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.wood_type.vinery]
+			dark_cherry = true
+
+		[types.wood_type.spore]
+			rotten = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.biomesoplenty]
+			origin = true
+			flowering_oak = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			rainbow_birch = true
+			snowblossom = true
+			null = true
+			cypress = true
+			fir = true
+			pine = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.leaves_type.vinery]
+			grapevine = true
+			dark_cherry = true
+			apple = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+#Disables specific entries
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.buildersdelight]
+			stairs_4 = true
+			stairs_5 = true
+			stairs_6 = true
+			stairs_7 = true
+			stairs_1 = true
+			stairs_2 = true
+			frame_7 = true
+			stairs_3 = true
+			frame_8 = true
+			frame_5 = true
+			frame_6 = true
+			frame_3 = true
+			frame_4 = true
+			frame_1 = true
+			frame_2 = true
+			chair_2 = true
+			chair_1 = true
+			slab_5 = true
+			slab_4 = true
+			slab_7 = true
+			slab_6 = true
+			slab_1 = true
+			slab_3 = true
+			slab_2 = true
+			planks_3 = true
+			planks_4 = true
+			planks_1 = true
+			planks_2 = true
+			planks_7 = true
+			planks_5 = true
+			planks_6 = true
+			table_1 = true
+			table_2 = true
+			glass_8 = true
+			glass_2 = true
+			glass_3 = true
+			glass_1 = true
+			glass_6 = true
+			glass_7 = true
+			glass_4 = true
+			glass_5 = true
+			glass_pane_7 = true
+			glass_pane_8 = true
+			furniture_kit = true
+			glass_pane_5 = true
+			glass_pane_6 = true
+			glass_pane_3 = true
+			glass_pane_4 = true
+			glass_pane_1 = true
+			glass_pane_2 = true
+
+		[entries.wood_type.cfm]
+			stripped_kitchen_sink_light = true
+			table = true
+			coffee_table = true
+			park_bench = true
+			stripped_kitchen_counter = true
+			stripped_bedside_cabinet = true
+			desk_cabinet = true
+			upgraded_fence = true
+			kitchen_counter = true
+			upgraded_gate = true
+			stripped_park_bench = true
+			cabinet = true
+			mail_box = true
+			crate = true
+			chair = true
+			stripped_mail_box = true
+			stripped_blinds = true
+			bedside_cabinet = true
+			stripped_upgraded_fence = true
+			stripped_cabinet = true
+			kitchen_drawer = true
+			desk = true
+			stripped_kitchen_drawer = true
+			kitchen_sink_dark = true
+			stripped_desk_cabinet = true
+			stripped_table = true
+			blinds = true
+			stripped_chair = true
+			stripped_kitchen_sink_dark = true
+			stripped_desk = true
+			kitchen_sink_light = true
+			stripped_coffee_table = true
+			stripped_crate = true
+			stripped_upgraded_gate = true
+
+		[entries.wood_type.refurbished_furniture]
+			storage_cabinet = true
+			storage_jar = true
+			desk = true
+			cutting_board = true
+			drawer = true
+			kitchen_sink = true
+			toilet = true
+			lattice_fence = true
+			basin = true
+			kitchen_drawer = true
+			kitchen_cabinetry = true
+			crate = true
+			chair = true
+			light_ceiling_fan = true
+			table = true
+			mail_box = true
+			dark_ceiling_fan = true
+			lattice_fence_gate = true
+			bath = true
+			kitchen_storage_cabinet = true
+
+		[entries.wood_type.bbb]
+			ladder = true
+			support = true
+			frame = true
+			layer = true
+			beam_stairs = true
+			beam_slab = true
+			trim = true
+			pallet = true
+			wall = true
+			lantern = true
+			beam = true
+
+		[entries.wood_type.redeco]
+			polished_planks = true
+			polished_slab = true
+			display_case = true
+			side_table = true
+			table = true
+			sword_mount = true
+			polished_stairs = true
+			pedestal = true
+			drawer_counter = true
+			cabinet = true
+			stool = true
+			chair = true
+			counter = true
+			crate = true
+			coffee_table = true
+			drawers = true
+			cabinet_counter = true
+			plank_fence = true
+			plank_gate = true
+			bench = true
+			lattice = true
+			shelf = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			ladder = true
+			post = true
+			trapped_chest = true
+			vertical_slab = true
+			chest = true
+			hollow_log = true
+			bookshelf = true
+			stripped_post = true
+
+		[entries.wood_type.another_furniture]
+			flower_box = true
+			shutter = true
+			drawer = true
+			shelf = true
+			bench = true
+			table = true
+			chair = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.storagedrawers]
+			full_drawers_2 = true
+			full_drawers_4 = true
+			full_drawers_1 = true
+			half_drawers_1 = true
+			half_drawers_4 = true
+			half_drawers_2 = true
+			trim = true
+
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
+		[entries.leaves_type.cfm]
+			hedge = true
+
+		[entries.leaves_type.refurbished_furniture]
+			hedge = true
+

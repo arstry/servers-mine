@@ -1,0 +1,84 @@
+{
+    "model": "rebel:gun/t70th_geo",
+    "texture": "rebel:gun/uv/t70th",
+    "slot": "rebel:gun/slot/t70th",
+    "hud": "rebel:gun/hud/t70th",
+    "animation": "rebel:t70th",
+
+    "sounds": {
+        "shoot": "rebel:t70th/t70th_shoot",
+        "shoot_3p": "rebel:t70th/t70th_shoot_3p",
+        "silence": "rebel:t70th/t70th_silence",
+        "silence_3p": "rebel:t70th/t70th_silence_3p",
+        "draw": "rebel:t70th/t70th_draw",
+        "put_away": "rebel:t70th/t70th_put_away",
+        "dry_fire": "rebel:dry_fire",
+        "flesh_hit": "rebel:flesh_hit",
+        "head_hit": "rebel:head_hit",
+        "kill": "rebel:kill",
+        "reload_empty": "rebel:t70th/t70th_reload_empty",
+        "reload_tactical": "rebel:t70th/t70th_reload_tactical",
+        "inspect_empty": "rebel:t70th/t70th_inspect_empty",
+        "melee_stock": "tacz:m249/m249_shoot_3p",
+        "inspect": "rebel:t70th/t70th_inspect"
+       
+    
+    },
+
+    "ammo": {
+   "tracer_color": "#FF0000"
+    },
+       
+    "muzzle_flash": {
+
+       
+        "texture": "tacz:flash/common_muzzle_flash",
+        
+        "scale": 15
+      },
+
+    "iron_zoom": 1.2,
+
+        "text_show": {
+           
+            "ammo_count_text_pos": {
+             
+              "scale": 0.35,
+            
+              "align": "right",
+              
+              "shadow": false,
+            
+              "color": "#53f9af",
+            
+              "light": 15,
+             
+              "text": "%t70th%"
+            }
+            
+          },
+
+    "transform": {
+        "scale": {
+           
+            "thirdperson": [
+                0.5,
+                0.5,
+                0.5
+            ],
+           
+            "ground": [
+                0.5,
+                0.5,
+                0.5
+            ],
+           
+            "fixed": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "third_person_animation": "default"
+}

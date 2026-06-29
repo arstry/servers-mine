@@ -3,8 +3,8 @@
   "ingredientDedupe": false,
   "resourceLocationDedupe": false,
   "debugItemStackModifications": false,
-  "logIntervalInMinutes": 10,
+  "logIntervalInMinutes": 5,
   "showSummaryOnDebugScreen": true,
   "memoryUsageWarningPercentage": 90,
-  "debugThreadsStuck": true
+  "debugThreadsStuck": false
 }

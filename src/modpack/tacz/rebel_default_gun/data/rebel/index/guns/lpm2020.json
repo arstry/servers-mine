@@ -1,0 +1,7 @@
+{
+  "name": "rebel.gun.lpm2020.name",
+  "display": "rebel:lpm2020_display",
+  "data": "rebel:lpm2020_data",
+  "tooltip": "rebel.gun.lpm2020.desc",
+  "type": "pistol"
+}

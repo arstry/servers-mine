@@ -1,0 +1,265 @@
+{
+	"root_info": {
+		"title": [
+			{
+				"translate": "skills.vitality",
+				"color": "gold"
+			}
+		],
+		"description": {
+			"translate": "skills.vitality.description",
+			"color": "white"
+		},
+		"size": 2.5,
+		"cost": 0,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [],
+		"metadata": {
+			"icon": "e2knw8qt08o0lu5d"
+		}
+	},
+	"root_resilience+1": {
+		"title": ["§6+1 ",{"translate":"skills.vitality.resilience", "color":"gold"} ],
+		"description": {"translate":"skills.vitality.resilience.description", "color":"white"},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "legendarysurvivaloverhaul:heart_fragment"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "legendarysurvivaloverhaul:broken_heart_resilience",
+					"value": 1.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"resilience+1": {
+		"title": ["+1 ", {"translate":"skills.vitality.resilience", "color":"white"}],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "legendarysurvivaloverhaul:heart_fragment"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "legendarysurvivaloverhaul:broken_heart_resilience",
+					"value": 1.0,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"resilience+2": {
+		"title": ["§6+2 ", {"translate":"skills.vitality.resilience", "color":"gold"}],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "legendarysurvivaloverhaul:heart_fragment"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "legendarysurvivaloverhaul:broken_heart_resilience",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"root_healing+2.5%": {
+		"title": ["§6+2.5% ", {"translate":"skills.vitality.healing", "color":"gold"}],
+		"description": {"translate":"skills.vitality.healing.description", "color":"white"},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"size": 1.5,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.025,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"healing+2.5%": {
+		"title": ["§6+2.5% ", {"translate":"skills.vitality.healing", "color":"gold"}],
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.025,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"healing+6.25%": {
+		"title": ["§6+6.25% ", {"translate":"skills.vitality.healing", "color":"gold"}],
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"size": 1.5,
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:healing",
+					"value": 0.0625,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"root_health+1": {
+		"title": ["§6+1 ", {"translate":"skills.vitality.health", "color":"white"}],
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"size": 1.5,
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "legendarysurvivaloverhaul:permanent_heart",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"health+1": {
+		"title": ["+1.0 ", {"translate":"skills.vitality.health", "color":"white"}],
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "legendarysurvivaloverhaul:permanent_heart",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"health+2": {
+		"title": ["§6+2 ", {"translate":"skills.vitality.health", "color":"gold"}],
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"size": 1.5,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "legendarysurvivaloverhaul:permanent_heart",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

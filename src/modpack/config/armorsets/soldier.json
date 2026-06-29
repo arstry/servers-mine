@@ -1,0 +1,64 @@
+{
+  "armorSetName": "armors.soldier.title",
+  "head": {
+    "itemKey": "apocalypsenow:soldier_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:soldier_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:soldier_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:soldier_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.ranged_damage",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "2028b798-92c1-11ee-b9d1-0242ac120002",
+      "description": "armors.soldier.description_ranged",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "description": "armors.soldier.description_reduction",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "2b40e650-92c1-11ee-b9d1-0242ac120002",
+      "description": "armors.soldier.description_movement",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:crit_damage",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "28bd5c6a-937f-11ee-b9d1-0242ac120002",
+      "description": "armors.soldier.description_crit_dmg",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "armors.soldier.description_weakness",
+      "onlyImmuneToNewEffects": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

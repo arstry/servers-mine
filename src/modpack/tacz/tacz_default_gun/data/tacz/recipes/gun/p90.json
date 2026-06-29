@@ -1,0 +1,45 @@
+{
+  "materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 16
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 8
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 8
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:rubber"
+			},
+		  "count": 8
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:rifle_assembly_parts"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:smg_assembly_parts"
+			},
+		  "count": 2
+		}
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:p90"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

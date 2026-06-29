@@ -1,0 +1,47 @@
+
+#Sound groups configuration
+#Define reusable sound groups for mobs.
+#Format: group_name=sound1,sound2,sound3[,speedMultiplier,rangeMultiplier]
+#or: group_name=speed=VAL,range=VAL,sound1,sound2,...
+[sound_groups]
+	groups = ["wood_sounds=block.wood.break,block.wood.hit,block.wood.place,1.0,1.0", "animal_hurts=entity.cow.hurt,entity.pig.hurt"]
+
+#Mob sound reactions configuration
+#Define sound reaction settings for each mob.
+#Format: mob_id=speed=VALUE,range=VALUE,groups=group1,group2
+[mob_sound_reactions]
+	reactions = []
+
+[weather]
+	#Range multiplier applied when it is raining or thundering.
+	#Value between 0 and 1. A lower value will reduce the effective sound range.
+	#Range: 0.0 ~ 1.0
+	thunder_range_multiplier = 0.8
+
+#Gun type modifiers configuration (TACZ)
+#Define multipliers for mob reaction speed and range by gun type.
+#Format: gunType=speedMultiplier,rangeMultiplier
+[tacz_gun_type_modifiers]
+	modifiers = ["pistol=1.0,2.0", "sniper=1.5,8.0", "rifle=1.25,4.0", "shotgun=1.1,3.0", "smg=1.0,2.0", "rpg=1.5,6.0", "mg=1.25,4.0"]
+
+#PointBlank gun type modifiers configuration
+#Define multipliers for pointblank reaction adjustments by gun type.
+#Format: gunType=speedMultiplier,rangeMultiplier
+[pointblank_gun_type_modifiers]
+	modifiers = ["pistol=1.0,4.0", "sniper=1.0,5.0", "rifle=1.0,6.5", "shotgun=1.0,4.8", "smg=1.0,3.0", "rpg=1.0,10.0", "mg=1.0,8.0"]
+
+[priority_group]
+	#Define priority sounds with per-sound speed and range
+	#Format: namespace:path=speed,range
+	sounds = ["minecraft:entity.generic.explode=1.0,12.0"]
+
+#Silenced Guns configuration
+#List of GUNS IDs that should always be treated as silenced.
+#Format: namespace:id
+#This is only for the guns are silenced by default (Only Addons from TACZ!)
+[silenced_guns]
+	ids = ["daffas_arsenal:hk45_sup", "daffas_arsenal:apacoba9_sup"]
+
+[gun_fire_mobs]
+	mobs = ["minecraft:zombie=speed=1.0,range=6", "minecraft:husk=speed=1.0,range=6", "minecraft:drowned=speed=1.0,range=6", "undead_revamp2:thesmoker=speed=1.0,range=8", "undead_revamp2:bomber=speed=1.0,range=6", "undead_revamp2:therod=speed=1.0,range=4", "undead_revamp2:the_moonflower=speed=1.0,range=8", "undead_revamp2:thehunter=speed=1.0,range=12", "undead_revamp2:thespitter=speed=1.0,range=9", "undead_revamp2:sucker=speed=1.0,range=6", "undead_revamp2:thespectre=speed=1.0,range=9", "undead_revamp2:thepregnant=speed=1.0,range=6", "undead_revamp2:thegliter=speed=1.0,range=6", "undead_revamp2:thelurker=speed=1.0,range=6", "undead_revamp2:theheavy=speed=1.0,range=12", "undead_revamp2:clogger=speed=1.0,range=12", "undead_revamp2:bigsucker=speed=1.0,range=12", "zombie_extreme:runner=speed=1.0,range=10", "zombie_extreme:clicker=speed=1.0,range=16", "zombie_extreme:boomer=speed=1.0,range=10", "zombie_extreme:inflated=speed=1.0,range=8", "zombie_extreme:infected_police=speed=1.0,range=8", "zombie_extreme:infected_military=speed=1.0,range=8", "zombie_extreme:infected_hazmat=speed=1.0,range=8", "zombie_extreme:infected_juggernaut=speed=1.0,range=8", "zombie_extreme:goon=speed=1.0,range=10", "zombie_extreme:revived=speed=1.0,range=10", "zombie_extreme:faceless=speed=1.0,range=10", "zombie_extreme:night_hunter=speed=1.1,range=16", "zombie_extreme:fetus=speed=1.0,range=6", "zombie_extreme:explosive_infected=speed=1.0,range=6", "zombie_extreme:divided=speed=1.0,range=6", "zombie_extreme:ram=speed=1.0,range=6", "zombie_extreme:zero_patient=speed=1.0,range=10", "zombie_extreme:demolisher=speed=1.0,range=10", "zombie_extreme:rat_king=speed=1.0,range=10"]
+

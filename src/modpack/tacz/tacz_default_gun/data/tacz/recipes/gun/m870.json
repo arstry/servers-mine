@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "minecraft:planks"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:leather"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rubber"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:shotgun_assembly_parts"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:m870"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

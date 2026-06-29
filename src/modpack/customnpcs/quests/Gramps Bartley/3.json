@@ -1,0 +1,45 @@
+{
+    "Type": 5,
+    "QuestCompletion": 1,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "deceasedcraft:pistol_assembly_parts",
+                "Count": 1b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.gramps.name",
+    "NextQuestId": -1,
+    "CompleteText": "",
+    "Text": "",
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1739198542734L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.gramps.quest.grumpy_3.title",
+    "QuestManual": [
+    ],
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/lead"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:bullet_casing_357magnum"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "createbigcannons:gunpowder_pinch"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:357mag",
+    "count": 10
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

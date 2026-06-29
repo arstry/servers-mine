@@ -1,0 +1,39 @@
+{
+  "materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 16
+		},
+		{
+			"item": {
+				"item": "deceasedcraft:high_carbon_steel_alloy"
+			},
+		  "count": 2
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 8
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:rubber"
+			},
+		  "count": 8
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:sniper_assembly_parts"
+			},
+		  "count": 1
+		}
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:ai_awp"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,60 @@
+{
+    "Type": 0,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "LeaveItems": 0b,
+    "IgnoreNBT": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "deceasedcraft:smg_assembly_parts",
+                "Count": 1b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.emily.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.emily.quest.food.completedlog",
+    "Text": "npc.deceasedcraft.emily.quest.food.description",
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1750605739473L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.emily.quest.food.title",
+    "IgnoreDamage": 0b,
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "farmersdelight:cabbage",
+                "Count": 6b
+            },
+            {
+                "Slot": 1b,
+                "id": "farmersdelight:tomato_seeds",
+                "Count": 6b
+            }
+        ]
+    },
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

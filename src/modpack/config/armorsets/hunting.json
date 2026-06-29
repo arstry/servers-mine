@@ -1,0 +1,68 @@
+{
+  "armorSetName": "armors.hunting.title",
+  "head": {
+    "itemKey": "apocalypsenow:hunting_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:hunting_chestplate"
+  },
+  "mainHand": {
+    "itemKey": "apocalypsenow:bread_knife",
+    "mixAndMatch": [
+      "apocalypsenow:cutter_knife",
+      "apocalypsenow:shiv",
+      "apocalypsenow:switch_knife",
+      "apocalypsenow:knife",
+      "apocalypsenow:chefs_knife",
+      "apocalypsenow:kitchen_knife",
+      "apocalypsenow:hunting_knife",
+      "apocalypsenow:long_knife",
+      "apocalypsenow:expedition_knife",
+      "apocalypsenow:stilettoknife",
+      "apocalypsenow:mk_knife",
+      "apocalypsenow:english_punch_knife",
+      "apocalypsenow:combat_survival_knife",
+      "apocalypsenow:combat_knife",
+      "apocalypsenow:dagger",
+      "apocalypsenow:butterfly_knife",
+      "apocalypsenow:military_knife",
+      "apocalypsenow:tactical_knife"
+    ]
+  },
+  "partialBonusRequiredAmount": 2,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "interactionType": "self",
+      "attributeOperation": 2,
+      "modifierUUID": "77cb03ba-0652-4ad0-98e8-5d37f7f53c34",
+      "description": "armors.hunting.description_as",
+      "hideBonusDescription": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "a1e9f5a6-4e36-4c87-b7f1-0268329dc32d",
+      "description": "armors.hunting.description_damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 2,
+      "modifierUUID": "64e47d5b-1571-484b-9703-8234c9625956",
+      "description": "armors.hunting.description_as_2",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,11 @@
+{
+    
+    "name": "rebel.gun.bq01.name",
+    "display": "rebel:bq01_display",
+    "data": "rebel:bq01_data",
+    "type": "rpg",
+    "tooltip": "rebel.gun.bq01.desc",
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

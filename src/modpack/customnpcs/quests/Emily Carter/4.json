@@ -1,0 +1,52 @@
+{
+    "Type": 4,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "tacz:ammo",
+                "tag": {
+                    "AmmoId": "tacz:45acp"
+                },
+                "Count": 15b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.emily.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.emily.quest.killzombie.completedlog",
+    "Text": "npc.deceasedcraft.emily.quest.killzombie.description",
+    "QuestDialogs": [
+        {
+            "Value": 10,
+            "Slot": "minecraft:zombie"
+        }
+    ],
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1750514104590L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.emily.quest.killzombie.title",
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

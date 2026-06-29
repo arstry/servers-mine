@@ -1,0 +1,7 @@
+{
+  "name": "rebel.gun.lss.name",
+  "display": "rebel:lss_display",
+  "data": "rebel:lss_data",
+  "tooltip": "rebel.gun.lss.desc",
+  "type": "pistol"
+}

@@ -1,0 +1,1104 @@
+{
+  "Ejected Casing Data by GunId.": {
+    "tacz:deagle": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:timeless50": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:glock_17": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:deagle_golden": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m1911": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:cz75": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:b93r": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:p320": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:springfield1873": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m700": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:ai_awp": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m107": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m95": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:sks_tactical": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:type_81": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:qbz_95": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:ak47": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:hk416d": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m4a1": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:g36k": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m16a1": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:spr15hb": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:hk_g3": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m16a4": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:scar_l": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:scar_h": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:mk14": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:aug": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:db_short": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:db_long": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m870": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:aa12": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:ump45": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:vector45": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:hk_mp5a5": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:uzi": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:p90": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:m249": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:rpk": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "tacz:minigun": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:tec9": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:tti2011": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:python": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:tt33": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:viper2011": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:aw50": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:gm6": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:m200": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:qbz951s": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:qbz192": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:an94": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:xm7": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:qbu191": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:n4": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:qbz951": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:ash12": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:aks74u": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:pp19": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:ump45": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "suffuse:pkp": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "rebel:hsp": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "rebel:lss": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "rebel:lpm2020": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "rebel:asr": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "rebel:rs1": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "rebel:csg19b": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:patriots": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:classic_m1a": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:m700_carbon": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:police_m4": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:t81s": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:tactical_t81s": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:m16a2": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:military_p416": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:lightweight_m4": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:black_market_akm": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:custom_p416_g3": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:m4_exotic_t1": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:auga3cqc": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:lvoa_c": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:m4_exotic_t2": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:military_ak74": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:tactical_sasg_12k": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:cargo_terminal": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:sasg_12": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:1st_vector45acp": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:pp19_01": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:mp5st": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:tactical_pp19_01": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:enhanced_pp19": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:pp19": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:t5smg": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:aug_9mm": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:navy_mp5n": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:mp5a2": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:black_market_rpk74": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:t81lmg": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "gz:classic_rpk74": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:obrez": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:sw_model3": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:tg1918": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:martini": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:m1916": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:vg15": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:model10": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:smg0818": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:vp1915": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:lewis": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:mg0815": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    },
+    "bf1:man_m95": {
+      "velocity": 0.2,
+      "isRight": true,
+      "rotationYawDeg": 85.0,
+      "rotationPitchDeg": -45.0,
+      "rotationRollDeg": -0.25,
+      "offsetX": 2.0,
+      "offsetY": -1.5,
+      "offsetZ": 1.0
+    }
+  }
+}

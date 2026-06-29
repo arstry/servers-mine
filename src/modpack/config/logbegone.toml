@@ -1,0 +1,5 @@
+
+[logbegone]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "PlayerThirstCap", "immersiveengineering", "KubeJS Server", "ForgeConfigSpec", "quark", "ContentTweakerCore", "Redirector"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "PlayerThirstCap", "immersiveengineering", "KubeJS Server", "ForgeConfigSpec", "quark", "ContentTweakerCore", "Redirector"]
+

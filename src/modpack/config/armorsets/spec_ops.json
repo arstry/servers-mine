@@ -1,0 +1,64 @@
+{
+  "armorSetName": "armors.spec_ops.title",
+  "head": {
+    "itemKey": "apocalypsenow:spec_ops_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:spec_ops_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:spec_ops_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:spec_ops_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.ranged_damage",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "a807d064-92c0-11ee-b9d1-0242ac120002",
+      "description": "armors.spec_ops.description_ranged",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "description": "armors.spec_ops.description_reduction",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "ac4d70ac-92c0-11ee-b9d1-0242ac120002",
+      "description": "armors.spec_ops.description_movement",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:crit_chance",
+      "value": 0.05,
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "modifierUUID": "54c46b1e-937f-11ee-b9d1-0242ac120002",
+      "description": "armors.spec_ops.description_crit_chance",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "armors.spec_ops.description_weakness",
+      "onlyImmuneToNewEffects": true
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

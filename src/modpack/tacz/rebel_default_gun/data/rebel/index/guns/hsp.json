@@ -1,0 +1,7 @@
+{
+  "name": "rebel.gun.hsp.name",
+  "display": "rebel:hsp_display",
+  "data": "rebel:hsp_data",
+  "tooltip": "rebel.gun.hsp.desc",
+  "type": "pistol"
+}

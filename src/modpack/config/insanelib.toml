@@ -12,3 +12,11 @@
 	#The fix for Jump Movement Factor is applied only when the player is slowed down. If false, the player will jump really farther when going faster.
 	"Fix jump movement factor slowdown only" = true
 
+[Base]
+	#If true, game time and day time, and weather will not advance if no players are online. This can break anything that relies on game time.
+	"Prevent time ticking if no players online" = false
+	#If true, also prevents game time from advancing if no players are online with Time Control installed
+	"Time control integration" = true
+	#If true, also prevents seasons from advancing if no players are online with Serene Seasons installed
+	"Serene seasons integration" = true
+

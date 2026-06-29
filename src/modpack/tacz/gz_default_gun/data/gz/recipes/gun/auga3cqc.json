@@ -1,0 +1,45 @@
+{
+  "materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 12
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 6
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 6
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:rubber"
+			},
+		  "count": 6
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:rifle_assembly_parts"
+			},
+		  "count": 1
+		},
+		{
+		  "item": {
+				"tag": "forge:dyes/blue"
+			},
+		  "count": 1
+		}
+  ],
+  "result": {
+    "type": "gun",
+    "id": "gz:auga3cqc"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,85 @@
+{
+  "armorSetName": "armors.football.title",
+  "head": {
+    "itemKey": "apocalypsenow:black_football_armor_helmet",
+    "mixAndMatch": [
+      "apocalypsenow:blue_football_armor_helmet",
+      "apocalypsenow:yellow_football_armor_helmet",
+      "apocalypsenow:red_football_armor_helmet",
+      "apocalypsenow:gasmask_helmet"
+    ]
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:black_football_armor_chestplate",
+    "mixAndMatch": [
+      "apocalypsenow:blue_football_armor_chestplate",
+      "apocalypsenow:yellow_football_armor_chestplate",
+      "apocalypsenow:red_football_armor_chestplate"
+    ]
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:black_football_armor_leggings",
+    "mixAndMatch": [
+      "apocalypsenow:blue_football_armor_leggings",
+      "apocalypsenow:yellow_football_armor_leggings",
+      "apocalypsenow:red_football_armor_leggings"
+    ]
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:black_football_armor_boots",
+    "mixAndMatch": [
+      "apocalypsenow:blue_football_armor_boots",
+      "apocalypsenow:yellow_football_armor_boots",
+      "apocalypsenow:red_football_armor_boots"
+    ]
+  },
+  "mainHand": {
+    "itemKey": "apocalypsenow:baseball_bat",
+    "mixAndMatch": [
+      "apocalypsenow:spiked_baseball_bat",
+      "apocalypsenow:wrapped_baseball_bat",
+      "apocalypsenow:wired_baseball_bat",
+      "apocalypsenow:saw_baseball_bat",
+      "apocalypsenow:electrical_baseball_bat",
+      "apocalypsenow:iron_baseball_bat",
+      "apocalypsenow:spiked_iron_baseball_bat",
+      "apocalypsenow:laminated_iron_baseball_bat"
+    ]
+  },
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.3,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "30a0cd43-8b89-4d4d-83c9-2dedc1093eab",
+      "description": "armors.football.description_movement",
+      "hideBonusDescription": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "483bab48-9542-4667-80c0-a65c9e9f6f34",
+      "description": "armors.football.description_damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.3,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "c68193da-8203-452d-85ba-f33542523aed",
+      "description": "armors.football.description_movement",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

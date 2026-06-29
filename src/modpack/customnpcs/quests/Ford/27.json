@@ -1,0 +1,60 @@
+{
+    "Type": 0,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "LeaveItems": 0b,
+    "IgnoreNBT": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "immersiveengineering:capacitor_hv",
+                "Count": 2b
+            },
+            {
+                "Slot": 1b,
+                "id": "immersiveengineering:ingot_steel",
+                "Count": 8b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.ford.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.ford.quest.findgenerator.completedlog",
+    "Text": "npc.deceasedcraft.ford.quest.findgenerator.description",
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1742633044217L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.ford.quest.findgenerator.title",
+    "IgnoreDamage": 0b,
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "immersiveengineering:thermoelectric_generator",
+                "Count": 2b
+            }
+        ]
+    },
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

@@ -1,0 +1,30 @@
+[
+	{
+		"entity": "zombie_extreme:infected_military",
+		"weight": 25
+	},
+	{
+		"entity": "undead_revamp2:bigsucker",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "zombie_extreme:inflated",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "zombie_extreme:goon",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "zombie_extreme:zero_patient",
+		"weight": 2,
+		"min_spawns": 1,
+		"max_spawns": 1
+	}
+]

@@ -1,0 +1,81 @@
+{
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityFaction2Stance": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityFaction": 0,
+    "DecreaseFaction2Points": 0b,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityQuest": 0,
+    "OptionFaction2Points": 0,
+    "AvailabilityMinPlayerLevel": 0,
+    "OptionFaction1Points": 0,
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "DialogDisableEsc": 0b,
+    "AvailabilityDialog3": 0,
+    "DialogMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1739267419178L
+    },
+    "DialogTitle": "Charlie Generic",
+    "DialogCommand": "",
+    "AvailabilityDayTime": 0,
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityDialog": 1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityQuestId": -1,
+    "OptionFactions2": -1,
+    "AvailabilityScoreboardType": 1,
+    "AvailabilityDialogId": 64,
+    "AvailabilityFactionId": -1,
+    "Options": [
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "npc.deceasedcraft.charlie.dialogue.response.chat",
+                "Dialog": 73,
+                "DialogCommand": "",
+                "DialogColor": 16777215
+            },
+            "OptionSlot": 0
+        },
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "npc.deceasedcraft.charlie.dialogue.response.trade",
+                "Dialog": 74,
+                "DialogCommand": "",
+                "DialogColor": 16777215
+            },
+            "OptionSlot": 1
+        }
+    ],
+    "DialogText": "npc.deceasedcraft.charlie.dialogue",
+    "AvailabilityDialog2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "DialogShowWheel": 0b,
+    "AvailabilityFactionStance": 0,
+    "DialogHideNPC": 0b,
+    "AvailabilityFaction2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityScoreboardValue": 0,
+    "AvailabilityFaction2Id": -1,
+    "DialogId": 72,
+    "AvailabilityScoreboard2Value": 0,
+    "ModRev": 18
+}

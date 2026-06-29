@@ -1,0 +1,40 @@
+{
+    "Type": 5,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.jackson.name",
+    "NextQuestId": -1,
+    "CompleteText": "",
+    "Text": "",
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1742708646154L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.jackson.quest.epilogue.title",
+    "QuestManual": [
+    ],
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

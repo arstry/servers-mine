@@ -1,0 +1,56 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 468,
+				"texture_height": 150,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 3, 0],
+					"cubes": [
+						{
+							"origin": [-0.5, -2.125, -39.0625],
+							"size": [1, 22.125, 69.0625],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [468, 150]},
+								"west": {"uv": [468, 0], "uv_size": [-468, 150]}
+							}
+						}
+					]
+				},
+				{
+					"name": "positioning",
+					"pivot": [0, 0, -5]
+				},
+				{
+					"name": "muzzle_flash",
+					"parent": "positioning",
+					"pivot": [0, 15, -32.5]
+				},
+				{
+					"name": "thirdperson_hand",
+					"parent": "positioning",
+					"pivot": [-2, 14, 7.5]
+				},
+				{
+					"name": "ground",
+					"parent": "positioning",
+					"pivot": [0, 8, -1]
+				},
+				{
+					"name": "fixed",
+					"parent": "positioning",
+					"pivot": [0, 15, -2],
+					"rotation": [0, 90, 0]
+				}
+			]
+		}
+	]
+}

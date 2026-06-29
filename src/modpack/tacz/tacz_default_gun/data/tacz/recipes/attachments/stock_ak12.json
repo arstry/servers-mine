@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "deceasedcraft:attachment_assembly_parts"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:leather"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:stock_ak12"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

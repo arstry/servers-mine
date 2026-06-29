@@ -1,0 +1,7 @@
+
+[Features]
+	#Should placeable tooltips be enabled?
+	Tooltips = true
+	#Should a message be enabled when attempting to place a food item?
+	Display-Message = true
+

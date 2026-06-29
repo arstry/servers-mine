@@ -1,0 +1,80 @@
+{
+    "model": "rebel:gun/rs1_geo",
+    "texture": "rebel:gun/uv/rs1",
+    "slot": "rebel:gun/slot/rs1",
+    "hud": "rebel:gun/hud/rs1",
+    "animation": "rebel:rs1",
+    "use_default_animation": "rifle",
+
+    "sounds": {
+        "shoot": "rebel:rs1/rs1_shoot",
+        "shoot_3p": "rebel:rs1/rs1_shoot_3p",
+        "silence": "rebel:rs1/rs1_silence",
+        "silence_3p": "rebel:rs1/rs1_silence_3p",
+        "draw": "rebel:rs1/rs1_draw",
+        "put_away": "rebel:rs1/rs1_put_away",
+        "dry_fire": "rebel:dry_fire",
+        "flesh_hit": "rebel:flesh_hit",
+        "head_hit": "rebel:head_hit",
+        "kill": "rebel:kill",
+        "reload_empty": "rebel:rs1/rs1_reload_empty",
+        "reload_tactical": "rebel:rs1/rs1_reload_tactical",
+        "bolt": "rebel:rs1/rs1_bolt",
+        "inspect_empty": "rebel:rs1/rs1_inspect_empty",
+        "inspect": "rebel:rs1/rs1_inspect"
+       
+    
+    },
+       
+    "muzzle_flash": {
+       
+        "texture": "tacz:flash/common_muzzle_flash",
+        
+        "scale": 1.5
+      },
+
+    "iron_zoom": 1.1,
+
+        "text_show": {
+           
+            "ammo_count_text_pos": {
+             
+              "scale": 0.35,
+            
+              "align": "right",
+              
+              "shadow": false,
+            
+              "color": "#53f9af",
+            
+              "light": 15,
+             
+              "text": "%rs1%"
+            }
+            
+          },
+
+    "transform": {
+        "scale": {
+           
+            "thirdperson": [
+                0.5,
+                0.5,
+                0.5
+            ],
+           
+            "ground": [
+                0.5,
+                0.5,
+                0.5
+            ],
+           
+            "fixed": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "third_person_animation": "default"
+}

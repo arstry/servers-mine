@@ -1,0 +1,352 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "customnpcs:npcslime",
+    "minecraft:trader_llama",
+    "apocalypsenow:soldiers_02",
+    "minecraft:horse",
+    "undead_revamp2:thepregnant",
+    "undead_revamp2:weakspot",
+    "minecraft:llama",
+    "zombie_extreme:goon",
+    "minecraft:tadpole",
+    "minecraft:dolphin",
+    "zombie_extreme:devestated",
+    "apocalypsenow:rat",
+    "apocalypsenow:hunter",
+    "zombie_extreme:infected_military",
+    "naturalist:bear",
+    "crittersandcompanions:jumping_spider",
+    "naturalist:vulture",
+    "naturalist:zebra",
+    "undead_revamp2:slaveman",
+    "zombie_extreme:divided",
+    "undead_revamp2:invisiclogger",
+    "undead_revamp2:invisiimmortal",
+    "minecraft:bee",
+    "minecraft:illusioner",
+    "undead_revamp2:thebeartamer",
+    "minecraft:mooshroom",
+    "minecraft:drowned",
+    "minecraft:axolotl",
+    "zombie_extreme:faceless",
+    "zombie_extreme:revived",
+    "naturalist:moose",
+    "undead_revamp2:thedungeon",
+    "quark:crab",
+    "naturalist:elephant",
+    "apocalypsenow:horde_2",
+    "apocalypsenow:horde_3",
+    "apocalypsenow:horde_4",
+    "zombie_extreme:boomer",
+    "apocalypsenow:horde_5",
+    "undead_revamp2:thespectre",
+    "apocalypsenow:horde_1",
+    "minecraft:wandering_trader",
+    "naturalist:cardinal",
+    "undead_revamp2:propball_1",
+    "crittersandcompanions:sea_bunny",
+    "create_sa:brass_drone",
+    "undead_revamp2:therod",
+    "hordes:drowned_player",
+    "undead_revamp2:theordure",
+    "undead_revamp2:theheavy",
+    "crittersandcompanions:red_panda",
+    "apocalypsenow:soldiers",
+    "minecraft:pufferfish",
+    "minecraft:fox",
+    "immersiveengineering:bulwark",
+    "undead_revamp2:clogger",
+    "minecraft:chicken",
+    "minecraft:zombie",
+    "immersiveengineering:fusilier",
+    "undead_revamp2:coppertar",
+    "apocalypsenow:looter_3",
+    "apocalypsenow:looter_4",
+    "apocalypsenow:looter_5",
+    "apocalypsenow:looter_1",
+    "minecraft:hoglin",
+    "apocalypsenow:looter_2",
+    "naturalist:rhino",
+    "hordes:husk_player",
+    "apocalypsenow:walker_3",
+    "minecraft:polar_bear",
+    "apocalypsenow:walker_2",
+    "apocalypsenow:walker_5",
+    "apocalypsenow:walker_4",
+    "minecraft:zombified_piglin",
+    "apocalypsenow:walker_1",
+    "minecraft:turtle",
+    "naturalist:rattlesnake",
+    "apocalypsenow:walker_7",
+    "minecraft:sheep",
+    "apocalypsenow:walker_6",
+    "apocalypsenow:walker_9",
+    "apocalypsenow:walker_8",
+    "quark:wraith",
+    "quark:foxhound",
+    "customnpcs:customnpcclassic",
+    "naturalist:robin",
+    "zombie_extreme:assasin_black_ops",
+    "naturalist:tortoise",
+    "minecraft:ravager",
+    "customnpcs:npccrystal",
+    "zombie_extreme:runner",
+    "quark:shiba",
+    "bakery:wandering_baker",
+    "crittersandcompanions:dragonfly",
+    "undead_revamp2:thewolf",
+    "undead_revamp2:therabidus",
+    "undead_revamp2:theposessive",
+    "undead_revamp2:thebidyupside",
+    "naturalist:bass",
+    "customnpcs:npcdragon",
+    "undead_revamp2:thebidy",
+    "undead_revamp2:the_moonflower",
+    "naturalist:dragonfly",
+    "minecraft:bat",
+    "naturalist:sparrow",
+    "crittersandcompanions:otter",
+    "apocalypsenow:runner_39",
+    "apocalypsenow:runner_38",
+    "apocalypsenow:runner_37",
+    "naturalist:hippo",
+    "naturalist:snake",
+    "apocalypsenow:runner_36",
+    "apocalypsenow:runner_35",
+    "apocalypsenow:runner_34",
+    "naturalist:lizard_tail",
+    "apocalypsenow:crawler_3",
+    "apocalypsenow:survivor_10",
+    "apocalypsenow:crawler_2",
+    "undead_revamp2:thehorrors",
+    "apocalypsenow:crawler_4",
+    "apocalypsenow:crawler_1",
+    "naturalist:caterpillar",
+    "naturalist:catfish",
+    "apocalypsenow:cockroach",
+    "apocalypsenow:runner_49",
+    "zombie_extreme:fetus",
+    "apocalypsenow:runner_48",
+    "undead_revamp2:bigsucker",
+    "apocalypsenow:runner_43",
+    "apocalypsenow:runner_42",
+    "apocalypsenow:runner_41",
+    "apocalypsenow:runner_40",
+    "apocalypsenow:runner_47",
+    "apocalypsenow:runner_46",
+    "zombie_extreme:zero_patient",
+    "apocalypsenow:runner_45",
+    "apocalypsenow:runner_44",
+    "minecraft:cat",
+    "apocalypsenow:runner_50",
+    "naturalist:lizard",
+    "customnpcs:customnpcalex",
+    "minecraft:tropical_fish",
+    "naturalist:snail",
+    "naturalist:finch",
+    "zombie_extreme:chainsaw",
+    "apocalypsenow:runner_54",
+    "apocalypsenow:runner_53",
+    "apocalypsenow:runner_52",
+    "minecraft:panda",
+    "minecraft:zombie_villager",
+    "apocalypsenow:runner_51",
+    "zombie_extreme:crawler",
+    "apocalypsenow:runner_57",
+    "apocalypsenow:runner_56",
+    "apocalypsenow:runner_55",
+    "zombie_extreme:demolisher",
+    "minecraft:giant",
+    "zombie_extreme:infected",
+    "undead_revamp2:theskeeper",
+    "undead_revamp2:lechery",
+    "zombie_extreme:parasite",
+    "immersiveengineering:commando",
+    "hordes:zombie_player",
+    "zombie_extreme:infected_juggernaut",
+    "customnpcs:npcgolem",
+    "minecraft:husk",
+    "undead_revamp2:axestrom",
+    "naturalist:firefly",
+    "customnpcs:customnpc64x32",
+    "minecraft:donkey",
+    "quark:stoneling",
+    "minecraft:piglin_brute",
+    "naturalist:giraffe",
+    "quark:toretoise",
+    "apocalypsenow:military_medic",
+    "undead_revamp2:neocrorines",
+    "naturalist:deer",
+    "zombie_extreme:infected_police",
+    "undead_revamp2:sucker",
+    "minecraft:parrot",
+    "zombie_extreme:inflated",
+    "vinery:mule",
+    "minecraft:frog",
+    "crittersandcompanions:shima_enaga",
+    "zombie_extreme:clicker",
+    "naturalist:alligator",
+    "zombie_extreme:explosive_infected",
+    "minecraft:mule",
+    "vinery:wandering_winemaker",
+    "naturalist:boar",
+    "minecraft:vindicator",
+    "crittersandcompanions:leaf_insect",
+    "customnpcs:customnpc",
+    "minecraft:evoker",
+    "zombie_extreme:infected_hazmat",
+    "quark:forgotten",
+    "undead_revamp2:thelurker",
+    "crittersandcompanions:ferret",
+    "zombie_extreme:ram",
+    "undead_revamp2:thespitter",
+    "apocalypsenow:walker_29",
+    "apocalypsenow:walker_28",
+    "apocalypsenow:walker_27",
+    "apocalypsenow:walker_26",
+    "apocalypsenow:walker_25",
+    "apocalypsenow:walker_24",
+    "apocalypsenow:walker_23",
+    "apocalypsenow:walker_22",
+    "apocalypsenow:walker_21",
+    "apocalypsenow:walker_20",
+    "undead_revamp2:invisilehcery",
+    "undead_revamp2:thesomnolence",
+    "minecraft:pig",
+    "apocalypsenow:walker_33",
+    "apocalypsenow:walker_32",
+    "apocalypsenow:walker_31",
+    "apocalypsenow:walker_30",
+    "minecraft:goat",
+    "minecraft:cod",
+    "undead_revamp2:theswarmer",
+    "zombie_extreme:rat_king",
+    "undead_revamp2:theimmortal",
+    "minecraft:cow",
+    "naturalist:duck",
+    "apocalypsenow:survivor_5",
+    "apocalypsenow:survivor_4",
+    "apocalypsenow:survivor_3",
+    "apocalypsenow:survivor_2",
+    "apocalypsenow:survivor_1",
+    "minecraft:salmon",
+    "crittersandcompanions:dumbo_octopus",
+    "naturalist:bluejay",
+    "apocalypsenow:walker_19",
+    "apocalypsenow:walker_18",
+    "apocalypsenow:walker_17",
+    "undead_revamp2:bomber",
+    "apocalypsenow:survivor_9",
+    "apocalypsenow:walker_16",
+    "apocalypsenow:survivor_8",
+    "apocalypsenow:walker_15",
+    "undead_revamp2:smokesmitter",
+    "apocalypsenow:survivor_7",
+    "apocalypsenow:walker_14",
+    "apocalypsenow:survivor_6",
+    "apocalypsenow:walker_13",
+    "apocalypsenow:walker_12",
+    "apocalypsenow:walker_11",
+    "apocalypsenow:walker_10",
+    "minecraft:rabbit",
+    "minecraft:pillager",
+    "minecraft:zoglin",
+    "naturalist:butterfly",
+    "undead_revamp2:invisiblebidy",
+    "undead_revamp2:thehorrorsdecoys",
+    "zombie_extreme:night_hunter",
+    "crittersandcompanions:koi_fish",
+    "customnpcs:npcpony",
+    "minecraft:piglin",
+    "undead_revamp2:thesmoker",
+    "naturalist:lion",
+    "undead_revamp2:flame",
+    "undead_revamp2:thegliter",
+    "apocalypsenow:military_02",
+    "naturalist:canary",
+    "apocalypsenow:military_01",
+    "minecraft:sniffer",
+    "minecraft:zombie_horse",
+    "minecraft:camel",
+    "apocalypsenow:cannibal",
+    "zombie_extreme:military",
+    "naturalist:coral_snake",
+    "minecraft:ocelot",
+    "undead_revamp2:crackleball",
+    "minecraft:wolf",
+    "undead_revamp2:thehunter",
+    "undead_revamp2:deadclogger"
+]

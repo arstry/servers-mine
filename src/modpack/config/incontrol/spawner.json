@@ -1,1 +1,731 @@
-[]
+[
+	{
+		"mob": ["minecraft:zombie", "minecraft:husk"],
+		"persecond": 0.2,
+		"attempts": 30,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 4,
+		  "groupdistance": 3
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 120,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5
+			}
+		}
+	},
+	{
+		"mob": ["minecraft:spider", "minecraft:cave_spider"],
+		"persecond": 0.1,
+		"attempts": 10,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 1
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 20,
+			"maxdist": 40,
+			"minheight": -60,
+			"maxheight": 40,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5
+			}
+		}
+	},
+	{
+		"mob": "quark:shiba",
+		"persecond": 0.01,
+		"attempts": 5,
+		"conditions": {
+		"dimension": "minecraft:overworld",
+			"mindist": 15,
+			"maxdist": 120,
+			"minheight": 71,
+			"maxlocal": 3,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"inbuilding": true
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:crawler"],
+		"persecond": 0.1,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"incity": true,
+				"biometags": ["deceasedcraft:suburb_residential"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:infected_police",
+				"undead_revamp2:thesmoker"],
+		"persecond": 0.1,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"incity": true,
+				"biometags": [
+					"deceasedcraft:suburb_residential",
+					"deceasedcraft:highrise_office",
+					"deceasedcraft:highrise_residential"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:bomber"],
+		"persecond": 0.1,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"maxlocal": 10,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"incity": true,
+				"biometags": [
+					"deceasedcraft:highrise_office",
+					"deceasedcraft:highrise_hotel",
+					"deceasedcraft:highrise_residential",
+					"deceasedcraft:retail_district"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:theordure"],
+		"persecond": 0.1,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 28,
+			"maxdist": 60,
+			"minheight": 45,
+			"maxheight": 360,
+			"maxlocal": 8,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"inbuilding": true,
+				"incity": true,
+				"biometags": [
+					"deceasedcraft:highrise_office",
+					"deceasedcraft:highrise_hotel",
+					"deceasedcraft:highrise_residential",
+					"deceasedcraft:retail_district"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:therod"],
+		"persecond": 0.1,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"maxlocal": 8,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"instreet": true,
+				"incity": true,
+				"biometags": [
+					"deceasedcraft:highrise_office",
+					"deceasedcraft:highrise_hotel"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thehunter"],
+		"persecond": 0.05,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"maxlocal": 6,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"instreet": true,
+				"incity": true,
+				"biometags": [
+					"deceasedcraft:highrise_residential",
+					"deceasedcraft:retail_district"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:the_moonflower",
+				"undead_revamp2:theswarmer",
+				"zombie_extreme:clicker"],
+		"persecond": 0.1,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"maxlocal": 16,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"incity": true,
+				"biometags": ["deceasedcraft:highrise_hotel"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thespitter",
+				"undead_revamp2:theskeeper",
+				"zombie_extreme:boomer"],
+		"persecond": 0.1,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"maxlocal": 16,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"incity": true,
+				"biometags": ["deceasedcraft:retail_district"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thepregnant"],
+		"persecond": 0.05,
+		"attempts": 15,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+		 	"minheight": -60,
+			"maxlocal": 1,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_timbertower", "multi_casino"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thegliter"],
+		"persecond": 0.05,
+		"attempts": 15,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+		 	"minheight": -60,
+		  	"maxlocal": 1,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_verticalschool", "multi_terraceplaza"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:thelurker"],
+		"persecond": 0.01,
+		"attempts": 15,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+		 	"minheight": -60,
+		  	"maxlocal": 1,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_casino", "multi_terraceplaza"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:infected_military"],
+		"persecond": 0.2,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"incity": true,
+				"biometags": [
+					"deceasedcraft:highrise_hotel",
+					"deceasedcraft:retail_district",
+					"deceasedcraft:wasteland"
+				]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:infected_hazmat",
+				"zombie_extreme:inflated"],
+		"persecond": 0.2,
+		"attempts": 25,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"incity": true,
+				"biometags": ["deceasedcraft:wasteland"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:goon"],
+		"persecond": 0.15,
+		"attempts": 20,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_airforcebase1"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:revived"],
+		"persecond": 0.15,
+		"attempts": 20,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_alienresearch"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:infected_juggernaut"],
+		"persecond": 0.15,
+		"attempts": 20,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_militarybase"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:night_hunter",
+     			"zombie_extreme:faceless"],
+		"persecond": 0.15,
+		"attempts": 20,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_nuclearpowerplant"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:divided",
+				"zombie_extreme:ram",
+				"undead_revamp2:thespectre"],
+		"persecond": 0.15,
+		"attempts": 20,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_laboratory1"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:fetus",
+				"zombie_extreme:explosive_infected",
+				"undead_revamp2:thebidy"],
+		"persecond": 0.15,
+		"attempts": 20,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+    			"maxlight": 5,
+				"multibuilding": ["multi_residentialbunker"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:clogger"],
+		"persecond": 0.05,
+		"attempts": 10,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": -60,
+			"maxheight": 360,
+			"maxlocal": 2,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"seesky": true,
+				"multibuilding": ["multi_nuclearpowerplant"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:theheavy"],
+		"persecond": 0.05,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": -60,
+			"maxheight": 360,
+			"maxlocal": 2,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_laboratory1"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:demolisher"],
+		"persecond": 0.05,
+		"attempts": 10,
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+		 	"minheight": -60,
+		  	"maxlocal": 1,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_militarybase"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:zero_patient"],
+		"persecond": 0.05,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": -60,
+			"maxlocal": 2,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_residentialbunker"]
+			}
+		}
+	},
+	{
+		"mob": ["zombie_extreme:rat_king"],
+		"persecond": 0.05,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": -60,
+			"maxlocal": 2,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"multibuilding": ["multi_airforcebase1"]
+			}
+		}
+	},
+	{
+		"mob": ["undead_revamp2:bigsucker"],
+		"persecond": 0.05,
+		"attempts": 10,
+		"conditions": {
+		  "dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": -60,
+			"maxlocal": 3,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"instreet": true,
+				"biometags": [
+				"deceasedcraft:wasteland"]
+			}
+		}
+	},
+	{
+		"mob": "minecraft:blaze",
+		"persecond": 0.25,
+		"attempts": 30,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 2
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"maxlocal": 20,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"seesky": true,
+				"biome": [
+					"biomesoplenty:volcanic_plains",
+					"biomesoplenty:volcano"
+				]
+			}
+		}
+	},
+	{
+		"mob": "minecraft:hoglin",
+		"persecond": 0.1,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 3,
+		  "groupdistance": 3
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 45,
+			"maxheight": 360,
+			"norestrictions": true,
+			"and": {
+				"maxlight": 5,
+				"seesky": true,
+				"biome": [
+					"biomesoplenty:volcanic_plains",
+					"biomesoplenty:volcano"
+				]
+			}
+		}
+	},
+	{
+		"mob": {
+			"mob": "customnpcs:customnpc",
+			"cloneTab": 1,
+			"cloneName": "Rogue"
+      	},
+		"persecond": 0.05,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 60,
+			"maxheight": 200,
+			"maxlocal": 8,
+			"norestrictions": true,
+			"and": {
+				"incity": true,
+				"maxlight": 5,
+				"biometags": ["deceasedcraft:suburb_residential"]
+			}
+		}
+	},
+	{
+		"mob": {
+			"mob": "customnpcs:customnpc",
+			"cloneTab": 1,
+			"cloneName": "Bandit"
+      	},
+		"persecond": 0.05,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 65,
+			"maxheight": 150,
+			"maxlocal": 6,
+			"norestrictions": true,
+			"and": {
+				"incity": true,
+				"maxlight": 5,
+				"biometags": ["deceasedcraft:highrise_office",
+							"deceasedcraft:highrise_residential"]
+			}
+		}
+	},
+	{
+		"mob": {
+			"mob": "customnpcs:customnpc",
+			"cloneTab": 1,
+			"cloneName": "Raider"
+      	},
+		"persecond": 0.05,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 65,
+			"maxheight": 150,
+			"maxlocal": 6,
+			"norestrictions": true,
+			"and": {
+				"incity": true,
+				"maxlight": 5,
+				"biometags": ["deceasedcraft:highrise_hotel",
+							"deceasedcraft:retail_district"]
+			}
+		}
+	},
+	{
+		"mob": {
+			"mob": "customnpcs:customnpc",
+			"cloneTab": 1,
+			"cloneName": "Plunderer"
+      	},
+		"persecond": 0.05,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+			"dimension": "minecraft:overworld",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": 65,
+			"maxheight": 150,
+			"maxlocal": 8,
+			"and": {
+				"incity": true,
+				"maxlight": 5,
+				"biometags": ["deceasedcraft:wasteland"]
+			}
+		}
+	},
+	{
+		"mob": [
+			"spore:inf_human",
+			"spore:inf_hazmat",
+			"spore:inf_husk",
+			"spore:inf_player"],
+		"persecond": 0.25,
+		"attempts": 20,
+		"amount": {
+		  "minimum": 1,
+		  "maximum": 2,
+		  "groupdistance": 1
+		},
+		"conditions": {
+			"dimension": "deceasedcraft:abyss",
+			"mindist": 32,
+			"maxdist": 128,
+			"minheight": -40,
+			"maxheight": 180,
+			"and": {
+				"incity": true,
+    			"maxlight": 5
+			}
+		}
+	}
+]

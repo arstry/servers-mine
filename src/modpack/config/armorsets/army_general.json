@@ -1,0 +1,65 @@
+{
+  "armorSetName": "armors.army_general.title",
+  "head": {
+    "itemKey": "apocalypsenow:army_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:army_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:army_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:army_boots"
+  },
+  "mainHand": {
+    "itemKey": "apocalypsenow:machete",
+    "mixAndMatch": [
+      "apocalypsenow:cleaver",
+      "apocalypsenow:black_cleaver",
+      "apocalypsenow:serrated_machete",
+      "apocalypsenow:hawkbill_machete",
+      "apocalypsenow:heavy_machete",
+      "apocalypsenow:taiga_1_survival_machete",
+      "apocalypsenow:bowie_machete",
+      "apocalypsenow:tactical_machete",
+      "apocalypsenow:kukri_machete"
+    ]
+  },
+  "partialBonusRequiredAmount": 4,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 2,
+      "modifierUUID": "eb4c1fd1-d3ad-4061-ba46-920a11789843",
+      "description": "armors.army_general.description_as",
+      "hideBonusDescription": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "f86d834a-937f-11ee-b9d1-0242ac120002",
+      "description": "armors.army_general.description_damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 2,
+      "modifierUUID": "e9c754d8-5787-4d97-9580-80e5d329820c",
+      "description": "armors.army_general.description_as",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

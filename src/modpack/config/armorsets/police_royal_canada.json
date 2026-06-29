@@ -1,0 +1,38 @@
+{
+  "armorSetName": "armors.royal_police.title",
+  "head": {
+    "itemKey": "apocalypsenow:royal_canada_police_officer_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:royal_canada_police_officer_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:royal_canada_police_officer_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:royal_canada_police_officer_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.ranged_damage",
+      "value": 0.4,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "3f57296c-92ba-11ee-b9d1-0242ac120002",
+      "description": "armors.royal_police.description_ranged",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.movement_speed",
+      "value": 0.15,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "37a3c45a-92ba-11ee-b9d1-0242ac120002",
+      "description": "armors.royal_police.description_movement",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

@@ -1,0 +1,7 @@
+{
+  "name": "rebel.gun.asr.name",
+  "display": "rebel:asr_display",
+  "data": "rebel:asr_data",
+  "tooltip": "rebel.gun.asr.desc",
+  "type": "rifle"
+}

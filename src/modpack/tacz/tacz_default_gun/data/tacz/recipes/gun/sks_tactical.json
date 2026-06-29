@@ -1,0 +1,42 @@
+{
+  "materials": [
+		{
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 16
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 8
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 8
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:rubber"
+			},
+		  "count": 8
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:rifle_assembly_parts"
+			},
+		  "count": 2
+		}
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:sks_tactical",
+    "attachments": {
+      "stock": "tacz:oem_stock_tactical"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

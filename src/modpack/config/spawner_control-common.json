@@ -1,0 +1,19 @@
+{
+  "ignoreRestrictions": true,
+  "spawnLimit": false,
+  "spawnLimitValue": 15,
+  "dropXp": true,
+  "dropXpValueBase": 15,
+  "dropXpValueAdd1": 15,
+  "dropXpValueAdd2": 15,
+  "spawnCount": 2,
+  "spawnRange": 4,
+  "spawnDelay": 20,
+  "minSpawnDelay": 300,
+  "maxSpawnDelay": 600,
+  "playerRange": 10,
+  "maxNearbyEntities": 6,
+  "lootDropType": "ROLL",
+  "lootDropChance": 0.0,
+  "lootDropList": []
+}

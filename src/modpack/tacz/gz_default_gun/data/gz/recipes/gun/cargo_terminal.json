@@ -1,0 +1,45 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:plates/aluminum"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rubber"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:shotgun_assembly_parts"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:hmg_assembly_parts"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "gz:cargo_terminal"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

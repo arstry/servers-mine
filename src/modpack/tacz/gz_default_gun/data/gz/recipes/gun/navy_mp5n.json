@@ -1,0 +1,39 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:plates/aluminum"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rubber"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:smg_assembly_parts"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "gz:navy_mp5n"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

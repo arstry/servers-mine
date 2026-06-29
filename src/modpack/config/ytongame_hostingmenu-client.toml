@@ -1,0 +1,7 @@
+#购买页面链接
+purchaseUrl = "https://bbsmc.net/server?aff=deceasedcraft"
+#是否启用广告功能（Hosting 标签页、多人游戏广告等）
+enableAds = true
+#是否仅对简体中文用户显示广告
+chineseOnly = true
+

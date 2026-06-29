@@ -1,0 +1,74 @@
+#Whether to use the battery
+use_battery = false
+#Whether to damage any entities in the way of the vehicle
+damage_entities = true
+#Whether to stop the car as if it came in collision with a block when impacting an entity
+collide_with_entities = false
+#Speed modifier for DragN's vehicles on non-road blocks
+#Range: 0.001 ~ 10.0
+offroad_speed = 0.8
+#Whether the vehicle should cause an explosion on death
+explode = true
+#How much can the canister hold of a fluid, in [mB]
+#Range: > 444
+canister_max = 6000
+#How much the battery can hold FE
+#Range: > 444
+battery_max = 6000
+#Whether vehicles should persist in-game when it's only passenger disconnects
+vehicle_persist = true
+#Whether spawn eggs should spawn full tank and battery vehicles
+spawn_full = true
+#What items should be considered vehicle-repairable, along with how much of said item is required to repair, and how much HP should it repair
+#Any starting with '#' are considered an item tag
+repair_items = [["minecraft:iron_ingot", "4", "4.5"], ["#forge:ingots/steel", "1", "6"]]
+#Fluids defined as acceptable fuels for vehicles, along with their efficiency
+fuels = [["createdieselgenerators:gasoline", "1"], ["immersiveengineering:biodiesel", "0.6"], ["createdieselgenerators:biodiesel", "0.6"], ["createdieselgenerators:diesel", "0.8"]]
+#Running over entity blacklist
+#Having collide_with_entities enabled makes this a whitelist instead
+solid_entities = ["minecraft:ender_dragon", "zombie_extreme:demolisher", "zombie_extreme:zero_patient", "zombie_extreme:rat_king", "undead_revamp2:theheavy", "undead_revamp2:thelurker", "undead_revamp2:thepregnant", "undead_revamp2:thegliter"]
+#How much fuel can the gas station block hold
+#Range: > 444
+gas_station_capacity = 40000
+#Defines how fast the gas station can transfer fuel in [mB/t]
+#Range: > 1
+gas_station_transfer = 20
+#Whether players inside the vehicles should have their head rotated along with the vehicle
+correct_yaw = true
+#Whether players should be able to turn their head the whole 360 degrees when in a vehicle
+restrict_yaw = true
+#Vehicles' resistance to roll-overs, increasing it decreases vehicle maneuverability
+#Range: 0.0 ~ 2.147483647E9
+roll_resist = 0.02
+
+[vehicles]
+	#Each of these configs are represented using an array that affect in order respectively
+	#Modern cars, Classic cars, Trucks, SUVs, Sport cars, Motorcycles
+	#Maximal speeds the vehicles can reach in blocks per tick
+	speed = [0.85, 0.75, 0.7, 0.85, 1.4, 1.2]
+	#Vehicles' top reverse speeds in blocks per tick
+	reverse_speed = [0.24, 0.236, 0.1725, 0.1725, 0.3125, 0.256]
+	#Acceleration for the vehicles
+	acceleration = [0.045599999999999995, 0.0472, 0.0322, 0.0322, 0.0372, 0.0512]
+	#Vehicles' max health
+	health = [150.0, 100.0, 300.0, 200.0, 100.0, 60.0]
+	#Vehicles' fuel consumption
+	#Higher = More efficient
+	fuel_efficiency = [1.0, 0.8, 0.9, 0.9, 0.7, 0.7]
+	#How much the vehicles can steer at max speed and almost full stop
+	#Having both values equal will keep steering constant, irrelevant of speed
+	steering = [[1.1, 3.3], [1.1, 3.3], [1.1, 3.3], [1.1, 3.3], [1.1, 3.3], [1.1, 4.95]]
+	#Vehicles' max stepping height
+	step_height = [1.6, 1.6, 2.6, 2.6, 1.6, 2.6]
+	#Baseline damage to calculate onto mobs hit by the vehicles
+	ram_damage = [20.0, 20.0, 30.0, 25.0, 15.0, 10.0]
+	#Vehicles' fuel capacity
+	fuel_capacity = [5000, 3000, 10000, 6000, 6000, 1500]
+	#Vehicles' fuel capacity
+	battery_capacity = [9000, 8000, 10000, 10000, 8000, 4000]
+
+[road_blocks]
+	#A list of blocks considered on-road for cars
+	#Any starting with '#' are considered a block tag
+	blocks = [["#refueled:road_blocks", "1.0"]]
+

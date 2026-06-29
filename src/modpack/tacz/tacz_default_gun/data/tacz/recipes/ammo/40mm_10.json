@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:bullet_casing_40mm"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "#forge:gunpowder"
+      },
+      "count": 10
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:40mm",
+    "count": 10
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

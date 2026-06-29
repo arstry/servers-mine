@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/lead"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:bullet_casing_9mm_round"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "createbigcannons:gunpowder_pinch"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:9mm",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

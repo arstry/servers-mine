@@ -1,0 +1,49 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "gz:lvoa_c"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:plates/aluminum"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rubber"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rifle_assembly_parts"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "gz:m4_exotic_t2"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

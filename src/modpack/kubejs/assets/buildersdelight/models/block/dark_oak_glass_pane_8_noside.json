@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "pane": "buildersdelight:block/dark_oak_glass_8"
+  }
+}

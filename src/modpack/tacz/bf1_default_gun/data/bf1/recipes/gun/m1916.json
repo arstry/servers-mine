@@ -1,0 +1,40 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:plates/aluminum"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rubber"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rifle_assembly_parts"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "bf1:m1916",
+    "ammo_count": 25
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

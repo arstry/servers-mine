@@ -11,7 +11,8 @@
     "botania:falling_star"
   ],
   "entityWhitelist": [
-    "botania:mana_burst"
+    "botania:mana_burst",
+    "parcool:zipline_rope"
   ],
   "tracingDistance": 128,
   "debugMode": false,
@@ -26,6 +27,7 @@
     "minecraft:boat",
     "minecraft:firework_rocket",
     "create:carriage_contraption",
+    "drg_flares:drg_flare",
     "mts:builder_existing",
     "mts:builder_rendering",
     "mts:builder_seat",

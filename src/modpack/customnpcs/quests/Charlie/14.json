@@ -1,0 +1,52 @@
+{
+    "Type": 4,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "tacz:ammo",
+                "tag": {
+                    "AmmoId": "tacz:556x45"
+                },
+                "Count": 30b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.charlie.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.charlie.quest.killboomer.completedlog",
+    "Text": "npc.deceasedcraft.charlie.quest.killboomer.description",
+    "QuestDialogs": [
+        {
+            "Value": 3,
+            "Slot": "zombie_extreme:boomer"
+        }
+    ],
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1765377668834L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.charlie.quest.killboomer.title",
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

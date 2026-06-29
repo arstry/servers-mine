@@ -1,0 +1,55 @@
+{
+    "Type": 0,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "LeaveItems": 0b,
+    "IgnoreNBT": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "farmersdelight:pasta_with_meatballs",
+                "Count": 4b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.chuck.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.chuck.quest.sapling.completedlog",
+    "Text": "npc.deceasedcraft.chuck.quest.sapling.description",
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1739198220680L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.chuck.quest.sapling.title",
+    "IgnoreDamage": 0b,
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:oak_sapling",
+                "Count": 10b
+            }
+        ]
+    },
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

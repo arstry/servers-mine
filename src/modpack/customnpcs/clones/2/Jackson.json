@@ -1,0 +1,805 @@
+{
+    "Accuracy": 60,
+    "IsStatue": 0b,
+    "HideBodyWhenKilled": 0b,
+    "ReturnToStart": 0b,
+    "Resistances": {
+        "Knockback": 1.0f,
+        "Explosion": 1.0f,
+        "Melee": 1.0f,
+        "Arrow": 1.0f
+    },
+    "ActiveRange": 32,
+    "ForgeCaps": {
+        "curios:inventory": {
+            "Curios": [
+            ]
+        },
+        "tacz:synced_entity_data": [
+        ],
+        "hordes:hordespawn": ""
+    },
+    "FactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "MovingState": 0,
+    "BalmData": {
+    },
+    "NPCDialogOptions": [
+        {
+            "DialogSlot": 0,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "The Final Order - 1-1",
+                "Dialog": 113,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 1,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "The Final Order - 2-1",
+                "Dialog": 119,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 2,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "The Final Order - 3-1",
+                "Dialog": 121,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 3,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "The Final Order - 4-1",
+                "Dialog": 125,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 4,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "The Final Order - 5-1",
+                "Dialog": 127,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 5,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "The Final Order - 6-1",
+                "Dialog": 129,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 6,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "Jackson Generic",
+                "Dialog": 130,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        }
+    ],
+    "GroundSound": "minecraft:block.stone.break",
+    "pRender3D": 1b,
+    "MovingPause": 1b,
+    "ConversationQuest": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ShowName": 0,
+    "LootMode": 0,
+    "SkinUrl": "",
+    "TraderMarket": "",
+    "CombatRegen": 3,
+    "Fire": -1s,
+    "pDamage": 4,
+    "pStick": 0b,
+    "cpadidTP": 0b,
+    "CanDrown": 1b,
+    "DeathTime": 0s,
+    "WalkingRange": 10,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pEffect": 0,
+    "DropChance": [
+    ],
+    "KilledTime": 0L,
+    "MaxFiringRange": 15,
+    "Orientation": 0,
+    "PositionOffsetZ": 5.0f,
+    "FactionID": 0,
+    "VisibleAvailability": {
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest": 0,
+        "AvailabilityMinPlayerLevel": 0,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog3": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityDialog": 0,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityQuestId": -1,
+        "AvailabilityDialogId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityDialog2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityQuest4": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityFaction2": 0,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboard2Value": 1,
+        "ModRev": 18
+    },
+    "FindShelter": 2,
+    "HurtByTimestamp": 0,
+    "LeashedByEntities": [
+    ],
+    "HealthRegen": 3,
+    "CitadelData": {
+    },
+    "DoorInteract": 1,
+    "TraderIgnoreNBT": 0b,
+    "Role": 1,
+    "DirectLOS": 1b,
+    "PositionOffsetX": 5.0f,
+    "NoFallDamage": 0b,
+    "AttackRange": 2,
+    "pSpeed": 10,
+    "Title": "",
+    "pGlows": 0b,
+    "FallFlying": 0b,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "MountControl": 0b,
+    "MaxExp": 0,
+    "AimWhileShooting": 0b,
+    "pImpact": 0,
+    "ShowLayers": 1b,
+    "ImmuneToFire": 0b,
+    "DisablePitch": 0b,
+    "LeftHanded": 0b,
+    "TraderIgnoreDamage": 0b,
+    "MoveState": 0,
+    "DefendFaction": 0b,
+    "NpcJob": 7,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "NpcInv": [
+    ],
+    "pSpin": 0b,
+    "AttackOtherFactions": 0b,
+    "pDur": 5,
+    "NpcVisible": 0,
+    "stopAndInteract": 1b,
+    "NpcsTimers": [
+    ],
+    "maxDelay": 40,
+    "ScriptLanguage": "",
+    "MarkovGeneratorId": 3,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CanPickUpLoot": 0b,
+    "BurnInSun": 0b,
+    "TotalTicksAlive": 607L,
+    "TransformHasInv": 0b,
+    "Texture": "deceasedcraft:textures/entity/hardcoreb01.png",
+    "MinExp": 0,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "cpaCooldown": 0,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 18b,
+                "id": "apocalypsenow:money",
+                "Count": 12b
+            },
+            {
+                "Slot": 19b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 3b
+            },
+            {
+                "Slot": 20b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 4b
+            },
+            {
+                "Slot": 21b,
+                "id": "apocalypsenow:money",
+                "Count": 16b
+            },
+            {
+                "Slot": 22b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 4b
+            },
+            {
+                "Slot": 23b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 4b
+            },
+            {
+                "Slot": 24b,
+                "id": "apocalypsenow:money",
+                "Count": 16b
+            },
+            {
+                "Slot": 25b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 4b
+            },
+            {
+                "Slot": 26b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 5b
+            },
+            {
+                "Slot": 27b,
+                "id": "apocalypsenow:money",
+                "Count": 18b
+            },
+            {
+                "Slot": 28b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 4b
+            },
+            {
+                "Slot": 29b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 7b
+            },
+            {
+                "Slot": 30b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 1b
+            },
+            {
+                "Slot": 31b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 4b
+            },
+            {
+                "Slot": 32b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 7b
+            },
+            {
+                "Slot": 33b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 1b
+            },
+            {
+                "Slot": 34b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 4b
+            },
+            {
+                "Slot": 35b,
+                "id": "apocalypsenow:highvaluemoneyblock",
+                "Count": 7b
+            }
+        ]
+    },
+    "AvoidsSun": 0b,
+    "Air": 300s,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "PositionOffsetY": 5.0f,
+    "AvoidsWater": 0b,
+    "FallDistance": 0.0f,
+    "MaxHealth": 120,
+    "UsingSkinUrl": 0b,
+    "PortalCooldown": 0,
+    "TransformHasDisplay": 0b,
+    "AttackInvisible": 0b,
+    "SpawnCycle": 0,
+    "AbsorptionAmount": 0.0f,
+    "MovingPatern": 0,
+    "TransformHasAdvanced": 0b,
+    "BossColor": 0,
+    "OverlayGlowing": 1b,
+    "Weapons": [
+    ],
+    "pSize": 5,
+    "CloakTexture": "",
+    "BossBar": 0b,
+    "FireRate": 5,
+    "pArea": 0,
+    "OnAttack": 0,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "Scripts": [
+    ],
+    "LinkedNpcName": "",
+    "Armor": [
+    ],
+    "CanSprint": 0b,
+    "ForgeData": {
+        "enhancedai:follow_ranges_processed": 1b,
+        "enhancedai:sprint": 0b,
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
+    },
+    "ReactsToFire": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "PotionEffect": 0,
+    "IgnoreCobweb": 0b,
+    "MoveSpeed": 5,
+    "ModRev": 18,
+    "TransformHasRole": 0b,
+    "pPhysics": 1b,
+    "OnGround": 1b,
+    "StandingState": 0,
+    "AggroRange": 16,
+    "HitSound": "minecraft:entity.player.hurt",
+    "LeashingEntities": [
+    ],
+    "CanLeap": 0b,
+    "Attributes": [
+        {
+            "Name": "forge:entity_gravity",
+            "Base": 0.08d
+        },
+        {
+            "Name": "minecraft:generic.attack_damage",
+            "Base": 5.0d
+        },
+        {
+            "Name": "minecraft:generic.movement_speed",
+            "Base": 0.25d
+        },
+        {
+            "Name": "puffish_attributes:jump",
+            "Base": NaNd
+        },
+        {
+            "Name": "minecraft:generic.follow_range",
+            "Base": 32.0d
+        },
+        {
+            "Name": "puffish_attributes:fall_reduction",
+            "Base": NaNd
+        },
+        {
+            "Name": "minecraft:generic.max_health",
+            "Base": 120.0d
+        },
+        {
+            "Name": "forge:step_height_addition",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.flying_speed",
+            "Base": 0.5d
+        },
+        {
+            "Name": "forge:swim_speed",
+            "Base": 8.0d
+        },
+        {
+            "Name": "puffish_attributes:stealth",
+            "Base": NaNd
+        }
+    ],
+    "Name": "npc.deceasedcraft.jackson.name",
+    "TransformHasJob": 0b,
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "NpcAngrySound": "",
+    "npcInteracting": 1b,
+    "AttackStrenght": 5,
+    "pXlr8": 0b,
+    "ScriptEnabled": 0b,
+    "NpcStepSound": "",
+    "Size": 5,
+    "MovementType": 0,
+    "FireIndirect": 0,
+    "TransformIsActive": 0b,
+    "ConversationLines": [
+    ],
+    "SkinColor": 16777215,
+    "ConversationMode": 0,
+    "BurstCount": 1,
+    "TransformHasAI": 0b,
+    "pTrail": 0,
+    "id": "customnpcs:customnpc",
+    "AttackSpeed": 20,
+    "HurtTime": 0s,
+    "GlowTexture": "",
+    "CanUpdate": 1b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "tacz:ammo",
+                "tag": {
+                    "AmmoId": "tacz:30_06"
+                },
+                "Count": 6b
+            },
+            {
+                "Slot": 1b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 30,
+                    "GunFireMode": "AUTO",
+                    "GunId": "tacz:qbz_95"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 32,
+                    "GunFireMode": "AUTO",
+                    "GunId": "gz:cargo_terminal"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 3b,
+                "id": "tacz:ammo",
+                "tag": {
+                    "AmmoId": "tacz:57x28"
+                },
+                "Count": 10b
+            },
+            {
+                "Slot": 4b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 10,
+                    "GunFireMode": "SEMI",
+                    "GunId": "tacz:mk14"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 5b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 7,
+                    "GunFireMode": "SEMI",
+                    "GunId": "gz:tactical_sasg_12k"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 6b,
+                "id": "tacz:ammo",
+                "tag": {
+                    "AmmoId": "tacz:338"
+                },
+                "Count": 6b
+            },
+            {
+                "Slot": 7b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 20,
+                    "GunFireMode": "SEMI",
+                    "GunId": "suffuse:xm7"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 8b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 8,
+                    "GunFireMode": "SEMI",
+                    "GunId": "gz:m700_carbon"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 9b,
+                "id": "tacz:ammo",
+                "tag": {
+                    "AmmoId": "tacz:308"
+                },
+                "Count": 12b
+            },
+            {
+                "Slot": 10b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 20,
+                    "GunFireMode": "SEMI",
+                    "GunId": "tacz:scar_h"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 11b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 3,
+                    "GunFireMode": "SEMI",
+                    "GunId": "suffuse:m200"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 12b,
+                "id": "deceasedcraft:sniper_assembly_parts",
+                "Count": 1b
+            },
+            {
+                "Slot": 13b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 25,
+                    "GunFireMode": "SEMI",
+                    "GunId": "bf1:m1916"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 14b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 3,
+                    "GunFireMode": "SEMI",
+                    "GunId": "suffuse:aw50"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 15b,
+                "id": "deceasedcraft:hmg_assembly_parts",
+                "Count": 1b
+            },
+            {
+                "Slot": 16b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 20,
+                    "GunFireMode": "SEMI",
+                    "GunId": "tacz:hk_g3"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 17b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 3,
+                    "GunFireMode": "SEMI",
+                    "GunId": "suffuse:gm6"
+                },
+                "Count": 1b
+            }
+        ]
+    },
+    "minDelay": 20,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "Invulnerable": 0b,
+    "NpcIdleSound": "",
+    "TransformEditingModus": 0b,
+    "MovingPos": 0,
+    "KnockBack": 0,
+    "RespawnTime": 20,
+    "OrderedLines": 0b,
+    "ShotCount": 1,
+    "PotionAmp": 0,
+    "ConversationAvailability": {
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest": 0,
+        "AvailabilityMinPlayerLevel": 0,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog3": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityDialog": 0,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityQuestId": -1,
+        "AvailabilityDialogId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityDialog2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityQuest4": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityFaction2": 0,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboard2Value": 1,
+        "ModRev": 18
+    },
+    "TrackedData": {
+    },
+    "PotionImmune": 0b,
+    "PersistenceRequired": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "NpcModelData": {
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "LastEdited": 1756357978398L,
+        "Legs2Config": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "ArmsConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "MoveAnimation": 16,
+        "ModelType": 0,
+        "BodyConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "NewParts": [
+        ],
+        "Animation": 0,
+        "WingMode": 0,
+        "LegsConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "SimpleRender": 0b,
+        "Parts": [
+        ],
+        "DisplayName": "",
+        "CustomSkinUrl": "",
+        "Arms2Config": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        }
+    },
+    "NoLivingAnimation": 0b,
+    "TransformHasStats": 0b,
+    "CreatureType": 0,
+    "PotionDuration": 5,
+    "pEffAmp": 0,
+    "Brain": {
+        "memories": {
+        }
+    },
+    "ConversationRange": 0,
+    "ConversationDelay": 0,
+    "EntityJSData": {
+    },
+    "Rotation": [
+        0.0f,
+        0.0f
+    ],
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "DistanceToMelee": 0,
+    "MarkovGender": 0,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "CanSwim": 1b,
+    "Health": 120.0f
+}

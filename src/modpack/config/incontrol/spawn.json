@@ -1,32 +1,322 @@
 [
   {
+    "phase": "after_day1",
+    "hostile": true,
+    "spawntype": ["natural", "spawner", "mob_summoned"],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
     "mob": [
+      "minecraft:creeper",
+      "minecraft:enderman",
+      "minecraft:skeleton",
       "minecraft:witch",
-      "thermal:blitz"
+      "minecraft:stray",
+      "minecraft:phantom",
+      "minecraft:witch",
+      "minecraft:slime",
+      "minecraft:skeleton_horse",
+      "minecraft:villager",
+      "minecraft:zombie_villager",
+      "minecraft:wandering_trader",
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:spider",
+      "minecraft:illusioner",
+      "quark:forgotten"
     ],
+    "dimension": "minecraft:overworld",
     "result": "deny"
   },
   {
-    "mob": "minecraft:warden",
-    "mincount": 5,
+    "mob": [
+      "minecraft:blaze",
+      "minecraft:hoglin",
+      "quark:shiba",
+      "customnpcs:customnpc"
+    ],
+    "dimension": "minecraft:overworld",
+    "incontrol": false,
     "result": "deny"
   },
   {
-    "mob": "minecraft:slime",
-    "slime": true,
-    "maxlight": 7,
-    "result": "default"
-  },
-  {
-    "mob": "minecraft:slime",
-    "slime": true,
+    "mob": "customnpcs:customnpc",
+    "dimension": "minecraft:overworld",
+    "incity": false,
     "result": "deny"
   },
   {
-    "mob": ["minecraft:zombified_piglin", "specialmobs:zombifiedpiglin", "specialmobs:hungryzombifiedpiglin"],
+    "mob": "minecraft:blaze",
+    "dimension": "minecraft:overworld",
+    "mincount": {
+      "mob": "minecraft:blaze",
+      "amount": 2,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "hostile": true,
+    "mod": ["undead_revamp2",
+            "zombie_extreme"],
+    "incontrol": false,
+    "result": "deny"
+  },
+  {
+    "mod": ["spore",
+            "apocalypsenow"],
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "hostile": true,
+    "difficulty": "easy",
+    "minlight": 2,
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "hostile": true,
+    "difficulty": "normal",
+    "minlight": 5,
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "hostile": true,
+    "difficulty": "hard",
+    "minlight": 8,
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "hostile": true,
+    "difficulty": "easy",
+    "random": 0.25,
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "hostile": true,
+    "mincount": {
+      "hostile": true,
+      "amount": 300
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "passive": true,
+    "mincount": {
+      "passive": true,
+      "perchunk": true,
+      "amount": 3
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "hostile": true,
+    "mincount": {
+      "amount": 8,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "crittersandcompanions",
+    "dimension": "minecraft:overworld",
+    "mincount": 4,
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:bat"],
+    "dimension": "minecraft:overworld",
+    "mincount": 3,
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "minecraft:overworld",
+      "deceasedcraft:abyss"],
+    "hostile": true,
+    "block": {
+      "tag": "securitycraft:reinforced_blocks"
+    },
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:husk",
+      "minecraft:drowned"
+    ],
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "incontrol": false,
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "spore:inf_drowned"
+    ],
+    "dimension": "minecraft:overworld",
+    "when": "onjoin",
+    "result": "deny"
+  },
+
+
+
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:husk",
+      "minecraft:drowned"
+    ],
+    "dimension": "minecraft:overworld",
+    "when": "finalize",
     "result": "default",
-    "nbt": {
-      "AngerTime": 2147483647
-	}
+    "biometags": [
+      "deceasedcraft:highrise_office",
+      "deceasedcraft:highrise_residential"],
+    "incity": true,
+    "continue": true,
+    "healthmultiply": 1.25,
+    "damagemultiply": 1.25
+  },
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:husk",
+      "minecraft:drowned"
+    ],
+    "dimension": "minecraft:overworld",
+    "when": "finalize",
+    "result": "default",
+    "biometags": [
+      "deceasedcraft:highrise_hotel",
+      "deceasedcraft:retail_district"],
+    "incity": true,
+    "continue": true,
+    "healthmultiply": 1.5,
+    "damagemultiply": 1.5,
+    "armormultiply": 1.25
+  },
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:husk",
+      "minecraft:drowned"
+    ],
+    "dimension": "minecraft:overworld",
+    "when": "finalize",
+    "result": "default",
+    "biometags": [
+      "deceasedcraft:wasteland"],
+    "incity": true,
+    "continue": true,
+    "healthmultiply": 2.0,
+    "damagemultiply": 1.5,
+    "armormultiply": 1.5
+  },
+  {
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+    "difficulty": "hard",
+    "when": "finalize",
+    "biometags": [
+      "deceasedcraft:highrise_office",
+      "deceasedcraft:highrise_residential"
+    ],
+    "incity": true,
+    "continue": true,
+    "healthmultiply": 1.5,
+    "damagemultiply": 1.25
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "difficulty": "hard",
+    "when": "finalize",
+    "result": "default",
+    "biometags": [
+      "deceasedcraft:highrise_hotel",
+      "deceasedcraft:retail_district"
+    ],
+    "incity": true,
+    "continue": true,
+    "healthmultiply": 1.75,
+    "damagemultiply": 1.5,
+    "armormultiply": 1.25
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "difficulty": "hard",
+    "when": "finalize",
+    "result": "default",
+    "biometags": [
+      "deceasedcraft:wasteland"],
+    "incity": true,
+    "continue": true,
+    "healthmultiply": 2.0,
+    "damagemultiply": 1.5,
+    "armormultiply": 1.5
+  },
+  {
+    "dimension": "deceasedcraft:abyss",
+    "hostile": true,
+    "difficulty": "hard",
+    "when": "finalize",
+    "result": "default",
+    "incity": true,
+    "continue": true,
+    "healthmultiply": 2.0,
+    "damagemultiply": 1.5,
+    "armormultiply": 1.5
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "when": "onjoin",
+    "hostile": true,
+    "difficulty": "easy",
+    "result": "default",
+    "continue": true,
+    "healthmultiply": 0.5,
+    "damagemultiply": 0.5
+  },
+
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:husk",
+      "minecraft:drowned"
+    ],
+    "dimension": "minecraft:overworld",
+    "seesky": true,
+    "result": "allow"
   }
 ]

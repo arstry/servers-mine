@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/lead"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:bullet_casing_57x28"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "createbigcannons:gunpowder_pinch"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:57x28",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,80 @@
+{
+    "model": "rebel:gun/rs1mahe_geo",
+    "texture": "rebel:gun/uv/rs1mahe",
+    "slot": "rebel:gun/slot/rs1mahe",
+    "hud": "rebel:gun/hud/rs1mahe",
+    "animation": "rebel:rs1mahe",
+    "use_default_animation": "rifle",
+
+    "sounds": {
+        "shoot": "rebel:rs1mahe/rs1mahe_shoot",
+        "shoot_3p": "rebel:rs1mahe/rs1mahe_shoot_3p",
+        "silence": "rebel:rs1mahe/rs1mahe_silence",
+        "silence_3p": "rebel:rs1mahe/rs1mahe_silence_3p",
+        "draw": "rebel:rs1mahe/rs1mahe_draw",
+        "put_away": "rebel:rs1mahe/rs1mahe_put_away",
+        "dry_fire": "rebel:dry_fire",
+        "flesh_hit": "rebel:flesh_hit",
+        "head_hit": "rebel:head_hit",
+        "kill": "rebel:kill",
+        "reload_empty": "rebel:rs1mahe/rs1mahe_reload_empty",
+        "reload_tactical": "rebel:rs1mahe/rs1mahe_reload_tactical",
+        "bolt": "rebel:rs1mahe/rs1mahe_bolt",
+        "inspect_empty": "rebel:rs1mahe/rs1mahe_inspect_empty",
+        "inspect": "rebel:rs1mahe/rs1mahe_inspect"
+       
+    
+    },
+       
+    "muzzle_flash": {
+       
+        "texture": "tacz:flash/common_muzzle_flash",
+        
+        "scale": 1.3
+      },
+
+    "iron_zoom": 1.2,
+
+        "text_show": {
+           
+            "ammo_count_text_pos": {
+             
+              "scale": 0.35,
+            
+              "align": "right",
+              
+              "shadow": false,
+            
+              "color": "#53f9af",
+            
+              "light": 15,
+             
+              "text": "%rs1mahe%"
+            }
+            
+          },
+
+    "transform": {
+        "scale": {
+           
+            "thirdperson": [
+                0.5,
+                0.5,
+                0.5
+            ],
+           
+            "ground": [
+                0.5,
+                0.5,
+                0.5
+            ],
+           
+            "fixed": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    "third_person_animation": "default"
+}

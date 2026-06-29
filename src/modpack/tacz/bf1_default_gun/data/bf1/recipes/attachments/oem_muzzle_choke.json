@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "deceasedcraft:attachment_assembly_parts"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "bf1:oem_muzzle_choke"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

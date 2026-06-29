@@ -1,0 +1,24 @@
+[
+	{
+		"entity": "minecraft:zombie",
+		"weight": 25
+	},
+	{
+		"entity": "undead_revamp2:sucker",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "undead_revamp2:the_moonflower",
+		"weight": 5,
+		"min_spawns": 1,
+		"max_spawns": 3
+	},
+	{
+		"entity": "zombie_extreme:runner",
+		"weight": 3,
+		"min_spawns": 1,
+		"max_spawns": 2
+	}
+]

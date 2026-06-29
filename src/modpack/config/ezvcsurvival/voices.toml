@@ -1,0 +1,41 @@
+
+#FollowVoice Config
+#Defines how mobs react to player voices, including their movement speed, detection range, and reaction threshold.
+[mob_voice_configs]
+	mob_configs = ["minecraft:zombie=speed=1.0,range=6,threshold=-40.0", "minecraft:husk=speed=1.0,range=6,threshold=-40.0", "minecraft:drowned=speed=1.0,range=6,threshold=-40.0", "undead_revamp2:thesmoker=speed=1.0,range=8,threshold=-40.0", "undead_revamp2:bomber=speed=1.0,range=6,threshold=-40.0", "undead_revamp2:therod=speed=1.0,range=4,threshold=-40.0", "undead_revamp2:the_moonflower=speed=1.0,range=8,threshold=-40.0", "undead_revamp2:thehunter=speed=1.0,range=12,threshold=-40.0", "undead_revamp2:thespitter=speed=1.0,range=9,threshold=-40.0", "undead_revamp2:sucker=speed=1.0,range=6,threshold=-40.0", "undead_revamp2:thespectre=speed=1.0,range=9,threshold=-40.0", "undead_revamp2:thepregnant=speed=1.0,range=6,threshold=-40.0", "undead_revamp2:thegliter=speed=1.0,range=6,threshold=-40.0", "undead_revamp2:thelurker=speed=1.0,range=6,threshold=-40.0", "undead_revamp2:theheavy=speed=1.0,range=12,threshold=-40.0", "undead_revamp2:clogger=speed=1.0,range=12,threshold=-40.0", "undead_revamp2:bigsucker=speed=1.0,range=12,threshold=-40.0", "zombie_extreme:runner=speed=1.0,range=10,threshold=-40.0", "zombie_extreme:clicker=speed=1.0,range=16,threshold=-40.0", "zombie_extreme:boomer=speed=1.0,range=10,threshold=-40.0", "zombie_extreme:inflated=speed=1.0,range=8,threshold=-40.0", "zombie_extreme:infected_military=speed=1.0,range=8,threshold=-40.0", "zombie_extreme:infected_hazmat=speed=1.0,range=8,threshold=-40.0", "zombie_extreme:infected_juggernaut=speed=1.0,range=8,threshold=-40.0", "zombie_extreme:goon=speed=1.0,range=10,threshold=-40.0", "zombie_extreme:revived=speed=1.0,range=10,threshold=-40.0", "zombie_extreme:faceless=speed=1.0,range=10,threshold=-40.0", "zombie_extreme:night_hunter=speed=1.1,range=16,threshold=-40.0", "zombie_extreme:fetus=speed=1.0,range=6,threshold=-40.0", "zombie_extreme:explosive_infected=speed=1.0,range=6,threshold=-40.0", "zombie_extreme:divided=speed=1.0,range=6,threshold=-40.0", "zombie_extreme:ram=speed=1.0,range=6,threshold=-40.0", "zombie_extreme:zero_patient=speed=1.0,range=10,threshold=-40.0", "zombie_extreme:demolisher=speed=1.0,range=10,threshold=-40.0", "zombie_extreme:rat_king=speed=1.0,range=10,threshold=-40.0"]
+
+#RunawayVoiceGoal Config
+#Defines how animals react to player voices, including their fleeing speed, detection range, and reaction threshold.
+[animal_voice_configs]
+	animal_configs = ["minecraft:cow=speed=1.5,range=15,threshold=-45.0", "minecraft:pig=speed=1.2,range=5,threshold=-45.0"]
+
+#Whisper Config
+#Multipliers that affect the detection range and movement speed when the player is whispering.
+[whisper_configs]
+	#Range: 0.0 ~ 1.0
+	whisper_range_multiplier = 0.5
+	#Range: 0.0 ~ 1.0
+	whisper_speed_multiplier = 0.8
+
+#Misc Config
+#Multipliers that affect the detection range of voices in specific situations.
+[misc_config]
+	#Range: 0.0 ~ 1.0
+	thunder_range_multiplier = 0.5
+	#Range: 0.0 ~ 1.0
+	sneaking_range_multiplier = 0.5
+
+#Armor Effects Config
+#Define multipliers for mob detection range and speed when a player wears specific armor items.
+#Format: item_id=speedMultiplier,rangeMultiplier
+#Example: minecraft:diamond_helmet=0.5,0.5
+[armor_effects]
+	effects = []
+
+#Death Angels Mod Config
+#Defines the threshold detection (how hard the player must speak)
+#You need this mod for this parameter: https://www.curseforge.com/minecraft/mc-mods/death-angels
+[death_angels_config]
+	#Range: -127.0 ~ 0.0
+	death_angels_threshold = -30.0
+

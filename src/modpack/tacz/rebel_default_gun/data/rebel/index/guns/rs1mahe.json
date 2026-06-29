@@ -1,0 +1,14 @@
+{
+    
+    "name": "rebel.gun.rs1mahe.name",
+   
+    "display": "rebel:rs1mahe_display",
+
+    "data": "rebel:rs1mahe_data",
+   
+    "type": "shotgun",
+
+    "item_type": "modern_kinetic",
+
+    "sort": 10
+}

@@ -1,0 +1,49 @@
+{
+    "Type": 4,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "refinedstorage:crafting_grid",
+                "Count": 1b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.blake.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.blake.quest.killrod.completedlog",
+    "Text": "npc.deceasedcraft.blake.quest.killrod.description",
+    "QuestDialogs": [
+        {
+            "Value": 5,
+            "Slot": "undead_revamp2:therod"
+        }
+    ],
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1739278552794L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.blake.quest.killrod.title",
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

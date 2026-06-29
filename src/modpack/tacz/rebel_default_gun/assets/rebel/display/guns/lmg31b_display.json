@@ -1,0 +1,96 @@
+{
+    "model": "rebel:gun/lmg31b_geo",
+    "texture": "rebel:gun/uv/lmg31b",
+    "slot": "rebel:gun/slot/lmg31b",
+    "hud": "rebel:gun/hud/lmg31b",
+    "animation": "rebel:lmg31b",
+    "use_default_animation": "rifle",
+
+    "sounds": {
+        "shoot": "rebel:lmg31b/lmg31b_shoot",
+        "shoot_3p": "rebel:lmg31b/lmg31b_shoot_3p",
+        "silence": "rebel:lmg31b/lmg31b_silence",
+        "silence_3p": "rebel:lmg31b/lmg31b_silence_3p",
+        "draw": "rebel:lmg31b/lmg31b_draw",
+        "put_away": "rebel:lmg31b/lmg31b_put_away",
+        "dry_fire": "rebel:dry_fire",
+        "flesh_hit": "rebel:flesh_hit",
+        "head_hit": "rebel:head_hit",
+        "kill": "rebel:kill",
+        "reload_empty": "rebel:lmg31b/lmg31b_reload_empty",
+        "reload_tactical": "rebel:lmg31b/lmg31b_reload_tactical",
+        "inspect_empty": "rebel:lmg31b/lmg31b_inspect_empty",
+        "inspect": "rebel:lmg31b/lmg31b_inspect"
+       
+    
+    },
+
+    "ammo": {
+        "tracer_color": "#C12F2F"
+         },
+       
+    "muzzle_flash": {
+       
+        "texture": "tacz:flash/common_muzzle_flash",
+        
+        "scale": 1
+      },
+
+    "iron_zoom": 1.5,
+
+        "shell": {
+           
+            "initial_velocity": [14, 5, 2],
+           
+            "random_velocity": [1, 3, 0.25],
+           
+            "acceleration": [0.0, -30, 0.0],
+           
+            "angular_velocity": [360, -1200, 90],
+           
+            "living_time": 1.0
+        },
+
+        "text_show": {
+           
+            "ammo_count_text_pos": {
+             
+              "scale": 0.35,
+            
+              "align": "right",
+              
+              "shadow": false,
+            
+              "color": "#53f9af",
+            
+              "light": 15,
+             
+              "text": "%lmg31b%"
+            }
+            
+          },
+
+    "transform": {
+        "scale": {
+           
+            "thirdperson": [
+                0.7,
+                0.7,
+                0.7
+            ],
+           
+            "ground": [
+                0.7,
+                0.7,
+                0.7
+            ],
+           
+            "fixed": [
+                1.3,
+                1.3,
+                1.3
+            ]
+        }
+    },
+    "third_person_animation": "default"
+}

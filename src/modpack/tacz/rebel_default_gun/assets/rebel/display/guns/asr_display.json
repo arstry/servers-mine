@@ -1,0 +1,56 @@
+{
+  "model": "rebel:gun/asr_geo",
+  "texture": "rebel:gun/uv/asr",
+  "hud": "rebel:gun/hud/asr",
+  "slot": "rebel:gun/slot/asr",
+  "animation": "rebel:asr",
+  "use_default_animation": "rifle",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.8, 0.8, 0.8],
+      "ground": [0.8, 0.8, 0.8],
+      "fixed": [1.5, 1.5, 1.5]
+    }
+  },
+ "shell": {
+    "initial_velocity": [8, 0, 0],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, 360, 360],
+    "living_time": 1.0
+  },
+        
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.5
+  },
+  "sounds": {
+    "reload_empty": "rebel:asr/asr_reload_empty",
+    "reload_tactical": "rebel:asr/asr_reload_tactical",
+    "inspect": "rebel:asr/asr_inspect",
+    "inspect_empty": "rebel:asr/asr_inspect_empty",
+    "draw": "rebel:asr/asr_draw",
+    "put_away": "rebel:asr/asr_put_away",
+    "dry_fire": "rebel:dry_fire",
+    "flesh_hit": "rebel:flesh_hit",
+    "head_hit": "rebel:head_hit",
+    "kill": "rebel:kill",
+    "shoot": "rebel:asr/asr_shoot",
+    "shoot_3p": "rebel:asr/asr_shoot_3p",
+    "silence": "rebel:asr/asr_silence",
+    "silence_3p": "rebel:asr/asr_silence_3p"
+  },
+  "offhand_show": {
+    "pos": [4, 13, -2],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, -2],
+      "rotate": [-90, -35, 90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

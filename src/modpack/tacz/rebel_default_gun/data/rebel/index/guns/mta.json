@@ -1,0 +1,7 @@
+{
+  "name": "rebel.gun.mta.name",
+  "display": "rebel:mta_display",
+  "data": "rebel:mta_data",
+  "tooltip": "rebel.gun.mta.desc",
+  "type": "rpg"
+}

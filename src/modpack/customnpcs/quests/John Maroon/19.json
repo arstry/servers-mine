@@ -1,0 +1,65 @@
+{
+    "Type": 0,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "LeaveItems": 0b,
+    "IgnoreNBT": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "apocalypsenow:money_block",
+                "Count": 8b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.john.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.john.quest.musicdisc.completedlog",
+    "Text": "npc.deceasedcraft.john.quest.musicdisc.description",
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1739267294223L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.john.quest.musicdisc.title",
+    "IgnoreDamage": 0b,
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:music_disc_stal",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "minecraft:music_disc_strad",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "minecraft:music_disc_cat",
+                "Count": 1b
+            }
+        ]
+    },
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

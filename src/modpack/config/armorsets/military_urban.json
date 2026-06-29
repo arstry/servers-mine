@@ -1,0 +1,48 @@
+{
+  "armorSetName": "armors.military_urban.title",
+  "head": {
+    "itemKey": "apocalypsenow:military_urban_helmet"
+  },
+  "chest": {
+    "itemKey": "apocalypsenow:military_urban_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:military_urban_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:military_urban_boots"
+  },
+  "fullSetBonuses": [
+      {
+        "type": "attribute",
+        "name": "puffish_attributes:player.ranged_damage",
+        "value": 0.40,
+        "interactionType": "self",
+        "attributeOperation": 1,
+        "modifierUUID": "8d9f62a4-92b7-11ee-b9d1-0242ac120002",
+        "description": "armors.military_urban.description_ranged",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "minecraft:generic.movement_speed",
+        "value": 0.25,
+        "interactionType": "self",
+        "attributeOperation": 1,
+        "modifierUUID": "1b295580-92b8-11ee-b9d1-0242ac120002",
+        "description": "armors.military_urban.description_movement",
+        "hideBonusDescription": false
+      },
+      {
+        "type": "attribute",
+        "name": "attributeslib:crit_chance",
+        "value": 0.1,
+        "interactionType": "self",
+        "attributeOperation": 0,
+        "modifierUUID": "1b295774-92b8-11ee-b9d1-0242ac120002",
+        "description": "armors.military_urban.description_crit_chance",
+        "hideBonusDescription": false
+      }
+  ],
+  "hideGeneratedTooltip": false
+}

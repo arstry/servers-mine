@@ -1,0 +1,44 @@
+{
+  "model": "rebel:gun/mta_geo",
+  "texture": "rebel:gun/uv/mta",
+  "hud": "rebel:gun/hud/mta",
+  "slot": "rebel:gun/slot/mta",
+  "animation": "rebel:mta",
+  "use_default_animation": "rifle",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.7, 0.7, 0.7],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "sounds": {
+    "reload_tactical": "rebel:mta/mta_reload_tactical",
+    "reload_empty": "rebel:mta/mta_reload_empty",
+    "inspect": "rebel:mta/mta_inspect",
+    "inspect_empty": "rebel:mta/mta_inspect",
+    "draw": "rebel:mta/mta_draw",
+    "put_away":"rebel:mta/mta_put_away",
+    "shoot": "rebel:mta/mta_shoot",
+    "shoot_3p": "rebel:mta/mta_shoot",
+    "dry_fire": "rebel:dry_fire",
+    "flesh_hit": "rebel:flesh_hit",
+    "head_hit": "rebel:head_hit",
+    "kill": "rebel:kill",
+    "melee_push": "tacz:melee_stock/melee_stock_02",
+    "melee_stock": "tacz:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [1, 20, 4],
+    "rotate": [0, 0, 45],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [1, 16, -2],
+    "rotate": [0, 0, 20],
+    "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

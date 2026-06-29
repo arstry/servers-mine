@@ -1,0 +1,51 @@
+{
+  "armorSetName": "armors.nurse.title",
+  "chest": {
+    "itemKey": "apocalypsenow:nurse_chestplate"
+  },
+  "legs": {
+    "itemKey": "apocalypsenow:nurse_leggings"
+  },
+  "boots": {
+    "itemKey": "apocalypsenow:nurse_boots"
+  },
+  "mainHand": {
+    "itemKey": "apocalypsenow:scalpel"
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:healing",
+      "value": 0.25,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "a1e9f5a6-4e36-4c87-b7f1-0268329dc31c",
+      "description": "armors.nurse.description_health",
+      "hideBonusDescription": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1.0,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "a1e9f5a6-4e36-4c87-b7f1-0268329dc30b",
+      "description": "armors.nurse.description_damage",
+      "hideBonusDescription": false
+    },
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:healing",
+      "value": 0.5,
+      "interactionType": "self",
+      "attributeOperation": 1,
+      "modifierUUID": "a1e9f5a6-4e36-4c87-b7f1-0268329dc35d",
+      "description": "armors.nurse.description_health",
+      "hideBonusDescription": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

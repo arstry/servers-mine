@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "deceasedcraft:attachment_assembly_parts"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:iron_axe"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "rebel:rs1_axe"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

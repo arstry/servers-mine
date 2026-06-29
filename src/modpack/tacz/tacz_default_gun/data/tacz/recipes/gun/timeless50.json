@@ -1,0 +1,39 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+		  "item": {
+				"item": "immersiveengineering:component_steel"
+			},
+		  "count": 6
+		},
+		{
+			"item": {
+				"tag": "forge:plates/aluminum"
+			},
+		  "count": 3
+		},
+		{
+			"item": {
+				"tag": "forge:plates/plastic"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:rubber"
+			},
+		  "count": 3
+		},
+		{
+		  "item": {
+				"item": "deceasedcraft:pistol_assembly_parts"
+			},
+		  "count": 2
+		}
+  ],
+  "result": {
+    "type": "gun",
+    "id": "tacz:timeless50"
+  }
+}

@@ -1,0 +1,24 @@
+
+#General settings
+[general]
+	#Maximum XP that can be stored in the Experience Crafter
+	#Range: > 1
+	maxexperience = 3
+	#Chance that upon crafting a trinket you get the first bonus effectId (percentage)
+	#Range: 0.0 ~ 100.0
+	chanceBonusEffect1 = 0.0
+	#Chance that upon crafting a trinket you get the second bonus effectId (percentage). This only applies if you already got the first bonus effectId
+	#Range: 0.0 ~ 100.0
+	chanceBonusEffect2 = 0.0
+	#Chance that upon crafting a trinket you get the third bonus effectId (percentage). This only applies if you already got the second bonus effectId
+	#Range: 0.0 ~ 100.0
+	chanceBonusEffect3 = 0.0
+	#Chance that upon crafting a trinket you get the fourth bonus effectId (percentage). This only applies if you already got the third bonus effectId
+	#Range: 0.0 ~ 100.0
+	chanceBonusEffect4 = 0.0
+	#This is added to the experience that you get from the input experience. This way even a craft with 0 experience can get some reasonable things
+	#Range: > 0
+	qualityOffset = 150
+	#Item id's that will also be considered as trinket items (in addition to the standard items)
+	additionalTrinketItems = ["apocalypsenow:dog_tags", "deceasedcraft:miner_badge", "deceasedcraft:chef_badge", "deceasedcraft:medic_badge", "deceasedcraft:police_badge", "deceasedcraft:outlaw_badge", "deceasedcraft:army_badge", "deceasedcraft:special_forces_badge", "deceasedcraft:elite_special_forces_badge"]
+

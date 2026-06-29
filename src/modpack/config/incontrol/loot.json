@@ -1,6 +1,467 @@
 [
-  {
-    "mob": ["minecraft:zombified_piglin", "specialmobs:zombifiedpiglin", "specialmobs:hungryzombifiedpiglin"],
-    "remove": "minecraft:golden_sword"
-  }
+	{
+		"mod": "zombie_extreme",
+		"removeall": true
+	},
+	{
+		"mod": "undead_revamp2",
+		"removeall": true
+	},
+	{
+		"remove": [
+			"immersiveengineering:shader_bag_common",
+			"immersiveengineering:shader_bag_uncommon",
+			"immersiveengineering:shader_bag_rare",
+			"immersiveengineering:shader_bag_epic",
+			"immersiveengineering:shader_bag_ie_masterwork"]
+	},
+	{
+		"hostile": true,
+		"random" : 0.25,
+		"item": "minecraft:bone",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": ["minecraft:zombie",
+				"minecraft:husk",
+				"minecraft:drowned",
+				"zombie_extreme:crawler"],
+		"random" : 0.5,
+		"item": "minecraft:string",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": ["minecraft:zombie",
+				"minecraft:husk",
+				"minecraft:drowned",
+				"zombie_extreme:crawler"],
+		"random" : 0.1,
+		"item": "apocalypsenow:money",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": "zombie_extreme:infected_police",
+		"item": "apocalypsenow:money",
+		"random" : 0.25,
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": "zombie_extreme:infected_police",
+		"item": "tacz:ammo",
+		"itemcount": "1-3/3-5/5-7",
+		"nbt": {
+			"AmmoId": "tacz:9mm"
+		}
+	},
+	{
+		"mob": "zombie_extreme:infected_police",
+		"item": "tacz:ammo",
+		"itemcount": "1-3/3-5/5-7",
+		"nbt": {
+			"AmmoId": "tacz:45acp"
+		}
+	},
+	{
+		"mob": "undead_revamp2:thesmoker",
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": "undead_revamp2:thesmoker",
+		"random" : 0.15,
+		"item": "legendarysurvivaloverhaul:cold_string",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": "undead_revamp2:thesmoker",
+		"random" : 0.15,
+		"item": "legendarysurvivaloverhaul:warm_string",
+		"itemcount": "1/2/3"
+	},
+	{
+		"mob": "undead_revamp2:thesmoker",
+		"item": "legendarysurvivaloverhaul:plaster",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": "undead_revamp2:bomber",
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "2-3/3-4/4-5"
+	},
+	{
+		"mob": "undead_revamp2:bomber",
+		"random" : 0.5,
+		"item": "minecraft:gunpowder",
+		"itemcount": "2-3/3-4/4-5"
+	},
+	{
+		"mob": "undead_revamp2:theordure",
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "3-4/4-5/5-6"
+	},
+	{
+		"mob": "undead_revamp2:theordure",
+		"random" : 0.5,
+		"item": "minecraft:gunpowder",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": "undead_revamp2:theordure",
+		"random" : 0.5,
+		"item": "immersiveengineering:ingot_lead",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": "undead_revamp2:therod",
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "2-3/3-4/4-5"
+	},
+	{
+		"mob": "undead_revamp2:therod",
+		"random" : 0.5,
+		"item": "tacz:ammo",
+		"itemcount": "1-2/3-4/5-6",
+		"nbt": {
+			"AmmoId": "tacz:357mag"
+		}
+	},
+	{
+		"mob": "undead_revamp2:therod",
+		"random" : 0.5,
+		"item": "tacz:ammo",
+		"itemcount": "1-2/3-4/5-6",
+		"nbt": {
+			"AmmoId": "tacz:50ae"
+		}
+	},
+	{
+		"mob": "undead_revamp2:thepregnant",
+		"item": "apocalypsenow:money",
+		"itemcount": "6-8/8-10/10-12"
+	},
+	{
+		"mob": "undead_revamp2:thepregnant",
+		"item": "deceasedcraft:basic_armor_component",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "undead_revamp2:thepregnant",
+		"random" : 0.25,
+		"item": "deceasedcraft:smg_assembly_parts",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "zombie_extreme:runner",
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "2-3/3-4/4-5"
+	},
+	{
+		"mob": "zombie_extreme:runner",
+		"random" : 0.5,
+		"item": "immersiveengineering:nugget_lead",
+		"itemcount": "2-3/3-4/4-5"
+	},
+	{
+		"mob": "undead_revamp2:thehunter",
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "3-4/4-5/5-6"
+	},
+	{
+		"mob": "undead_revamp2:thehunter",
+		"random" : 0.5,
+		"item": "tacz:ammo",
+		"itemcount": "1-2/3-4/5-6",
+		"nbt": {
+			"AmmoId": "tacz:12g"
+		}
+	},
+	{
+		"mob": "undead_revamp2:thegliter",
+		"item": "apocalypsenow:money",
+		"itemcount": "6-8/8-10/10-12"
+	},
+	{
+		"mob": "undead_revamp2:thegliter",
+		"item": "deceasedcraft:basic_armor_component",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "undead_revamp2:thegliter",
+		"random" : 0.5,
+		"item": "deceasedcraft:shotgun_assembly_parts",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "zombie_extreme:infected_military",
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "4-5/5-6/6-7"
+	},
+	{
+		"mob": "zombie_extreme:infected_military",
+		"random" : 0.5,
+		"item": "tacz:ammo",
+		"itemcount": "2-4/4-6/6-8",
+		"nbt": {
+			"AmmoId": "tacz:556x45"
+		}
+	},
+	{
+		"mob": "zombie_extreme:infected_military",
+		"random" : 0.5,
+		"item": "tacz:ammo",
+		"itemcount": "2-4/4-6/6-8",
+		"nbt": {
+			"AmmoId": "tacz:762x39"
+		}
+	},
+	{
+		"mob": ["zombie_extreme:boomer", "zombie_extreme:clicker", "undead_revamp2:the_moonflower", "undead_revamp2:thespitter"],
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "5-6/6-7/7-8"
+	},
+	{
+		"mob": ["zombie_extreme:boomer", "zombie_extreme:clicker", "undead_revamp2:the_moonflower", "undead_revamp2:thespitter"],
+		"random" : 0.5,
+		"item": "immersiveengineering:ingot_steel",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher", "undead_revamp2:thelurker"],
+		"item": "apocalypsenow:money",
+		"itemcount": "5-6/6-7/7-8"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher", "undead_revamp2:thelurker"],
+		"item": "deceasedcraft:intermediate_armor_component",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher", "undead_revamp2:thelurker"],
+		"item": "deceasedcraft:shotgun_assembly_parts",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": ["zombie_extreme:demolisher", "undead_revamp2:thelurker"],
+		"item": "deceasedcraft:rifle_assembly_parts",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "zombie_extreme:inflated",
+		"random" : 0.75,
+		"item": "tacz:ammo",
+		"itemcount": "3-5/5-7/7-9",
+		"nbt": {
+			"AmmoId": "tacz:762x39"
+		}
+	},
+	{
+		"mob": "zombie_extreme:infected_hazmat",
+		"random" : 0.25,
+		"item": "apocalypsenow:money",
+		"itemcount": "5-6/6-7/7-8"
+	},
+	{
+		"mob": "zombie_extreme:infected_hazmat",
+		"random" : 0.1,
+		"item": "legendarysurvivaloverhaul:tonic",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "zombie_extreme:infected_hazmat",
+		"random" : 0.25,
+		"item": "legendarysurvivaloverhaul:bandage",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "zombie_extreme:infected_juggernaut",
+		"random" : 0.5,
+		"item": "apocalypsenow:money",
+		"itemcount": "8-10/10-12/12-14"
+	},
+	{
+		"mob": "zombie_extreme:infected_juggernaut",
+		"random" : 0.75,
+		"item": "tacz:ammo",
+		"itemcount": "4-6/6-8/8-10",
+		"nbt": {
+			"AmmoId": "tacz:12g"
+		}
+	},
+	{
+		"mob": "zombie_extreme:infected_juggernaut",
+		"random" : 0.75,
+		"item": "tacz:ammo",
+		"itemcount": "1-2/2-3/3-4",
+		"nbt": {
+			"AmmoId": "tacz:338"
+		}
+	},
+	{
+		"mob": "zombie_extreme:infected_juggernaut",
+		"random" : 0.75,
+		"item": "tacz:ammo",
+		"itemcount": "6-8/8-10/10-12",
+		"nbt": {
+			"AmmoId": "tacz:762x39"
+		}
+	},
+	{
+		"mob": [
+			"zombie_extreme:goon",
+			"zombie_extreme:revived",
+			"zombie_extreme:faceless",
+			"zombie_extreme:night_hunter",
+			"zombie_extreme:fetus",
+			"zombie_extreme:explosive_infected",
+			"zombie_extreme:divided",
+			"zombie_extreme:ram",
+			"undead_revamp2:thespectre"],
+		"random" : 0.75,
+		"item": "minecraft:gunpowder",
+		"itemcount": "5-6/6-7/7-8"
+	},
+	{
+		"mob": [
+			"zombie_extreme:goon",
+			"zombie_extreme:revived",
+			"zombie_extreme:faceless",
+			"zombie_extreme:night_hunter",
+			"zombie_extreme:fetus",
+			"zombie_extreme:explosive_infected",
+			"zombie_extreme:divided",
+			"zombie_extreme:ram",
+			"undead_revamp2:thespectre"],
+		"random" : 0.5,
+		"item": "tacz:ammo",
+		"itemcount": "6-8/8-10/10-12",
+		"nbt": {
+			"AmmoId": "tacz:762x39"
+		}
+	},
+	{
+		"mob": [
+			"zombie_extreme:goon",
+			"zombie_extreme:revived"],
+		"random" : 0.5,
+		"item": "immersiveengineering:ingot_lead",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": [
+			"zombie_extreme:goon",
+			"zombie_extreme:revived"],
+		"random" : 0.5,
+		"item": "create:brass_ingot",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": [
+			"zombie_extreme:faceless",
+			"zombie_extreme:night_hunter"],
+		"random" : 0.5,
+		"item": "tacz:ammo",
+		"itemcount": "3-4/4-5/5-6",
+		"nbt": {
+			"AmmoId": "tacz:338"
+		}
+	},
+	{
+		"mob": [
+			"zombie_extreme:fetus",
+			"zombie_extreme:explosive_infected"],
+		"random" : 0.5,
+		"item": "tacz:ammo",
+		"itemcount": "4-6/6-8/8-10",
+		"nbt": {
+			"AmmoId": "tacz:308"
+		}
+	},
+	{
+		"mob": [
+			"zombie_extreme:divided",
+			"zombie_extreme:ram",
+			"undead_revamp2:thespectre"],
+		"random" : 0.5,
+		"item": "legendarysurvivaloverhaul:medkit",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "zombie_extreme:zero_patient",
+		"item": "minecraft:netherite_scrap",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": "zombie_extreme:zero_patient",
+		"item": "deceasedcraft:resistant_fabric",
+		"itemcount": "1-2/2-3/3-4"
+	},
+	{
+		"mob": "zombie_extreme:zero_patient",
+		"random" : 0.75,
+		"item": "deceasedcraft:advanced_armor_component",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king", "undead_revamp2:theheavy"],
+		"item": "minecraft:netherite_scrap",
+		"itemcount": "2-3/3-4/4-5"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king", "undead_revamp2:theheavy"],
+		"item": "deceasedcraft:resistant_fabric",
+		"itemcount": "2-3/3-4/4-5"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king", "undead_revamp2:theheavy"],
+		"random" : 0.5,
+		"item": "deceasedcraft:advanced_armor_component",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": ["zombie_extreme:rat_king", "undead_revamp2:theheavy"],
+		"random" : 0.25,
+		"item": "deceasedcraft:sniper_assembly_parts",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "undead_revamp2:clogger",
+		"item": "minecraft:netherite_scrap",
+		"itemcount": "3-4/4-5/5-6"
+	},
+	{
+		"mob": "undead_revamp2:clogger",
+		"item": "deceasedcraft:resistant_fabric",
+		"itemcount": "3-4/4-5/5-6"
+	},
+	{
+		"mob": "undead_revamp2:clogger",
+		"item": "deceasedcraft:advanced_armor_component",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "undead_revamp2:clogger",
+		"random" : 0.5,
+		"item": "deceasedcraft:sniper_assembly_parts",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "undead_revamp2:bigsucker",
+		"random" : 0.5,
+		"item": "minecraft:netherite_scrap",
+		"itemcount": "1/1-2/2-3"
+	},
+	{
+		"mob": "undead_revamp2:bigsucker",
+		"random" : 0.5,
+		"item": "deceasedcraft:resistant_fabric",
+		"itemcount": "1/1-2/2-3"
+	}
 ]

@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:flint"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "suffuse:boomstickshot",
+    "count": 4
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

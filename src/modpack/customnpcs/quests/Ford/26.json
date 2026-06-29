@@ -1,0 +1,55 @@
+{
+    "Type": 0,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "LeaveItems": 0b,
+    "IgnoreNBT": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "create:andesite_alloy_block",
+                "Count": 12b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.ford.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.ford.quest.findcrafters.completedlog",
+    "Text": "npc.deceasedcraft.ford.quest.findcrafters.description",
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1742633747883L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.ford.quest.findcrafters.title",
+    "IgnoreDamage": 0b,
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "create:mechanical_crafter",
+                "Count": 8b
+            }
+        ]
+    },
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

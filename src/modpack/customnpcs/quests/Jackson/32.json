@@ -1,0 +1,73 @@
+{
+    "Type": 4,
+    "QuestCompletion": 0,
+    "QuestCommand": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "tacz:ammo",
+                "tag": {
+                    "AmmoId": "tacz:308"
+                },
+                "Count": 48b
+            },
+            {
+                "Slot": 1b,
+                "id": "tacz:modern_kinetic_gun",
+                "tag": {
+                    "HasBulletInBarrel": 1b,
+                    "GunCurrentAmmoCount": 5,
+                    "GunFireMode": "SEMI",
+                    "GunId": "tacz:ai_awp"
+                },
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "deceasedcraft:high_carbon_steel_alloy",
+                "Count": 2b
+            },
+            {
+                "Slot": 3b,
+                "id": "deceasedcraft:sniper_assembly_parts",
+                "Count": 1b
+            }
+        ]
+    },
+    "CompleterNpc": "npc.deceasedcraft.jackson.name",
+    "NextQuestId": -1,
+    "CompleteText": "npc.deceasedcraft.jackson.quest.killratking.completedlog",
+    "Text": "npc.deceasedcraft.jackson.quest.killratking.description",
+    "QuestDialogs": [
+        {
+            "Value": 1,
+            "Slot": "zombie_extreme:rat_king"
+        }
+    ],
+    "QuestMail": {
+        "Subject": "",
+        "MailQuest": -1,
+        "BeenRead": 0b,
+        "MailItems": [
+        ],
+        "Sender": "",
+        "Message": {
+        },
+        "Time": 0L,
+        "TimePast": 1742708860843L
+    },
+    "RandomReward": 0b,
+    "Title": "npc.deceasedcraft.jackson.quest.killratking.title",
+    "QuestRepeat": 0,
+    "RewardExp": 0,
+    "ModRev": 18
+}

@@ -1,0 +1,60 @@
+{
+  "model": "rebel:gun/lss_geo",
+  "texture": "rebel:gun/uv/lss",
+  "hud": "rebel:gun/hud/lss",
+  "slot": "rebel:gun/slot/lss",
+  "animation": "rebel:lss",
+  "use_default_animation": "pistol",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+ "shell": {
+           
+            "initial_velocity": [-1, 8, -2],
+           
+            "random_velocity": [8, 3, 0.25],
+           
+            "acceleration": [0.0, -10, 0.0],
+           
+            "angular_velocity": [360, -1200, 90],
+           
+            "living_time": 0.3
+        },
+        
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 0.8
+  },
+  "sounds": {
+    "reload_empty": "tacz:deagle/deagle_reload_empty",
+    "reload_tactical": "rebel:hsp/hsp_reload_tactical",
+    "inspect": "rebel:hsp/hsp_inspect",
+    "inspect_empty": "rebel:hsp/hsp_inspect_empty",
+    "draw": "tacz:deagle/deagle_draw",
+    "dry_fire": "rebel:dry_fire",
+    "flesh_hit": "rebel:flesh_hit",
+    "head_hit": "rebel:head_hit",
+    "kill": "rebel:kill",
+    "shoot": "tacz:ump45/ump45_shoot",
+    "shoot_3p": "tacz:ump45/ump45_shoot_3p",
+    "silence": "tacz:deagle/deagle_silence",
+    "silence_3p": "tacz:deagle/deagle_silence_3p"
+  },
+  "offhand_show": {
+    "pos": [4, 13, -2],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, -2],
+      "rotate": [-90, -35, 90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

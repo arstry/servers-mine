@@ -1,0 +1,43 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:plates/aluminum"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "tag": "forge:plates/plastic"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:rubber"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "deceasedcraft:hmg_assembly_parts"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "bf1:mg0815",
+    "attachments": {
+      "stock": "tacz:oem_stock_heavy",
+      "grip": "bf1:grip_trench_bipods"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

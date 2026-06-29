@@ -1,0 +1,717 @@
+{
+    "Accuracy": 60,
+    "IsStatue": 0b,
+    "HideBodyWhenKilled": 0b,
+    "ReturnToStart": 0b,
+    "Resistances": {
+        "Knockback": 1.0f,
+        "Explosion": 1.0f,
+        "Melee": 1.0f,
+        "Arrow": 1.0f
+    },
+    "ActiveRange": 32,
+    "ForgeCaps": {
+        "curios:inventory": {
+            "Curios": [
+            ]
+        },
+        "tacz:synced_entity_data": [
+        ],
+        "hordes:hordespawn": ""
+    },
+    "FactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "MovingState": 0,
+    "BalmData": {
+    },
+    "NPCDialogOptions": [
+        {
+            "DialogSlot": 0,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "Exhausted Technician - 1-1",
+                "Dialog": 88,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 1,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "Exhausted Technician - 2-1",
+                "Dialog": 93,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 2,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "Exhausted Technician - 3-1",
+                "Dialog": 95,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 3,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "Exhausted Technician - 4-1",
+                "Dialog": 96,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        },
+        {
+            "DialogSlot": 4,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "Blake Generic",
+                "Dialog": 97,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        }
+    ],
+    "GroundSound": "minecraft:block.stone.break",
+    "pRender3D": 1b,
+    "MovingPause": 1b,
+    "ConversationQuest": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ShowName": 0,
+    "LootMode": 0,
+    "SkinUrl": "",
+    "TraderMarket": "",
+    "CombatRegen": 3,
+    "Fire": -1s,
+    "pDamage": 4,
+    "pStick": 0b,
+    "cpadidTP": 0b,
+    "CanDrown": 1b,
+    "DeathTime": 0s,
+    "WalkingRange": 10,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pEffect": 0,
+    "DropChance": [
+        {
+            "Integer": 100.0f,
+            "Slot": 0
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 1
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 2
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 3
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 4
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 5
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 6
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 7
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 8
+        }
+    ],
+    "KilledTime": 0L,
+    "MaxFiringRange": 15,
+    "Orientation": 0,
+    "PositionOffsetZ": 5.0f,
+    "FactionID": 0,
+    "VisibleAvailability": {
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest": 0,
+        "AvailabilityMinPlayerLevel": 0,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog3": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityDialog": 0,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityQuestId": -1,
+        "AvailabilityDialogId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityDialog2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityQuest4": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityFaction2": 0,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboard2Value": 1,
+        "ModRev": 18
+    },
+    "FindShelter": 2,
+    "HurtByTimestamp": 0,
+    "LeashedByEntities": [
+    ],
+    "HealthRegen": 3,
+    "CitadelData": {
+    },
+    "DoorInteract": 1,
+    "TraderIgnoreNBT": 0b,
+    "Role": 1,
+    "DirectLOS": 1b,
+    "PositionOffsetX": 5.0f,
+    "NoFallDamage": 0b,
+    "AttackRange": 2,
+    "pSpeed": 10,
+    "Title": "",
+    "pGlows": 0b,
+    "FallFlying": 0b,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "MountControl": 0b,
+    "MaxExp": 0,
+    "AimWhileShooting": 0b,
+    "pImpact": 0,
+    "ShowLayers": 1b,
+    "ImmuneToFire": 0b,
+    "DisablePitch": 0b,
+    "LeftHanded": 0b,
+    "TraderIgnoreDamage": 0b,
+    "MoveState": 0,
+    "DefendFaction": 0b,
+    "NpcJob": 7,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "NpcInv": [
+    ],
+    "pSpin": 0b,
+    "AttackOtherFactions": 0b,
+    "pDur": 5,
+    "NpcVisible": 0,
+    "stopAndInteract": 1b,
+    "NpcsTimers": [
+    ],
+    "maxDelay": 40,
+    "ScriptLanguage": "",
+    "MarkovGeneratorId": 2,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CanPickUpLoot": 0b,
+    "BurnInSun": 0b,
+    "TotalTicksAlive": 482L,
+    "TransformHasInv": 0b,
+    "Texture": "deceasedcraft:textures/entity/blake.png",
+    "MinExp": 0,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "cpaCooldown": 0,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 18b,
+                "id": "apocalypsenow:money_block",
+                "Count": 6b
+            },
+            {
+                "Slot": 19b,
+                "id": "apocalypsenow:money_block",
+                "Count": 4b
+            },
+            {
+                "Slot": 20b,
+                "id": "apocalypsenow:money",
+                "Count": 2b
+            },
+            {
+                "Slot": 21b,
+                "id": "apocalypsenow:money_block",
+                "Count": 8b
+            },
+            {
+                "Slot": 22b,
+                "id": "apocalypsenow:money_block",
+                "Count": 4b
+            },
+            {
+                "Slot": 23b,
+                "id": "apocalypsenow:money",
+                "Count": 4b
+            },
+            {
+                "Slot": 24b,
+                "id": "apocalypsenow:money_block",
+                "Count": 2b
+            },
+            {
+                "Slot": 25b,
+                "id": "apocalypsenow:money_block",
+                "Count": 4b
+            },
+            {
+                "Slot": 26b,
+                "id": "apocalypsenow:money",
+                "Count": 4b
+            },
+            {
+                "Slot": 27b,
+                "id": "apocalypsenow:money_block",
+                "Count": 2b
+            },
+            {
+                "Slot": 28b,
+                "id": "apocalypsenow:money_block",
+                "Count": 4b
+            },
+            {
+                "Slot": 29b,
+                "id": "apocalypsenow:money",
+                "Count": 4b
+            },
+            {
+                "Slot": 30b,
+                "id": "apocalypsenow:money_block",
+                "Count": 2b
+            },
+            {
+                "Slot": 31b,
+                "id": "apocalypsenow:money_block",
+                "Count": 1b
+            },
+            {
+                "Slot": 32b,
+                "id": "apocalypsenow:money",
+                "Count": 4b
+            },
+            {
+                "Slot": 35b,
+                "id": "apocalypsenow:money",
+                "Count": 6b
+            }
+        ]
+    },
+    "AvoidsSun": 0b,
+    "Air": 300s,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "PositionOffsetY": 5.0f,
+    "AvoidsWater": 0b,
+    "FallDistance": 0.0f,
+    "MaxHealth": 60,
+    "UsingSkinUrl": 0b,
+    "PortalCooldown": 0,
+    "TransformHasDisplay": 0b,
+    "AttackInvisible": 0b,
+    "SpawnCycle": 0,
+    "AbsorptionAmount": 0.0f,
+    "MovingPatern": 0,
+    "TransformHasAdvanced": 0b,
+    "BossColor": 0,
+    "OverlayGlowing": 1b,
+    "Weapons": [
+    ],
+    "pSize": 5,
+    "CloakTexture": "",
+    "BossBar": 0b,
+    "FireRate": 5,
+    "pArea": 0,
+    "OnAttack": 0,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "Scripts": [
+    ],
+    "LinkedNpcName": "",
+    "Armor": [
+    ],
+    "CanSprint": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "enhancedai:sprint": 0b,
+        "enhancedai:follow_ranges_processed": 1b
+    },
+    "ReactsToFire": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "PotionEffect": 0,
+    "IgnoreCobweb": 0b,
+    "MoveSpeed": 5,
+    "ModRev": 18,
+    "TransformHasRole": 0b,
+    "pPhysics": 1b,
+    "OnGround": 1b,
+    "StandingState": 0,
+    "AggroRange": 16,
+    "HitSound": "minecraft:entity.player.hurt",
+    "LeashingEntities": [
+    ],
+    "CanLeap": 0b,
+    "Attributes": [
+        {
+            "Name": "minecraft:generic.follow_range",
+            "Base": 32.0d
+        },
+        {
+            "Name": "minecraft:generic.attack_knockback",
+            "Base": 0.0d
+        },
+        {
+            "Name": "forge:step_height_addition",
+            "Base": 0.0d
+        },
+        {
+            "Name": "forge:entity_gravity",
+            "Base": 0.08d
+        },
+        {
+            "Name": "puffish_attributes:fall_reduction",
+            "Base": NaNd
+        },
+        {
+            "Name": "minecraft:generic.max_health",
+            "Base": 60.0d
+        },
+        {
+            "Name": "minecraft:generic.flying_speed",
+            "Base": 0.5d
+        },
+        {
+            "Name": "minecraft:generic.attack_damage",
+            "Base": 5.0d
+        },
+        {
+            "Name": "forge:swim_speed",
+            "Base": 8.0d
+        },
+        {
+            "Name": "puffish_attributes:jump",
+            "Base": NaNd
+        },
+        {
+            "Name": "minecraft:generic.movement_speed",
+            "Base": 0.25d
+        }
+    ],
+    "Name": "npc.deceasedcraft.blake.name",
+    "TransformHasJob": 0b,
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "NpcAngrySound": "",
+    "npcInteracting": 1b,
+    "AttackStrenght": 5,
+    "pXlr8": 0b,
+    "ScriptEnabled": 0b,
+    "NpcStepSound": "",
+    "Size": 5,
+    "MovementType": 0,
+    "FireIndirect": 0,
+    "TransformIsActive": 0b,
+    "ConversationLines": [
+    ],
+    "SkinColor": 16777215,
+    "ConversationMode": 0,
+    "BurstCount": 1,
+    "TransformHasAI": 0b,
+    "pTrail": 0,
+    "id": "customnpcs:customnpc",
+    "AttackSpeed": 20,
+    "HurtTime": 0s,
+    "GlowTexture": "",
+    "CanUpdate": 1b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "refinedstorage:1k_storage_part",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "refinedstorage:controller",
+                "Count": 1b
+            },
+            {
+                "Slot": 2b,
+                "id": "refinedstorage:cable",
+                "Count": 2b
+            },
+            {
+                "Slot": 3b,
+                "id": "refinedstorage:4k_storage_part",
+                "Count": 1b
+            },
+            {
+                "Slot": 4b,
+                "id": "refinedstorage:disk_manipulator",
+                "Count": 1b
+            },
+            {
+                "Slot": 5b,
+                "id": "refinedstorage:destructor",
+                "Count": 1b
+            },
+            {
+                "Slot": 6b,
+                "id": "refinedstorage:storage_housing",
+                "Count": 1b
+            },
+            {
+                "Slot": 7b,
+                "id": "refinedstorage:disk_drive",
+                "Count": 1b
+            },
+            {
+                "Slot": 8b,
+                "id": "refinedstorage:constructor",
+                "Count": 1b
+            },
+            {
+                "Slot": 9b,
+                "id": "refinedstorageaddons:wireless_crafting_grid",
+                "Count": 1b
+            },
+            {
+                "Slot": 10b,
+                "id": "refinedstorage:crafting_grid",
+                "Count": 1b
+            },
+            {
+                "Slot": 11b,
+                "id": "refinedstorage:exporter",
+                "Count": 1b
+            },
+            {
+                "Slot": 12b,
+                "id": "refinedstorage:wireless_transmitter",
+                "Count": 1b
+            },
+            {
+                "Slot": 13b,
+                "id": "refinedstorage:machine_casing",
+                "Count": 1b
+            },
+            {
+                "Slot": 14b,
+                "id": "refinedstorage:importer",
+                "Count": 1b
+            },
+            {
+                "Slot": 17b,
+                "id": "refinedstorage:relay",
+                "Count": 1b
+            }
+        ]
+    },
+    "minDelay": 20,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "Invulnerable": 0b,
+    "NpcIdleSound": "",
+    "TransformEditingModus": 0b,
+    "MovingPos": 0,
+    "KnockBack": 0,
+    "RespawnTime": 20,
+    "OrderedLines": 0b,
+    "ShotCount": 1,
+    "PotionAmp": 0,
+    "ConversationAvailability": {
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest": 0,
+        "AvailabilityMinPlayerLevel": 0,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog3": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityDialog": 0,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityQuestId": -1,
+        "AvailabilityDialogId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityDialog2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityQuest4": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityFaction2": 0,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboard2Value": 1,
+        "ModRev": 18
+    },
+    "TrackedData": {
+    },
+    "PotionImmune": 0b,
+    "PersistenceRequired": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "NpcModelData": {
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "LastEdited": 1756356534536L,
+        "Legs2Config": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "ArmsConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "MoveAnimation": 16,
+        "ModelType": 0,
+        "BodyConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "NewParts": [
+        ],
+        "Animation": 0,
+        "WingMode": 0,
+        "LegsConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "SimpleRender": 0b,
+        "Parts": [
+        ],
+        "DisplayName": "",
+        "CustomSkinUrl": "",
+        "Arms2Config": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        }
+    },
+    "NoLivingAnimation": 0b,
+    "TransformHasStats": 0b,
+    "CreatureType": 0,
+    "PotionDuration": 5,
+    "pEffAmp": 0,
+    "Brain": {
+        "memories": {
+        }
+    },
+    "ConversationRange": 0,
+    "ConversationDelay": 0,
+    "EntityJSData": {
+    },
+    "Rotation": [
+        0.0f,
+        0.0f
+    ],
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "DistanceToMelee": 0,
+    "MarkovGender": 0,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "CanSwim": 1b,
+    "Health": 60.0f
+}

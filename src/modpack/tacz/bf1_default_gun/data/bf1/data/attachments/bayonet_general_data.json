@@ -1,0 +1,17 @@
+{
+  "weight": 0.34,
+  // "ads_addend": 0.05,
+  "ads": {
+    "addend": 0.05
+    // "multiplier": 1.2,
+    // "function": "if(x>20) then y=5 else y=x*10 end"
+  },
+  "melee": {
+    "distance": 1.5,
+    "cooldown": -0.4,
+    "range_angle": 45,
+    "damage": 6,
+    "knockback": 0.4,
+    "prep": 0.1
+  }
+}
