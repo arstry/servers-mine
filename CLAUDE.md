@@ -38,8 +38,9 @@ tmux attach -t mine-server                 # attach to Minecraft console (the on
 `setup.sh` is the single entry point. It:
 1. Calls `src/scripts/detect-java-version.sh` to determine required Java version (info → stderr, bare version → stdout for capture)
 2. Calls `src/scripts/setup-mise-java.sh` to install/select that Java via mise
-3. Reads `src/service/server_mine.service` and substitutes `User=`, `Group=`, and `WorkingDirectory=` using sed, then installs to `/etc/systemd/system/`
-4. Runs `systemctl daemon-reload && enable && restart`
+3. Installs the Forge server by running the committed `forge-*-installer.jar --installServer` (as the service user, via mise) **if** `src/modpack/libraries/` is missing — this generates the `libraries/` tree and `unix_args.txt` that `run.sh` needs
+4. Reads `src/service/server_mine.service` and substitutes `User=`, `Group=`, and `WorkingDirectory=` using sed, then installs to `/etc/systemd/system/`
+5. Runs `systemctl daemon-reload && enable && restart`
 
 ### Runtime
 
@@ -74,6 +75,8 @@ The systemd service is `Type=forking`. It starts a **tmux session** named `mine-
 7. **Tailscale dependency**: The service `Requires=tailscaled.service`. The server won't start without Tailscale running.
 
 8. **Non-interactive mode**: `setup.sh` and `setup-mise-java.sh` detect `[[ -t 0 ]]` to skip prompts. In non-interactive contexts, Java install defaults to skipped and service user defaults to `arstry`.
+
+9. **`run.sh` needs the Forge server installed first**: `run.sh` launches via `@libraries/net/minecraftforge/forge/<ver>/unix_args.txt`, which does not exist in a fresh checkout — only the `forge-*-installer.jar` is committed, and `libraries/` is gitignored. `setup.sh` Step 3 runs the installer automatically when `libraries/` is missing (idempotent). Running `run.sh` directly before that fails with `could not open ... unix_args.txt`. The service user must have Java available via mise, since the install (like the service itself) runs as that user through `mise exec`.
 
 ## Conventions
 

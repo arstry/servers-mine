@@ -7,6 +7,7 @@ SERVICE_SRC="${SCRIPT_DIR}/src/service/server_mine.service"
 SERVICE_DEST="/etc/systemd/system/server_mine.service"
 
 BASE_DIR="${1:-${BASE_DIR:-${SCRIPT_DIR}}}"
+WORKING_DIR="${BASE_DIR}/src/modpack"
 
 # Colors — only when stdout is a terminal
 if [[ -t 1 ]]; then
@@ -48,10 +49,29 @@ SERVICE_USER="${SERVICE_USER:-arstry}"
 echo "  ${G}✓${R} Service user : ${B}${SERVICE_USER}${R}"
 echo ""
 
-# ── Step 3: Systemd service ─────────────────────────────────────────────────
-echo "${B}── 3. Systemd Service ──────────────────────────────────────────────────${R}"
+# ── Step 3: Forge server ────────────────────────────────────────────────────
+# run.sh references libraries/.../unix_args.txt, which only exists after the
+# Forge installer has been run. The installer jar is committed; the generated
+# libraries/ tree is gitignored, so install it here if it's missing.
+echo "${B}── 3. Forge Server ─────────────────────────────────────────────────────${R}"
 echo ""
-WORKING_DIR="${BASE_DIR}/src/modpack"
+INSTALLER=$(ls "${WORKING_DIR}"/forge-*-installer.jar 2>/dev/null | head -1)
+if find "${WORKING_DIR}/libraries" -name unix_args.txt 2>/dev/null | grep -q .; then
+    echo "  ${G}✓${R} Forge server already installed ${D}(libraries/ present)${R}"
+elif [[ -n "${INSTALLER}" ]]; then
+    echo "  ${C}·${R} Installer : ${D}${INSTALLER}${R}"
+    echo "  ${C}·${R} Running: ${D}mise exec -- java -jar $(basename "${INSTALLER}") --installServer${R}"
+    ( cd "${WORKING_DIR}" && sudo -u "${SERVICE_USER}" -H mise exec -- java -jar "${INSTALLER}" --installServer )
+    echo "  ${G}✓${R} Forge server installed"
+else
+    echo "  ${Y}⚠${R} No libraries/ and no forge-*-installer.jar in ${D}${WORKING_DIR}${R}"
+    echo "  ${Y}·${R} run.sh will fail until the Forge server is installed"
+fi
+echo ""
+
+# ── Step 4: Systemd service ─────────────────────────────────────────────────
+echo "${B}── 4. Systemd Service ──────────────────────────────────────────────────${R}"
+echo ""
 echo "  ${C}·${R} Working directory : ${D}${WORKING_DIR}${R}"
 echo "  ${C}·${R} Destination       : ${D}${SERVICE_DEST}${R}"
 echo ""
