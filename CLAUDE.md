@@ -8,6 +8,8 @@ Forge Minecraft server management infrastructure — shell scripts + systemd + t
 
 **Target**: Forge 1.20.1 (`1.20.1-47.4.0`), requires **Java 17**. Java is managed via **mise** (not apt, not SDKMAN).
 
+**Branch-per-modpack model**: Each modpack lives on its own branch with the full pack committed under `src/modpack/` (e.g. `modpack/deceased_craft`, `modpack/desolate-planet`). The infrastructure (`setup.sh`, `src/scripts/`, `src/service/`) is common across branches; only `src/modpack/` differs. The current branch's pack is **DeceasedCraft 1.20.1**.
+
 ## Key Commands
 
 ### Installation
@@ -49,14 +51,15 @@ The systemd service is `Type=forking`. It starts a **tmux session** named `mine-
 |---------|------|
 | Repo sources | `./src/` |
 | Default deployment base | where `setup.sh` lives |
-| Modpack at runtime | `$BASE_DIR/src/modpack/` (contains `run.sh`) |
+| Modpack (committed in repo) | `src/modpack/` (contains `run.sh`, `config/`, `kubejs/`, `mods/`, forge installer) |
+| Modpack at runtime | `$BASE_DIR/src/modpack/` |
 | Installed service | `/etc/systemd/system/server_mine.service` |
 | mise Java installs | `~/.local/share/mise/installs/` |
 | mise binary (hardcoded in service) | `/usr/local/bin/mise` |
 
 ## Non-Obvious Gotchas
 
-1. **`src/modpack/` is the deployment target, not the full repo**: `run.sh`, `user_jvm_args.txt`, and the modpack must be placed separately — this repo only provides scripts and the service template.
+1. **`src/modpack/` is committed, not just a deployment target**: The pack itself (`run.sh`, `user_jvm_args.txt`, `config/`, `kubejs/`, `mods/`, forge installer) is checked into the branch. Runtime-generated state (`world/`, `logs/`, `crash-reports/`, `libraries/`) is **not** tracked and is excluded via `.gitignore`. Java detection reads the Java version out of `src/modpack/run.sh` (grepping for `JAVA_VERSION`/`JAVA_HOME`), so that file must exist. When swapping modpacks, work on a dedicated `modpack/<name>` branch.
 
 2. **Service template is fully templated**: `User`, `Group`, and `WorkingDirectory` in `src/service/server_mine.service` are placeholder values replaced by `setup.sh` at install time. Never edit them directly for deployment.
 
@@ -64,7 +67,7 @@ The systemd service is `Type=forking`. It starts a **tmux session** named `mine-
 
 4. **Script path resolution is positional**: Both scripts resolve `WORK_DIR` as `SCRIPT_DIR/../..`. Moving either script out of `src/scripts/` breaks all path resolution.
 
-5. **Two version formats must stay in sync**: `.java-version` stores `java:17.0.9`; `mise.toml` stores `java = "17"`. Both are written by `setup-mise-java.sh` and must match.
+5. **Two version formats must stay in sync**: `.java-version` stores the full version (e.g. `java:17.0.2`); `mise.toml` stores the major only (`java = "17"`). Both are written by `setup-mise-java.sh` and must match.
 
 6. **Redundant detection**: `setup.sh` captures `JAVA_VER` from `detect-java-version.sh` for display only. `setup-mise-java.sh` re-runs detection internally. To pre-set Java version for non-interactive runs, override `JAVA_VER` in `setup-mise-java.sh` before its detection call at line 13.
 
@@ -77,3 +80,7 @@ The systemd service is `Type=forking`. It starts a **tmux session** named `mine-
 - Shell: `set -e` at top; `$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)` for script-relative paths
 - Git commits: conventional commits (`feat:`, `fix:`, `refactor:`, `chore:`)
 - Comments: only when the "why" is non-obvious; no inline narration of what code does
+
+## Related Docs
+
+- `AGENTS.md` is a parallel guide for other agents (opencode/crush). Treat it as **secondary and partly stale** — it claims `WORK_DIR` resolves 3 levels up (`../../..`) when the scripts use 2 (`../..`), and references the `.ai-jail` command as `crush` when `.ai-jail` now runs `opencode`. Prefer this file; when you change shared behavior, update `AGENTS.md` too.
