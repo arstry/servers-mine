@@ -4,3 +4,8 @@
 /src/modpack/logs
 /src/modpack/crash-reports
 /src/modpack/libraries
+
+# Local, machine-generated tool config (written by setup-mise-java.sh / ai-jail)
+/.java-version
+/mise.toml
+/.ai-jail
