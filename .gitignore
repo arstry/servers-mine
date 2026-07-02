@@ -1,4 +1,6 @@
-/server-litv3/world
-/server-litv3/world_backup
-/server-dps/world
-/server-dps/world_backup
+# Runtime-generated modpack state (not part of the committed pack)
+/src/modpack/world
+/src/modpack/world_backup
+/src/modpack/logs
+/src/modpack/crash-reports
+/src/modpack/libraries
