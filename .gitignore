@@ -4,6 +4,11 @@
 /src/modpack/logs
 /src/modpack/crash-reports
 /src/modpack/libraries
+/src/modpack/eula.txt
+/src/modpack/.lazyyyyy/
+/src/modpack/mods/.connector/
+/src/modpack/config/packetfixer.properties
+/src/modpack/forge-*-installer.jar.log
 
 # Local, machine-generated tool config (written by setup-mise-java.sh / ai-jail)
 /.java-version
