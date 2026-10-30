@@ -2,3 +2,19 @@
 /server-litv3/world_backup
 /server-dps/world
 /server-dps/world_backup
+
+# Agent / sandbox files
+.ai-jail
+AGENTS.md
+CLAUDE.md
+.crush/
+
+# Server packs (imported by minecraft/Dockerfile)
+*.zip
+
+# Local server data mounted into the container (world, configs, eula...)
+minecraft/args/*
+!minecraft/args/.gitkeep
+
+# Local compose settings
+.env
