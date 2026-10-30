@@ -12,9 +12,17 @@ CLAUDE.md
 # Server packs (imported by minecraft/Dockerfile)
 *.zip
 
-# Local server data mounted into the container (world, configs, eula...)
+# Server data mounted into the container: configs are tracked,
+# world and runtime state stay local
 minecraft/args/*
-!minecraft/args/.gitkeep
+!minecraft/args/eula.txt
+!minecraft/args/server.properties
+!minecraft/args/world.properties
+!minecraft/args/user_jvm_args.txt
+!minecraft/args/ops.json
+!minecraft/args/whitelist.json
+!minecraft/args/banned-players.json
+!minecraft/args/banned-ips.json
 
 # Local compose settings
 .env
