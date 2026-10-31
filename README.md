@@ -1,78 +1,93 @@
 # Server Mine
 
-Forge Minecraft server management with shell scripts + systemd + tmux.
+Forge Minecraft server in Docker. The modpack's server `.zip` is baked into the
+image, and only the server configs and the world live on the host, in
+`minecraft/args/`.
 
-## Docker
+## Quick Start
 
 ```bash
-cp .env.example .env          # set JAVA_VERSION
-cp ~/Downloads/pack.zip minecraft/   # exactly one server pack .zip
+cp .env.example .env                  # set JAVA_VERSION for the modpack
+cp ~/Downloads/pack.zip minecraft/    # exactly one server pack .zip
 docker compose up -d --build
-docker attach minecraft       # server console (detach: Ctrl-p Ctrl-q)
+docker attach minecraft               # server console (detach: Ctrl-p Ctrl-q)
 ```
 
-- `minecraft/Dockerfile` unzips the pack in a builder stage and copies it into an
-  `eclipse-temurin:${JAVA_VERSION}-jre` image. Change `JAVA_VERSION` and rebuild
-  to switch Java.
-- `minecraft/args/` is mounted at `/data`. On start, the entrypoint symlinks
-  `world/`, `eula.txt`, `user_jvm_args.txt`, `ops.json`, `whitelist.json`,
-  `banned-*.json` and `usercache.json` from the server dir to `/data`. Only
-  these stay on the host. On first run, any of them shipped in the pack is moved
-  into `args/`; after that, the copy in `args/` always wins.
-- `server.properties` is generated on every start: the pack's copy, then
-  `args/server.properties` (server settings), then `args/world.properties`
-  (world generation and gameplay rules), later files winning. Edit those two,
-  not the generated file.
-- The config files in `args/` are tracked in git; `world/` (the save) and caches
-  stay local.
-- The server runs as the image's default `ubuntu` user. The container starts as
-  root only so `run-as-user.sh` can change that user's ids to `PUID`/`PGID`
-  (default 1000), which must own `minecraft/args`.
-- Startup order: `START_CMD` if set, then `run.sh nogui` (Forge), then the only
-  `*.jar` in the pack (`SERVER_JAR` / `JVM_OPTS` to override). The list of
-  persisted files can be changed with `PERSIST`.
+The `.zip` must be a ready-to-run server pack (with Forge's `run.sh` or a server
+jar), not a Forge installer.
 
-## Quick Start (systemd)
+## Configuration
 
-### 1. Install Service
+`.env` (see `.env.example`):
 
-```bash
-sudo ./setup.sh
+| Variable       | Default | Description                                         |
+|----------------|---------|-----------------------------------------------------|
+| `JAVA_VERSION` | `17`    | `eclipse-temurin` tag of the image; rebuild to apply |
+| `MC_PORT`      | `25565` | Host port mapped to the server                      |
+| `PUID`/`PGID`  | `1000`  | Ids the server runs with; must own `minecraft/args` |
+
+Optional entrypoint overrides, added under `environment` in
+`docker-compose.yml`:
+
+| Variable     | Description                                                  |
+|--------------|--------------------------------------------------------------|
+| `START_CMD`  | Command that starts the server, e.g. `sh ./startserver.sh`   |
+| `SERVER_JAR` | Jar to run when the pack has no `run.sh`                     |
+| `JVM_OPTS`   | JVM flags for `SERVER_JAR` (default `-Xms1G -Xmx4G`)         |
+| `PERSIST`    | Files/dirs linked into `minecraft/args` (trailing `/` = dir) |
+
+Server settings go in `minecraft/args/server.properties`, world settings
+(generation and gameplay rules) in `minecraft/args/world.properties`, and memory
+for Forge packs in `minecraft/args/user_jvm_args.txt`.
+
+## How It Works
+
+- **Build:** `minecraft/Dockerfile` unzips the pack in an Alpine builder stage
+  (`scripts/extract-modpack.sh`) and copies it into an
+  `eclipse-temurin:${JAVA_VERSION}-jre` image.
+- **User:** the server runs as the image's default `ubuntu` user. The container
+  starts as root only so `scripts/run-as-user.sh` can change that user's ids to
+  `PUID`/`PGID`.
+- **Data:** `minecraft/args/` is mounted at `/data`. `scripts/link-data.sh`
+  symlinks `world/`, `eula.txt`, `user_jvm_args.txt`, `ops.json`,
+  `whitelist.json`, `banned-*.json` and `usercache.json` from the server dir to
+  it. On first run, any of them shipped in the pack is moved into `args/`; after
+  that, the copy in `args/` always wins.
+- **Properties:** `scripts/build-properties.sh` generates `server.properties` on
+  every start from the pack's copy, then `args/server.properties`, then
+  `args/world.properties`, later files winning. Edit those two, not the
+  generated file.
+- **Start:** `START_CMD` if set, then `run.sh nogui` (Forge), then the only
+  `*.jar` in the pack. `run.sh` is patched at build time to `exec java`, so
+  `docker stop` reaches the JVM and the world is saved before it exits.
+
+The config files in `args/` are tracked in git; `world/` (the save) and caches
+stay local.
+
+## Layout
+
+```
+├── docker-compose.yml            # Service definition, mounts minecraft/args
+├── .env.example                  # Java version, port, user ids
+└── minecraft/
+    ├── Dockerfile                # Builder (unzip) + runtime (temurin) stages
+    ├── entrypoint.sh             # Prepares user, data and properties, then starts
+    ├── scripts/
+    │   ├── extract-modpack.sh    # Build: unzip and flatten the pack, patch run.sh
+    │   ├── run-as-user.sh        # Align ubuntu with PUID/PGID, drop root
+    │   ├── link-data.sh          # Symlink persistent files into /data
+    │   └── build-properties.sh   # Merge server.properties + world.properties
+    ├── args/                     # Mounted at /data: configs (tracked) + world (local)
+    └── *.zip                     # Server pack (ignored by git)
 ```
 
-This will:
-- Detect and install the required Java version via mise
-- Create/update `.java-version` for local usage
-- Install the systemd service to `/etc/systemd/system/server_mine.service`
-- Enable and restart the server
-
-The installed service's `WorkingDirectory` is derived from `setup.sh`'s own
-location (e.g. `/opt/server-mine/src/modpack`). To use a different base path:
+## Management
 
 ```bash
-sudo ./setup.sh /opt/server-mine
-sudo BASE_DIR=/home/user/myserver ./setup.sh
-```
-
-### 2. Server Access
-
-The server runs in a **tmux** session named `mine-server`:
-
-```bash
-tmux attach -t mine-server
-```
-
-## Architecture
-
-- **scripts**: Server setup and Java detection in `src/scripts/`
-- **service**: systemd unit template in `src/service/`
-- **setup.sh**: Main installer — wires Java setup + installs systemd service
-- **modpacks**: Deployed separately to `$BASE_DIR/src/modpack/`
-
-## Service Management
-
-```bash
-sudo systemctl status server_mine
-sudo systemctl restart server_mine
-sudo journalctl -u server_mine -f
+docker compose ps                 # status
+docker compose logs -f            # follow server logs
+docker compose restart            # restart the server
+docker compose down               # stop (world is saved on SIGTERM)
+docker compose up -d --build      # rebuild after changing the zip or JAVA_VERSION
+docker attach minecraft           # console; type `stop` for the safest shutdown
 ```
