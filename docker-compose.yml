@@ -1,0 +1,19 @@
+services:
+  minecraft:
+    build:
+      context: ./minecraft
+      args:
+        JAVA_VERSION: ${JAVA_VERSION:-17}
+    image: servers-mine/minecraft:java${JAVA_VERSION:-17}
+    container_name: minecraft
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    environment:
+      PUID: ${PUID:-1000}
+      PGID: ${PGID:-1000}
+    ports:
+      - "${MC_PORT:-25565}:25565"
+    volumes:
+      - ./minecraft/args:/data
+    stop_grace_period: 2m

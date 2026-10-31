@@ -2,3 +2,27 @@
 /server-litv3/world_backup
 /server-dps/world
 /server-dps/world_backup
+
+# Agent / sandbox files
+.ai-jail
+AGENTS.md
+CLAUDE.md
+.crush/
+
+# Server packs (imported by minecraft/Dockerfile)
+*.zip
+
+# Server data mounted into the container: configs are tracked,
+# world and runtime state stay local
+minecraft/args/*
+!minecraft/args/eula.txt
+!minecraft/args/server.properties
+!minecraft/args/world.properties
+!minecraft/args/user_jvm_args.txt
+!minecraft/args/ops.json
+!minecraft/args/whitelist.json
+!minecraft/args/banned-players.json
+!minecraft/args/banned-ips.json
+
+# Local compose settings
+.env
